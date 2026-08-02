@@ -77,6 +77,8 @@ Choose the habitation state from the exact site and date:
 
 Make habitation a positive spatial condition governing every subject, sound, activity, distance, and period marker.
 
+Name the habitation state once. Then let its cast occupy the frame: the physical and living world at **uninhabited**; made matter and succession at **traces-only**; separated local work at **sparse**; maintained communal life at **settled**; overlapping activity and continuous built space at **dense**. Complete spatial occupation makes the state self-evident.
+
 ## Witness through one optic
 
 Let the scene resolve in this order:
@@ -127,9 +129,9 @@ Use active material phrases: cloth pulling against a shoulder under load, wet cl
 
 Keep renderer-facing text literal and complete. The Render Seed carries a complete world whose visible details all belong to the frame. When a target image model or host tool is named, adapt syntax only where that target's current behavior is known; preserve the same scene truth across dialects.
 
-Before writing, resolve every aesthetic correction into a wanted world-state. Compose that state through exact local material, work, wear, hydrology, depth, and light. Close on a visible material consequence already happening inside the frame.
+Treat user corrections as design signals. Resolve each one internally into its incompatible wanted world before drafting. Use the wanted-world vocabulary in the View and Render Seed. Compose through exact local material, work, wear, hydrology, depth, and light. Close on a visible material consequence already happening inside the frame.
 
-Before handoff, run the pixel test over the View and Render Seed: every world-object noun names visible pixels, while camera and capture terms govern how those pixels appear. Every clause paints wanted matter, action, space, light, or capture behavior. Express open space through horizon-to-horizon water, continuous ice, open sky, uninterrupted terrain, maintained built space, or an ordinary active landscape. Precision, event selection, scenario, and authority boundaries belong in Grounding.
+Build renderer-facing language from one affirmative image grammar: medium and capture, focal event, visible occupants across depth, time-bearing material, ground and atmosphere, light and surface response. Before handoff, run the pixel test over the View and Render Seed. A passing sentence paints visible matter, action, space, light, or capture behavior; every world-object noun instantiates visible pixels. Route precision, event selection, scenario, authority, and comparison boundaries to Grounding. Fill open space with horizon-to-horizon water, continuous ice, open sky, uninterrupted terrain, maintained built space, or an ordinary active landscape as the scene earns.
 
 Read [render-language.md](references/render-language.md) for photographic, illustrative, cinematic, model-specific, or unusually difficult image prompting. Use [render-seed.template.md](assets/render-seed.template.md) only when a portable prompt artifact improves the handoff.
 

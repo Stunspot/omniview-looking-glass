@@ -54,6 +54,8 @@ The stronger versions do more than contain rarer words. Material, action, relati
 
 When a visual behavior matters, state the complete world that carries it.
 
+Treat the user's correction as a private design signal. Resolve it into the positive objective below before drafting, then compose from the objective and its world.
+
 | Visual objective | Positive world |
 |---|---|
 | Uninhabited frame | Wind, water, ice, terrain, sky, and the local life that enters the optic carry the complete frame |
@@ -67,7 +69,7 @@ When a visual behavior matters, state the complete world that carries it.
 
 The renderer receives wanted nouns and relations. Evaluator knowledge stays in Grounding.
 
-Run the pixel test over the View and Render Seed: every world-object noun names visible pixels, while camera and capture terms govern how those pixels appear. Each clause paints wanted matter, action, space, light, or capture behavior.
+Run the pixel test over the View and Render Seed: every world-object noun instantiates visible pixels, while camera and capture terms govern how those pixels appear. Each clause paints wanted matter, action, space, light, or capture behavior.
 
 ## Photographic language
 
