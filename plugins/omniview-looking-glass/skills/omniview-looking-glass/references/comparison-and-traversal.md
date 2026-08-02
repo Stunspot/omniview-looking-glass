@@ -13,6 +13,8 @@ Choose what remains invariant:
 - local hour or solar relation where useful;
 - one spatial anchor or visual motif that survives the sequence.
 
+Test physical continuity first. When the same support surface survives every stop, repeat physical footing at the same point and height while preserving orientation and frame geometry.
+
 Then identify what evidence is allowed to change:
 
 - land, shore, channel, water, ice, and vegetation;
@@ -33,7 +35,7 @@ The historic viewpoint may disappear:
 - a roof, terrace, road, or embankment does not exist in every stop;
 - a shoreline moves kilometres.
 
-Choose one of two honest contracts:
+When support changes across stops, choose one of two honest contracts:
 
 1. **world-fixed optic** - hold the coordinate and camera elevation in a declared virtual aperture while the support below changes;
 2. **support-fixed photographer** - let the camera move to the nearest physically available support and record the changed relation.

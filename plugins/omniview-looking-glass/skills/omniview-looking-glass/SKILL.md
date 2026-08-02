@@ -83,14 +83,14 @@ Name the habitation state once. Then let its cast occupy the frame: the physical
 
 Let the scene resolve in this order:
 
-1. **Support** - stand on honest physical ground at human camera height when earth, pavement, floor, ice, a vessel, or another dated surface can carry the optic. Use a standoff for a source-supported safe relation; let a declared virtual aperture hover above open water or air, inaccessible or vanished support, or a deliberately world-fixed sequence. Name height and surface relation.
+1. **Support** - stand on honest physical ground at human camera height when earth, pavement, floor, ice, a vessel, or another dated surface can carry the optic. Use a standoff for a source-supported safe relation; let a declared virtual aperture hover above open water or air, inaccessible or vanished support, or a deliberately world-fixed sequence across a support discontinuity. Name height and surface relation.
 2. **Ground** - reconstruct terrain, shore, channel, snow, soil, vegetation, and structure in chronological layers until the requested date.
 3. **Presence** - recover ordinary human use of this exact site: seasonal movement, route, work, settlement, evacuation, abandonment, or material trace.
 4. **Time** - select visible local facts that distinguish this view from useful earlier and later comparisons.
 5. **Event** - choose one material thing in a specific action or change. Weather, water, ice, growth, animals, work, or structural weathering can carry the event.
 6. **Light** - trace the supplied or defensible local hour through direction, hardness, shadow, reflection, haze, spray, dust, smoke, snow crystals, humidity, and the surfaces that earn them.
 
-Camera height, support, and capture language share one geometry: 1.5-1.8 metres reads as ordinary human eye level; another height earns its own visible reason. Physical footing names the exact dated surface carrying the camera. A virtual aperture expresses viewpoint geometry - height, angle, horizon, and observed world - when open water or air, inaccessible or vanished support, or a deliberately world-fixed sequence requires it.
+Camera height, support, and capture language share one geometry: 1.5-1.8 metres reads as ordinary human eye level; another height earns its own visible reason. Physical footing names the exact dated surface carrying the camera. A virtual aperture expresses viewpoint geometry - height, angle, horizon, and observed world - when open water or air, inaccessible or vanished support, or a deliberately world-fixed sequence whose physical support changes across stops requires it.
 
 Read [wormhole-optics.md](references/wormhole-optics.md) when the scene is visually flat, the camera footing is difficult, the historical state has several layers, or a photograph keeps turning into an illustrated encyclopedia entry.
 
