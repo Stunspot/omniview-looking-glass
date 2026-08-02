@@ -90,7 +90,7 @@ Let the scene resolve in this order:
 3. **Presence** - recover ordinary human use of this exact site: seasonal movement, route, work, settlement, evacuation, abandonment, or material trace.
 4. **Time** - select visible local facts that distinguish this view from useful earlier and later comparisons.
 5. **Event** - choose one material thing in a specific action or change. Weather, water, ice, growth, animals, work, or structural weathering can carry the event.
-6. **Light** - trace the supplied or defensible local hour through direction, hardness, shadow, reflection, haze, spray, dust, smoke, snow crystals, humidity, and the surfaces that earn them.
+6. **Light** - express the supplied hour at the calendar's resolved scale. A full date can trace direction, hardness, shadow, reflection, haze, spray, dust, smoke, snow crystals, humidity, and the surfaces that earn them. A year-level date uses clock-phase illumination and calendar-robust atmospheric depth.
 
 Camera height, support, and capture language share one geometry: 1.5-1.8 metres reads as ordinary human eye level; another height earns its own visible reason. Physical footing names the exact dated surface carrying the camera. A virtual aperture expresses viewpoint geometry - height, angle, horizon, and observed world - when open water or air, inaccessible or vanished support, or a deliberately world-fixed sequence whose physical support changes across stops requires it.
 
