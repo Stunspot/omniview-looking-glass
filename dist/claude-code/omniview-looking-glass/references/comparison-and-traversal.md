@@ -109,9 +109,9 @@ Before several metered or external renders, state:
 - stop order;
 - what happens if one render fails.
 
-One explicit user instruction to render the whole named set can authorize that bounded set under the host's ordinary rules. An exploratory traversal without a count remains prompt-first until the count is chosen.
+One explicit user instruction to render the whole named set can authorize that bounded set under the host's ordinary rules. An exploratory traversal remains a **prompt-only** plan until the count is chosen and render authority exists.
 
-A load-bearing place question carries the plan with it: requested stop count, optic or support-discontinuity choice, source-grounded past versus declared future scenario, zero renders in the present reply, and the one-per-stop count that later authorization would dispatch.
+A load-bearing place question carries the plan with it: requested stop count and ordered stop table; physical-footing invariant or world-fixed aperture choice; past stops labelled for source grounding after the coordinate arrives; future stops labelled as declared scenarios; per-stop uncertainty; a representative Render Seed with exact per-stop substitution fields; **prompt-only** state; zero renders in the present reply; and the one-per-stop count that later authorization would dispatch.
 
 ## Return the sequence
 

@@ -16,7 +16,7 @@ The requested time has a resolution. Preserve it.
 
 A year and an hour are still missing a month and day. AD 79 at Misenum supports the ordinary Bay of Naples and Roman naval-base world of that year; it does not independently select the hours of the Vesuvius eruption. A 1969 label at Launch Complex 39A supports the Apollo-era launch site; Apollo 11's launch requires 16 July at 09:32 EDT.
 
-The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, seasonally plausible land, material state, and local light carry the date.
+The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, date-resolution-compatible land, material state, and local light carry the date. Season-specific atmosphere, vegetation, clothing, and activity enter when the user, a full date, or evidence resolves the season; otherwise keep them season-neutral and name the unresolved season in Grounding.
 
 ## Resolve coordinate meaning
 
@@ -74,7 +74,7 @@ An unresolved local texture lowers specificity while the established world class
 
 The future or counterfactual follows an explicit causal bundle.
 
-Name the bundle in one sentence, then carry it consistently into energy, maintenance, materials, ecology, infrastructure, mobility, and social use. A scenario appears as a visible causal system carried through those relations.
+Name the bundle in one sentence, then carry it consistently into energy, maintenance, materials, ecology, infrastructure, mobility, and social use. Make energy visible through generation, storage, distribution, use, or maintenance. A scenario appears as a visible causal system carried through those relations.
 
 Begin the user-facing result with **Scenario - <short identifier>:** and state the bundle's status as a composed possibility in that sentence. Keep the identifier and causal relations stable through the View, Render Seed, Grounding, comparison, or traversal.
 
@@ -89,7 +89,7 @@ Ask:
 - Are made things present after people leave?
 - Does the evidence support permanence, repeated seasonal use, occasional passage, or only regional possibility?
 
-Geography is not CCTV. Point Nemo's distance from land supports an ordinary open-ocean frame and the absence of permanent settlement. It does not establish the location of every vessel at one exact historical instant. Pripyat's evacuation supports traces-only ordinary street life after 1986 while leaving bounded room for authorized workers or visitors.
+Geography is not CCTV. Point Nemo's distance from land supports an ordinary open-ocean frame and the absence of permanent settlement. It does not establish the location of every vessel at one exact historical instant. Pripyat's evacuation supports traces-only ordinary street life after 1986 while leaving bounded room for authorized workers or visitors. After refusing an exact-absence guarantee, offer the ordinary evidence-supported view or ask one focused evidence-threshold or time-definition question.
 
 The render state can still be decisive. Carry the ordinary evidence-supported spatial condition through the image and hold exceptional uncertainty in Grounding.
 

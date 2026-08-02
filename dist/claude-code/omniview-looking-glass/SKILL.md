@@ -34,18 +34,18 @@ Treat the modern place label as navigation and the coordinate as physical ground
 
 Carry the user's temporal precision honestly:
 
-- a year selects an ordinary defensible view within that year;
+- a year selects an ordinary defensible view within that year and leaves calendar season unresolved unless the user, a full date, or evidence supplies it;
 - a full date can select a dated event when place and local time also agree;
 - a broad period establishes phase-level conditions; date-specific evidence earns exact-day conditions;
 - a future date uses a named scenario supplied by the user or one explicit, coherent scenario composed for this view.
 
 Future machinery earns its name through visible use, energy, maintenance, materials, and motion. Let familiar systems adapted across time carry plausibility; every novel object should explain itself in the same glance.
 
-Every future output begins with **Scenario - <short identifier>:** followed by one sentence naming the causal bundle and its status as a composed possibility. Carry that same bundle through water, climate adaptation, energy, maintenance, materials, ecology, mobility, and habitation in the View and Render Seed. Preserve the scenario label in prompt-only results.
+Every future output begins with **Scenario - <short identifier>:** followed by one sentence naming the causal bundle and its status as a composed possibility. Carry that same bundle through water, climate adaptation, energy, maintenance, materials, ecology, mobility, and habitation in the View and Render Seed. Make at least one energy mechanism visible through generation, storage, distribution, use, or maintenance. Preserve the scenario label in prompt-only results.
 
-The local hour owns the light. A supplied hour shapes sun or moon position, shadow direction, artificial-light state, atmosphere, and visible activity without inventing a calendar day or season.
+The local hour owns the light. A supplied hour shapes sun or moon position, shadow direction, artificial-light state, atmosphere, and visible activity. Season enters the View or Render Seed when the user, a full date, or evidence resolves it. Otherwise use season-neutral atmosphere, vegetation, clothing, activity, and light, and state the unresolved season in Grounding.
 
-Geography is not CCTV. Remoteness, settlement history, or a place literally named “nobody” can support an ordinary uninhabited frame; none of them proves that a particular vessel, visitor, or animal was absent at every instant. Match the claim to the evidence and the input resolution.
+Geography is not CCTV. Remoteness, settlement history, or a place literally named “nobody” can support an ordinary uninhabited frame; none of them proves that a particular vessel, visitor, or animal was absent at every instant. Match the claim to the evidence and the input resolution. After declining an exact-absence guarantee, finish with one useful next move: offer the ordinary evidence-supported view or ask one question about the evidence threshold or time definition.
 
 Read [grounding-and-precision.md](references/grounding-and-precision.md) for exact events, disputed chronologies, palaeoenvironments, ecological reconstruction, low-confidence coordinates, or future scenarios.
 
@@ -164,7 +164,7 @@ For a traversal, define:
 - per-stop uncertainty or scenario boundary;
 - intended render count before metered dispatch.
 
-A missing place or coordinate can pause grounding while the traversal contract remains useful. Ask for it while naming the requested stop count, the world-fixed or support-fixed optic to resolve, the source-grounded past and declared future scenario, zero renders now, and one intended render per stop if later authorized.
+A missing place or coordinate can pause grounding while the traversal contract remains useful. Return one load-bearing place question, the requested stop count and ordered stop table, the **physical-footing invariant** or **world-fixed aperture** choice to resolve, past stops labelled for source grounding after the coordinate arrives, each future stop labelled as a declared scenario, per-stop uncertainty, and a representative Render Seed scaffold with exact per-stop substitution fields. Close with the canonical state: **prompt-only**, zero renders dispatched, and one intended render per stop if later authorized.
 
 Make each stop independently true before making the sequence elegant. Read [comparison-and-traversal.md](references/comparison-and-traversal.md) for cross-time controls, palaeoenvironmental slices, changed coastlines, destroyed supports, or multi-image plans.
 
