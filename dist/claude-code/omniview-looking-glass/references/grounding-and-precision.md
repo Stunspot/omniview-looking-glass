@@ -16,7 +16,7 @@ The requested time has a resolution. Preserve it.
 
 A year and an hour are still missing a month and day. AD 79 at Misenum supports the ordinary Bay of Naples and Roman naval-base world of that year; it does not independently select the hours of the Vesuvius eruption. A 1969 label at Launch Complex 39A supports the Apollo-era launch site; Apollo 11's launch requires 16 July at 09:32 EDT.
 
-The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, date-resolution-compatible land, material state, and local light carry the date. Season-specific atmosphere, vegetation, clothing, and activity enter when the user, a full date, or evidence resolves the season; otherwise keep them season-neutral and name the unresolved season in Grounding.
+The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, date-resolution-compatible land, material state, and date-robust local light carry the date. At year precision, use calendar-invariant cues: AD 79 at 12:03 can show the midday work phase and broad illumination while keeping solar altitude, shadow geometry, surface temperature, haze, weather, vegetation phase, clothing season, and seasonal palette open in Grounding. A user-supplied full date or evidence-resolved season unlocks those properties.
 
 ## Resolve coordinate meaning
 
