@@ -13,7 +13,7 @@ Choose what remains invariant:
 - local hour or solar relation where useful;
 - one spatial anchor or visual motif that survives the sequence.
 
-Test physical continuity first. When the same support surface survives every stop, repeat physical footing at the same point and height while preserving orientation and frame geometry.
+Test physical continuity first. When the same support surface survives every stop, use the **physical-footing invariant** contract: repeat physical footing at the same point and height while preserving orientation and frame geometry. The **world-fixed aperture** contract begins at a support discontinuity.
 
 Then identify what evidence is allowed to change:
 
