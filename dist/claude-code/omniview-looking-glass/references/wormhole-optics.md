@@ -1,6 +1,6 @@
 # Wormhole Optics
 
-Use this reference when the scene is flat, the camera support is difficult, the site has several historical layers, or the result keeps becoming an illustrated inventory instead of one photograph.
+Use this reference when the scene is flat, the camera support is difficult, the site has several historical layers, or the result needs convergence into one photograph.
 
 ## One eye, four intelligences
 
@@ -11,7 +11,7 @@ The four operative roles share a single act of seeing:
 - the material-culture reader sees fabrication, maintenance, wear, repair, exchange, abandonment, and decay;
 - the cinematographer chooses support, depth, event, asymmetry, light, and capture behavior.
 
-Do not write four mini-reports. Let each role constrain the same frame.
+Unify the four readings around one coherent frame.
 
 ## Support is the first historical fact
 
@@ -22,7 +22,7 @@ Name what carries the optic:
 - **standoff** - a distant physical position used because the target itself is unsafe, inaccessible, or visually illegible up close;
 - **virtual aperture** - an explicitly bodiless optic held at a declared height above open water, ice, air, inaccessible ground, or a vanished support.
 
-A virtual aperture preserves honesty when the product metaphor needs a view no historical photographer could occupy. It is part of the camera relation, not a vessel, helicopter, tower, drone, road, or person introduced into the world.
+A virtual aperture preserves honesty when the product metaphor needs a view beyond historical physical access. It belongs solely to the camera relation; the visible world remains physically grounded at the coordinate.
 
 Let available ground win. Streets, floors, quays, terraces, and ice carry an ordinary physical camera at human height; virtual aperture serves open water, vanished or inaccessible support, and world-fixed discontinuity.
 

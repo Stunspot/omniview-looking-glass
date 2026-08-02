@@ -66,7 +66,7 @@ Example: a published reconstruction polygon contains the point at 20 ka. The vie
 
 The source establishes the world class, while a coherent photograph requires ordinary detail the record does not resolve.
 
-Example: the polygon supports ice; an unspecified hour supports plausible wind-carved snow, cloud, blue shadow, and crevasse geometry as compositional choices rather than dated observations.
+Example: the polygon supports ice; an unspecified hour supports plausible wind-carved snow, cloud, blue shadow, and crevasse geometry as bounded compositional choices. Dated observations require direct support.
 
 An unresolved local texture lowers specificity while the established world class still supplies a complete surface, weather relation, and material event. Let the inference make the image whole; let the Grounding note keep its warrant exact.
 
@@ -74,11 +74,11 @@ An unresolved local texture lowers specificity while the established world class
 
 The future or counterfactual follows an explicit causal bundle.
 
-Name the bundle in one sentence, then carry it consistently into energy, maintenance, materials, ecology, infrastructure, mobility, and social use. A scenario is a visible causal system, not “futuristic” styling.
+Name the bundle in one sentence, then carry it consistently into energy, maintenance, materials, ecology, infrastructure, mobility, and social use. A scenario appears as a visible causal system carried through those relations.
 
 ## Calibrate habitation
 
-Habitation describes the ordinary spatial condition of this optic, not the fame or remoteness of the region.
+Site evidence and date determine habitation as the ordinary spatial condition of this optic.
 
 Ask:
 
@@ -89,7 +89,7 @@ Ask:
 
 Geography is not CCTV. Point Nemo's distance from land supports an ordinary open-ocean frame and the absence of permanent settlement. It does not establish the location of every vessel at one exact historical instant. Pripyat's evacuation supports traces-only ordinary street life after 1986 while leaving bounded room for authorized workers or visitors.
 
-The render state can still be decisive. Choose the ordinary evidence-supported spatial condition and phrase exceptional uncertainty in grounding notes rather than stocking the image with a just-in-case observer.
+The render state can still be decisive. Carry the ordinary evidence-supported spatial condition through the image and hold exceptional uncertainty in Grounding.
 
 ## Ground deep time
 

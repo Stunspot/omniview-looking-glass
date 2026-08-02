@@ -69,7 +69,7 @@ The answer should name physical mechanisms:
 - active use becomes abandonment;
 - a scenario changes repair, energy, water, mobility, or material circulation.
 
-Make those mechanisms visible at multiple depths. A color-grade change is not a temporal comparison.
+Make those mechanisms visible at multiple depths so each frame carries a materially distinct world-state.
 
 ## Preserve recognizability
 
@@ -82,7 +82,7 @@ Use anchors that can survive honestly:
 - repeated aperture height and frame;
 - recurring light direction or material motif.
 
-When no physical anchor survives, preserve camera geometry and explicitly let the world replace the scene. Continuity comes from the optic, not an invented eternal landmark.
+When physical anchors end, preserve camera geometry and let the world replace the scene. The repeated optic carries continuity.
 
 ## Control future branches
 
@@ -129,4 +129,4 @@ For a longer traversal:
 4. intended render count and state;
 5. sources where research governed the views.
 
-Make every stop independently defensible. Elegance across the set can never launder a false individual frame.
+Make every stop independently defensible. Sequence elegance begins with the truth of each individual frame.

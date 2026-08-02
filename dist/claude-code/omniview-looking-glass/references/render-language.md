@@ -50,20 +50,20 @@ Image-bearing:
 
 The stronger versions do more than contain rarer words. Material, action, relation, depth, and light reinforce the same scene.
 
-## Replace taboo lists with complete worlds
+## Compose complete worlds
 
-When an incompatible behavior matters, state the world that occupies its place.
+When a visual behavior matters, state the complete world that carries it.
 
-| Taboo-shaped instruction | Positive world |
+| Visual objective | Positive world |
 |---|---|
-| No people | Wind, water, ice, terrain, sky, and the local life that enters the optic carry the complete frame |
-| No modern artifacts | Every visible material, joint, tool, garment, and maintained surface carries the craft and use of the requested date |
-| Not a ruin | Fresh repair, intact rooflines, swept thresholds, active doors, stocked work surfaces, and ordinary use make the structure contemporary |
-| Not staged | An unforced off-centre composition catches action already under way, with partial occlusion and uneven depth |
-| No generic jungle | Named plant forms occupy moisture, shade, bank, canopy, or disturbed ground according to the local habitat |
-| No violence | Held motion, watchfulness, crowd anticipation, guarded distance, and environmental consequence carry the tension |
+| Uninhabited frame | Wind, water, ice, terrain, sky, and the local life that enters the optic carry the complete frame |
+| Date-bearing material world | Every visible material, joint, tool, garment, and maintained surface carries the craft and use of the requested date |
+| Contemporary maintained structure | Fresh repair, intact rooflines, swept thresholds, active doors, stocked work surfaces, and ordinary use make the structure contemporary |
+| Caught-in-motion composition | An unforced off-centre composition catches action already under way, with partial occlusion and uneven depth |
+| Habitat-specific vegetation | Named plant forms occupy moisture, shade, bank, canopy, or disturbed ground according to the local habitat |
+| Tension through relation | Held motion, watchfulness, crowd anticipation, guarded distance, and environmental consequence carry the tension |
 
-The renderer receives wanted nouns and relations. Counterexamples remain evaluator knowledge.
+The renderer receives wanted nouns and relations. Evaluator knowledge stays in Grounding.
 
 ## Photographic language
 
@@ -102,7 +102,7 @@ Useful light verbs include graze, transmit, rake, flare, pool, scatter, veil, si
 
 ## Habitation must reach the edges
 
-At **dense**, activity overlaps at several distances and built surroundings continue to the frame edges. One hero figure in an empty plaza is not a dense city.
+At **dense**, activity overlaps at several distances and built surroundings continue to the frame edges.
 
 At **settled**, maintenance and ordinary use appear across near and middle distance.
 
@@ -110,7 +110,7 @@ At **sparse**, separated figures each perform a specific local task while ground
 
 At **traces-only**, made matter and what time, weather, plants, animals, or sediment are doing to it become the action.
 
-At **uninhabited**, terrain, water or ice, atmosphere, and genuinely present life form a complete event without recruiting an observer.
+At **uninhabited**, terrain, water or ice, atmosphere, and genuinely present life form the complete event.
 
 ## Cinematic language
 
@@ -154,4 +154,3 @@ Before handoff, ask:
 - Does every renderer-facing noun earn a wanted pixel?
 
 Repair the first failed answer. Extra style words are the last move, not the first aid kit.
-
