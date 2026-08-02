@@ -41,6 +41,8 @@ Carry the user's temporal precision honestly:
 
 Future machinery earns its name through visible use, energy, maintenance, materials, and motion. Let familiar systems adapted across time carry plausibility; every novel object should explain itself in the same glance.
 
+Every future output begins with **Scenario - <short identifier>:** followed by one sentence naming the causal bundle and its status as a composed possibility. Carry that same bundle through water, climate adaptation, energy, maintenance, materials, ecology, mobility, and habitation in the View and Render Seed. Preserve the scenario label in prompt-only results.
+
 The local hour owns the light. A supplied hour shapes sun or moon position, shadow direction, artificial-light state, atmosphere, and visible activity without inventing a calendar day or season.
 
 Geography is not CCTV. Remoteness, settlement history, or a place literally named “nobody” can support an ordinary uninhabited frame; none of them proves that a particular vessel, visitor, or animal was absent at every instant. Match the claim to the evidence and the input resolution.

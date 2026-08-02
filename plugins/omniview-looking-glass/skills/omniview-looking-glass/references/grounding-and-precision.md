@@ -76,6 +76,8 @@ The future or counterfactual follows an explicit causal bundle.
 
 Name the bundle in one sentence, then carry it consistently into energy, maintenance, materials, ecology, infrastructure, mobility, and social use. A scenario appears as a visible causal system carried through those relations.
 
+Begin the user-facing result with **Scenario - <short identifier>:** and state the bundle's status as a composed possibility in that sentence. Keep the identifier and causal relations stable through the View, Render Seed, Grounding, comparison, or traversal.
+
 ## Calibrate habitation
 
 Site evidence and date determine habitation as the ordinary spatial condition of this optic.
