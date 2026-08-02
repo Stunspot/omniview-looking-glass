@@ -68,7 +68,7 @@ The source establishes the world class, while a coherent photograph requires ord
 
 Example: the polygon supports ice; an unspecified hour supports plausible wind-carved snow, cloud, blue shadow, and crevasse geometry as bounded compositional choices. Dated observations require direct support.
 
-An unresolved local texture lowers specificity while the established world class still supplies a complete surface, weather relation, and material event. Let the inference make the image whole; let the Grounding note keep its warrant exact.
+An unresolved local texture lowers specificity while the established world class still supplies a complete support, surface relation, depth structure, and material event. Completeness comes from those visible relations. At year-only precision, broad clock-phase illumination is sufficient atmosphere; richer weather becomes a named composed ordinary-day scenario. Let the Grounding note keep each warrant exact.
 
 ### Scenario
 

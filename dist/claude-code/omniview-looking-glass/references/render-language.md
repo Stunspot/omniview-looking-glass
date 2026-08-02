@@ -65,7 +65,7 @@ Treat the user's correction as a private design signal. Resolve it into the posi
 | Habitat-specific vegetation | Named plant forms occupy moisture, shade, bank, canopy, or disturbed ground according to the local habitat |
 | Tension through relation | Held motion, watchfulness, crowd anticipation, guarded distance, and environmental consequence carry the tension |
 | Open-ocean extent | Horizon-to-horizon water, a cloud-broken sky, cross-swell geometry, spray, and atmospheric distance fill every depth |
-| Ordinary year-level moment | Intact landform, ongoing work, maintained structures, ordinary traffic, and local light carry the selected date |
+| Ordinary year-level moment | Intact landform, ongoing work, maintained structures, ordinary traffic, and date-robust clock-phase illumination carry the selected date |
 
 The renderer receives wanted nouns and relations. Evaluator knowledge stays in Grounding.
 

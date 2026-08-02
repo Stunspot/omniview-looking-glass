@@ -65,7 +65,7 @@ Use available source tools for exact, disputed, unfamiliar, or load-bearing clai
 2. bounded visual inference needed to form a coherent ordinary scene;
 3. declared scenario choice.
 
-Let uncertainty set the image's resolution while the established world stays complete. Once evidence establishes the world class, give it ordinary class-true surface, weather, hydrology, and material action as bounded visual inference, then name that boundary in Grounding. Source-unavailable belongs to uncertainty that would change the world class, support, habitation, structure lifecycle, or selected event.
+Let uncertainty set the image's resolution while visibly connected established conditions keep the world complete. Once evidence establishes the world class, build the frame from class-true support, surface, hydrology, habitation, work, depth, and material action. Let unresolved variables remain broad in renderer-facing language. At year-only precision, **broad midday illumination** is a complete light treatment; a request for richer atmosphere can use a named composed ordinary-day scenario. Source-unavailable belongs to uncertainty that would change the world class, support, habitation, structure lifecycle, or selected event.
 
 Research produces a better aperture and stays in the grounding layer. Carry literal visible world evidence into the Render Seed; keep citations, dataset labels, confidence classes, counterexamples, and evaluator facts in Grounding unless they are visible in the world.
 
