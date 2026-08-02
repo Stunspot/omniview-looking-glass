@@ -67,7 +67,7 @@ When a visual behavior matters, state the complete world that carries it.
 
 The renderer receives wanted nouns and relations. Evaluator knowledge stays in Grounding.
 
-Read each renderer-facing clause as a paint instruction. Every clause should paint wanted matter, action, space, light, or capture behavior. Convert a boundary into the world visibly occupying its pixels.
+Run the pixel test over the View and Render Seed: every world-object noun names visible pixels, while camera and capture terms govern how those pixels appear. Each clause paints wanted matter, action, space, light, or capture behavior.
 
 ## Photographic language
 
