@@ -1,0 +1,11 @@
+{
+  "format_version": "1.0",
+  "source": "E:\\Github\\omniview-gl4ss-companion\\dropins\\planner\\0001-witness-shot-relay.patch",
+  "changed_file_count": 1,
+  "groups": {
+    "production_code": [
+      "src/lib/openrouter.ts"
+    ]
+  },
+  "warnings": []
+}

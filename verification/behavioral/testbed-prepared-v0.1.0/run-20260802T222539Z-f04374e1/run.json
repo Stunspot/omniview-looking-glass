@@ -1,0 +1,52 @@
+{
+  "protocol_version": "1.0",
+  "run_id": "run-20260802T222539Z-f04374e1",
+  "created_at": "2026-08-02T22:25:39+00:00",
+  "status": "PREPARED",
+  "prepared_at": "2026-08-02T22:25:39+00:00",
+  "package_root": "E:\\Github\\omniview-gl4ss-companion\\plugins\\omniview-looking-glass\\skills\\omniview-looking-glass",
+  "package_name": "omniview-looking-glass",
+  "package_version": "0.1.0",
+  "package_fingerprint_sha256": "f04374e1ed3465aa7812e8c20c829994a6ccc00f8d14e537ad624cab0aa7a6c6",
+  "eval_files": [
+    "omniview-cases.yaml"
+  ],
+  "dialects": [
+    "cd-augment-eval/v1"
+  ],
+  "case_count": 13,
+  "trials": 1,
+  "expected_episodes": 13,
+  "host": "codex",
+  "model": "gpt-5.6-terra",
+  "subject_adapter": null,
+  "judge_adapter": null,
+  "subject_adapter_sha256": null,
+  "judge_adapter_sha256": null,
+  "subject_adapter_provenance": null,
+  "judge_adapter_provenance": null,
+  "harness_sha256": "894a4c7a655503a674bc5dca9165915f07c6d380758317acbd4940d1d698080e",
+  "runtime_identity": {
+    "python_version": "3.14.0",
+    "python_implementation": "CPython",
+    "python_executable": "C:\\Python314\\python.exe",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64"
+  },
+  "indispensable_dimensions": [
+    "natural_request_interpretation",
+    "temporal_precision",
+    "place_and_ground_state",
+    "habitation_reasoning",
+    "viewpoint_support",
+    "material_scene_composition",
+    "positive_render_language",
+    "prompt_only_completeness",
+    "render_authority_and_receipt",
+    "comparison_invariance",
+    "future_scenario_boundary",
+    "source_and_attribution_honesty"
+  ],
+  "selected_case_ids": [],
+  "source_case_count": 13
+}

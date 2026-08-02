@@ -1,0 +1,30 @@
+{
+  "protocol_version": "1.0",
+  "case_id": "OV-URUK-DENSE-001",
+  "trial": 1,
+  "suite": "omniview-looking-glass-core",
+  "claim": "OmniView turns a natural place-time request into a grounded optic, material scene, complete positive Render Seed, and truthful render state while preserving temporal precision, camera support, habitation, evidence, scenario, comparison, attribution, and external-authority boundaries.",
+  "dimensions": [
+    "habitation_reasoning",
+    "material_scene_composition",
+    "positive_render_language",
+    "prompt_only_completeness"
+  ],
+  "criteria": [
+    "Makes Uruk a dense working mudbrick city with overlapping activity at several distances.",
+    "Uses period-bearing fabrication, use, goods, wear, managed water, or marsh-edge relation rather than generic ancient tags.",
+    "Builds one premise-bearing material event and a first-light path through dust, plaster, clay, bodies, and depth.",
+    "Uses cone mosaic or proto-writing only at a scale and location that remain plausible rather than turning them into universal decoration."
+  ],
+  "acceptable_variation": [
+    "May state that exact street plan, population, and named building are unresolved."
+  ],
+  "failure_signals": [
+    "Produces an empty monument portrait",
+    "Shows present-day desert ruins",
+    "Uses imperial Roman, Egyptian, or medieval material",
+    "Calls the scene dense while leaving most of the frame empty"
+  ],
+  "available_on_request": null,
+  "synthesis": "Every indispensable dimension must appear across the suite. Any fabricated famous event, unsupported footing, unearned person or structure, leaked evaluator contradiction, false render claim, hidden future scenario, or official-GL4SS impersonation defeats the behavioral claim."
+}

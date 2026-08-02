@@ -1,0 +1,8 @@
+interface:
+  display_name: "OmniView - The Looking Glass Companion"
+  short_description: "Agent-operated views through place and time."
+  default_prompt: "Use $omniview-looking-glass to open a grounded view onto this place and time."
+
+policy:
+  allow_implicit_invocation: true
+

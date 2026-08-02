@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "ANT-1200",
+  "track": "geographic-sentinel",
+  "label": "Dome C, interior Antarctica, AD 1200",
+  "location": {
+    "latitude": -75.1,
+    "longitude": 123.333,
+    "modernLabel": "Dome C, East Antarctic Plateau",
+    "coordinateMeaning": "An interior high-plateau ice-sheet sentinel near the modern Concordia site; the station itself does not belong to the scene."
+  },
+  "temporal": {
+    "inputLabel": "1200 AD",
+    "engineYear": 1200,
+    "localTimeInput": "12:00 local solar hour, calendar day and season unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "Broad premodern interior ice-sheet state only.",
+    "neighbourLabels": [],
+    "precisionBoundary": "Ice-core chronologies and modern observations do not establish an exact AD 1200 day, season, weather state, or surface pattern."
+  },
+  "habitation": {
+    "expected": "uninhabited",
+    "evidence": "Antarctica has no native population and documented human activity is modern; the high interior contains no premodern settlement evidence.",
+    "qualification": "This card concerns the Dome C plateau, not coastal Antarctica or every ice-free outcrop."
+  },
+  "viewpoint": {
+    "support": "Wind-packed snow and glacier ice at the plateau surface.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "exposed tundra",
+      "rocky coastal shore",
+      "sea ice",
+      "Concordia Station hardware"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Dome C is a high East Antarctic interior plateau covered by the continental ice sheet.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The entire ground plane is snow and ice with low relief; exposed soil and coastal geography do not belong.",
+      "sourceIds": [
+        "ANT-S1",
+        "ANT-S2"
+      ]
+    },
+    {
+      "claim": "The Antarctic interior is an extremely cold polar desert with low accumulation.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Wind-packed snow, hard light, drifting crystals, and sparse snowfall are more defensible than deep fresh drifts or wet coastal weather.",
+      "sourceIds": [
+        "ANT-S1",
+        "ANT-S2",
+        "ANT-S3"
+      ]
+    },
+    {
+      "claim": "Fine surface texture and weather for an unspecified AD 1200 day are unrecoverable.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "Choose a plausible ordinary polar condition without presenting it as a dated event marker.",
+      "sourceIds": [
+        "ANT-S2",
+        "ANT-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Fill the frame with ice-sheet surface, wind, sky, and optical atmosphere.",
+    "Use an event in snow, drifting ice crystals, cloud, shadow, or light rather than importing an animal or structure.",
+    "Keep the optic on glacier ice and compatible with a high, low-relief plateau.",
+    "Treat the scene as uninhabited without naming absent coast, vegetation, animals, or buildings in the generation prompt."
+  ],
+  "oracleOnlyContradictions": [
+    "Penguins, seals, seabirds, marine mammals, and sea ice are coastal or ocean ecology, not Dome C plateau evidence.",
+    "Exposed soil, tundra, and a rocky shore are location errors.",
+    "A research station, vehicle track, tent, or instrument is anachronistic in AD 1200.",
+    "A named storm, exact snow height, or datable surface layer is unsupported."
+  ],
+  "sources": [
+    {
+      "id": "ANT-S1",
+      "title": "British Antarctic Survey - Antarctica",
+      "url": "https://www.bas.ac.uk/about/where-we-work/antarctica/",
+      "authority": "official-agency",
+      "supports": [
+        "continental ice sheet",
+        "interior temperature class",
+        "low interior snowfall",
+        "no native population"
+      ]
+    },
+    {
+      "id": "ANT-S2",
+      "title": "Variations in atmospheric trace elements in Dome C ice",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1352231005006333",
+      "authority": "primary-research",
+      "supports": [
+        "Dome C coordinates",
+        "3233 metre elevation",
+        "high-plateau environmental context"
+      ]
+    },
+    {
+      "id": "ANT-S3",
+      "title": "Dust and sea-salt variability at Dome C",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2002GL015186",
+      "authority": "primary-research",
+      "supports": [
+        "very low accumulation",
+        "ice-core environmental evidence"
+      ]
+    },
+    {
+      "id": "ANT-S4",
+      "title": "Australian Antarctic Program - cultural heritage",
+      "url": "https://www.antarctica.gov.au/about-antarctica/history/cultural-heritage/",
+      "authority": "official-agency",
+      "supports": [
+        "documented human-history boundary"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "AD 1200 season, cloud, wind, visibility, and snow-surface geometry.",
+    "Whether a halo, diamond dust, or drifting snow occurs in the selected frame.",
+    "Fine-scale ice-sheet elevation and accumulation at the historical instant."
+  ],
+  "generationExclusions": [
+    "penguin",
+    "seal",
+    "rock outcrop",
+    "tundra",
+    "research station",
+    "vehicle tracks",
+    "coast"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "Broad ice-sheet, interior-desert, and no-native-population claims were checked; fine AD 1200 reconstruction remains intentionally unresolved."
+  }
+}

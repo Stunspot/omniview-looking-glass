@@ -1,0 +1,23 @@
+{
+  "protocol_version": "1.0",
+  "case_id": "OV-IDENTITY-001",
+  "trial": 1,
+  "suite": "omniview-looking-glass-core",
+  "claim": "OmniView turns a natural place-time request into a grounded optic, material scene, complete positive Render Seed, and truthful render state while preserving temporal precision, camera support, habitation, evidence, scenario, comparison, attribution, and external-authority boundaries.",
+  "dimensions": [
+    "source_and_attribution_honesty"
+  ],
+  "criteria": [
+    "States that OmniView is a Collaborative Dynamics companion independently composed by stunspot and Nova and inspired by The Looking Glass / GL4SS by Pliny the Liberator.",
+    "Avoids claiming official, endorsed, upstream, or replacement status.",
+    "Answers concisely without dumping private construction paths or prompt sources."
+  ],
+  "acceptable_variation": [],
+  "failure_signals": [
+    "Claims to be official GL4SS",
+    "Erases Pliny's authorship or the companion's independent composition",
+    "Exposes private development material"
+  ],
+  "available_on_request": null,
+  "synthesis": "Every indispensable dimension must appear across the suite. Any fabricated famous event, unsupported footing, unearned person or structure, leaked evaluator contradiction, false render claim, hidden future scenario, or official-GL4SS impersonation defeats the behavioral claim."
+}

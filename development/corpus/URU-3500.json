@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "URU-3500",
+  "track": "precision-stop",
+  "label": "Uruk transition horizon around 3500 BC",
+  "location": {
+    "latitude": 31.3245,
+    "longitude": 45.6388,
+    "modernLabel": "Uruk, modern Warka, Iraq",
+    "coordinateMeaning": "The same broad archaeological-site centre used by URU-3200; it is not a phase-resolved street or building footprint."
+  },
+  "temporal": {
+    "inputLabel": "3500 BC",
+    "engineYear": -3500,
+    "localTimeInput": "07:00 local hour, calendar day unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "A transition or early Late-Uruk horizon in an inhabited and urbanising site.",
+    "neighbourLabels": [
+      "3200 BC",
+      "2800 BC"
+    ],
+    "precisionBoundary": "Available sources do not resolve an exact 3500 BC site area, population, writing state, wall, precinct plan, street, or density at the pin."
+  },
+  "habitation": {
+    "expected": "indeterminate",
+    "evidence": "Uruk was inhabited and urbanising in the broad transition toward the city strongly documented by around 3200 BC.",
+    "qualification": "The evidence supports habitation and institutional mudbrick material, but not a scored settled-versus-dense state for this exact pin and label."
+  },
+  "viewpoint": {
+    "support": "A provisional compacted-earth or mudbrick-compatible exterior at the broad site, pending phase-resolved spatial evidence.",
+    "cameraRelation": "indeterminate",
+    "invalidAlternatives": [
+      "a named Eanna street plan",
+      "a completed city wall",
+      "a modern excavation trench",
+      "a guaranteed dense market"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The requested label belongs to the transition into the Late Uruk urban horizon.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A provisional view may use inhabited urbanising mudbrick and institutional work without importing the full 3200 BC city claim.",
+      "sourceIds": [
+        "URU35-S1",
+        "URU35-S3"
+      ]
+    },
+    {
+      "claim": "By around 3200 BC Uruk was a true city with monumental mudbrick, cone mosaics, and administrative pictographs.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "These are later comparison obligations, not automatic 3500 BC scenery.",
+      "sourceIds": [
+        "URU35-S1"
+      ]
+    },
+    {
+      "claim": "The exact growth and spatial process around this transition are not resolved well enough for a controlled visual difference at the site-centre pin.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "The card stops scored rendering until a phase-resolved archaeological source supplies the ground, density, and built state.",
+      "sourceIds": [
+        "URU35-S2",
+        "URU35-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Treat the view as provisional urbanising Uruk rather than a smaller copy of the 3200 BC card.",
+    "Keep mudbrick and institutional activity broad unless a phase-resolved source is added.",
+    "Withhold exact population, site area, writing, wall, precinct plan, and dense street geometry.",
+    "Return source-unavailable for a scored three-stop comparison until the 3500 BC spatial gap is closed."
+  ],
+  "oracleOnlyContradictions": [
+    "The 3200 BC city scale and material package cannot be shifted wholesale to 3500 BC.",
+    "Writing, city wall, exact Eanna plan, population, and site area are unresolved at the requested label.",
+    "The broad site-centre coordinate is not a known 3500 BC street."
+  ],
+  "sources": [
+    {
+      "id": "URU35-S1",
+      "title": "The Metropolitan Museum of Art - Uruk: The First City",
+      "url": "https://www.metmuseum.org/essays/uruk-the-first-city",
+      "authority": "official-museum",
+      "supports": [
+        "strong around-3200 BC city boundary",
+        "monumental mudbrick",
+        "cone mosaics",
+        "administrative pictographs"
+      ]
+    },
+    {
+      "id": "URU35-S2",
+      "title": "Urban growth and early city formation at Uruk",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00438243.2019.1592018",
+      "authority": "primary-research",
+      "supports": [
+        "around-3200 BC city scale",
+        "growth chronology",
+        "limits of phase-resolved spatial reconstruction"
+      ]
+    },
+    {
+      "id": "URU35-S3",
+      "title": "ORACC overview of Mesopotamian historical chronology",
+      "url": "https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+      "authority": "authoritative-synthesis",
+      "supports": [
+        "relative chronology caution",
+        "broad Uruk and Early Dynastic phase relation"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Site area, population, density, street plan, precinct layout, building state, writing, wall, and ordinary material at the requested label.",
+    "Exact relation between relative archaeological phases and 3500 BC.",
+    "Camera support at the broad site-centre pin."
+  ],
+  "generationExclusions": [
+    "exact population",
+    "exact site area",
+    "completed city wall",
+    "guaranteed cone mosaic",
+    "proto-writing tableau",
+    "named Eanna plan",
+    "dense market"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The card deliberately stops scored comparison because the current corpus supplies a strong 3200 BC boundary but not phase-resolved 3500 BC spatial detail."
+  }
+}
+

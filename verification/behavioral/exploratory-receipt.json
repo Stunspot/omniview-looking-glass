@@ -1,0 +1,28 @@
+{
+  "format": "omniview-behavioral-evidence/v1",
+  "run_id": "OV-EXPLORE-20260802-01",
+  "package_version": "0.1.0",
+  "execution_date": "2026-08-02",
+  "adapter": "Codex collaboration subagent",
+  "model_route": "gpt-5.6-terra",
+  "episode_shape": "Three fresh operators received four, four, and five cases respectively in one turn each.",
+  "isolation_boundary": "The operators were isolated from the builder context, private corpus, eval oracle, browsing, image tools, providers, durable state, and external action. Individual cases inside an operator batch were not fresh-context isolated episodes.",
+  "claim_boundary": "Exploratory behavior only. These outputs demonstrate candidate behavior under three batch prompts; they do not satisfy the suite's one-fresh-episode-per-case contract.",
+  "outputs": [
+    {
+      "operator": "a",
+      "path": "raw/exploratory-operator-a.md",
+      "cases": ["OV-NEMO-PROMPT-001", "OV-PRECISION-NAP-001", "OV-URUK-DENSE-001", "OV-PRIPYAT-COMPARE-001"]
+    },
+    {
+      "operator": "b",
+      "path": "raw/exploratory-operator-b.md",
+      "cases": ["OV-PATAGONIA-SUPPORT-001", "OV-SAHARA-HUMID-001", "OV-FUTURE-SCENARIO-001", "OV-APOLLO-EXACT-001"]
+    },
+    {
+      "operator": "c",
+      "path": "raw/exploratory-operator-c.md",
+      "cases": ["OV-RENDER-DEGRADE-001", "OV-TRAVERSE-AUTHORITY-001", "OV-STYLE-MEDIUM-001", "OV-GEOGRAPHY-CCTV-001", "OV-IDENTITY-001"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "npm.cmd",
+    "run",
+    "lint"
+  ],
+  "working_directory": "<candidate-gl4ss-root>",
+  "started_at": "2026-08-02T22:14:56.346158+00:00",
+  "finished_at": "2026-08-02T22:15:03.080512+00:00",
+  "duration_seconds": 6.734355,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "\n> lookingglass@0.0.0 lint\n> eslint .\n\n",
+  "stderr": "",
+  "status": "passed"
+}

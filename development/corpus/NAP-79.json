@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "NAP-79",
+  "track": "recorded-history",
+  "label": "Misenum and the Bay of Naples in AD 79",
+  "location": {
+    "latitude": 40.7833,
+    "longitude": 14.0833,
+    "modernLabel": "Misenum, modern Miseno, Italy",
+    "coordinateMeaning": "A broad harbour and headland pin, not a claim for Pliny the Younger's house or a precise ancient structure."
+  },
+  "temporal": {
+    "inputLabel": "79 AD",
+    "engineYear": 79,
+    "localTimeInput": "15:00 local hour, calendar day unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "Calendar year and broad Roman-period setting only.",
+    "neighbourLabels": [],
+    "precisionBoundary": "The input does not select the Vesuvius eruption day. Its exact historical date is itself disputed."
+  },
+  "habitation": {
+    "expected": "settled",
+    "evidence": "Primary testimony places the Roman fleet command at Misenum and describes the surrounding shore as populous.",
+    "qualification": "This supports a living Roman maritime settlement, not a specific crowd size at an unspecified hour and day."
+  },
+  "viewpoint": {
+    "support": "A shore, harbour edge, or elevated settlement surface compatible with the ancient coastal setting.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "Pompeii street deposits",
+      "the slopes of Vesuvius",
+      "Pliny's departing vessel",
+      "a modern marina structure"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Misenum was an active Roman naval and coastal community in AD 79.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A working Roman maritime settlement and harbour context are defensible.",
+      "sourceIds": [
+        "NAP-S1",
+        "NAP-S2"
+      ]
+    },
+    {
+      "claim": "The viewpoint belongs on the Bay of Naples coast at Misenum, with sea and volcanic headland geography.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "Keep a broad bay horizon and coastal ground rather than importing Pompeii's buried urban scene.",
+      "sourceIds": [
+        "NAP-S1",
+        "NAP-S4"
+      ]
+    },
+    {
+      "claim": "AD 79 alone does not identify the eruption moment.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "An ordinary annual view should not automatically become the famous eruption tableau.",
+      "sourceIds": [
+        "NAP-S1",
+        "NAP-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make the place a living Roman maritime settlement rather than an empty ruin.",
+    "Let sea, harbour activity, coastal material, and inhabited depth carry the setting.",
+    "Keep the input at annual precision and treat the selected hour as recurring on many possible days.",
+    "Use period-appropriate visible material without claiming a named building or exact household."
+  ],
+  "oracleOnlyContradictions": [
+    "An eruption cloud, ash fall, earthquake flight, or Pompeii burial scene is unsupported by year and hour alone.",
+    "The famous August 24 date is not uncontested.",
+    "A viewpoint at Vesuvius or Pompeii is a coordinate substitution.",
+    "Modern harbour construction and present-day boats are anachronistic."
+  ],
+  "sources": [
+    {
+      "id": "NAP-S1",
+      "title": "Pliny, Letters 6.16 and 6.20, sourcebook translation",
+      "url": "https://sourcebooks.web.fordham.edu/ancient/79plinytheelder-vesuvius.asp",
+      "authority": "primary-text",
+      "supports": [
+        "Misenum observation",
+        "fleet command",
+        "coastal population",
+        "eruption testimony"
+      ]
+    },
+    {
+      "id": "NAP-S2",
+      "title": "Campi Flegrei Archaeological Park - Miseno",
+      "url": "https://pafleg.cultura.gov.it/it/4379/miseno",
+      "authority": "official-agency",
+      "supports": [
+        "official archaeological place context",
+        "Roman naval association"
+      ]
+    },
+    {
+      "id": "NAP-S3",
+      "title": "INGV - the unresolved date of the AD 79 eruption",
+      "url": "https://newsletter.ingv.it/newsletter-ingv-n-5-settembre-2019-anno-xiii/vesuvio-l-enigma-della-vera-data-della-grande-eruzione-del-79-d-c",
+      "authority": "official-agency",
+      "supports": [
+        "date disagreement",
+        "autumn evidence",
+        "limits of exact event reconstruction"
+      ]
+    },
+    {
+      "id": "NAP-S4",
+      "title": "Italian Navy - Capo Miseno geodetic point",
+      "url": "https://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/2402.aspx",
+      "authority": "official-agency",
+      "supports": [
+        "modern coordinate context"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact intra-settlement viewpoint and visible ancient structures.",
+    "Weather, season, and crowd density on the unspecified day.",
+    "Whether any eruption phenomenon belongs in the selected frame."
+  ],
+  "generationExclusions": [
+    "Pompeii",
+    "pyroclastic flow",
+    "ash-buried streets",
+    "August 24",
+    "modern marina"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "Root checked the primary testimony and INGV date boundary; official place pages remain for domain review."
+  }
+}

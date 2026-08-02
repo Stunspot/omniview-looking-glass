@@ -1,0 +1,18 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "verification\\scripts\\verify_corpus.py"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": "2026-08-02T22:14:38.426777+00:00",
+  "finished_at": "2026-08-02T22:14:38.703073+00:00",
+  "duration_seconds": 0.276297,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\n  \"check\": \"corpus\",\n  \"status\": \"PASS\",\n  \"cards\": 17,\n  \"schema\": \"draft-2020-12\",\n  \"claim_boundary\": \"Schema and internal-link validation only; domain correctness remains bounded by each card's sources and review state.\"\n}\n",
+  "stderr": "",
+  "status": "passed"
+}

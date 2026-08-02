@@ -1,0 +1,20 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "node",
+    "dropins\\tests\\verify-candidate.mjs",
+    "--control",
+    "E:\\Github\\GL4SS",
+    "--candidate",
+    "E:\\Github\\omniview-gl4ss-companion\\.work\\GL4SS"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": "2026-08-02T22:14:24.342393+00:00",
+  "finished_at": "2026-08-02T22:14:25.620323+00:00",
+  "duration_seconds": 1.277929,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "PASS frozen control commit and pristine state\nPASS frozen source bytes\nPASS patch manifest bytes\nPASS combined git apply check\nPASS patches exactly reproduce the bounded candidate\nPASS public TypeScript contracts\nPASS planner sequence, modes, schema, and positive emitted form\nPASS default ordering, legacy migration, and unknown-placeholder behavior\nPASS real still compiler: wild, dense, and custom-template behavior\nPASS real cinematic compiler: hour, viewpoint, sound, and wild gate\nRESULT verified candidate at ab4984597ecf3afbd8ea66309be5ed68ce429146\n",
+  "stderr": "",
+  "status": "passed"
+}

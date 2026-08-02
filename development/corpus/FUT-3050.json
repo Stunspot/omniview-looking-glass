@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "FUT-3050",
+  "track": "scenario-stop",
+  "label": "Alexandria in AD 3050 without a scenario",
+  "location": {
+    "latitude": 31.2001,
+    "longitude": 29.9187,
+    "modernLabel": "Alexandria, Egypt",
+    "coordinateMeaning": "A modern city-centre geographic anchor; its future land, water, settlement, and infrastructure state must come from an explicit scenario."
+  },
+  "temporal": {
+    "inputLabel": "3050 AD",
+    "engineYear": 3050,
+    "localTimeInput": "18:00 local hour, calendar day unspecified",
+    "inputResolution": "scenario",
+    "supportedResolution": "None until a versioned future scenario or an explicitly creative brief is supplied.",
+    "neighbourLabels": [],
+    "precisionBoundary": "Historical and palaeoenvironmental correctness cannot be scored for an unconstrained future."
+  },
+  "habitation": {
+    "expected": "indeterminate",
+    "evidence": "No scenario has established whether this coordinate is inhabited, abandoned, submerged, rebuilt, or transformed.",
+    "qualification": "Any selected habitation level is creative speculation unless it is derived from a named scenario."
+  },
+  "viewpoint": {
+    "support": "Indeterminate until the scenario establishes land, water, structure, or a virtual aperture.",
+    "cameraRelation": "indeterminate",
+    "invalidAlternatives": [
+      "any unlabelled future footing presented as prediction"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "No versioned future scenario is present.",
+      "evidenceState": "scenario",
+      "visualConsequence": "Stop scoring, request a scenario, or label a deliberately invented scene as speculative.",
+      "sourceIds": [
+        "FUT-S1"
+      ]
+    }
+  ],
+  "obligations": [
+    "Do not present a single imagined 3050 scene as historical prediction.",
+    "Ask for a scenario or offer to compose one with explicit assumptions.",
+    "When a scenario is supplied, bind every ground, habitation, material, and climate claim to its version.",
+    "Keep speculative creativity available, but label it honestly."
+  ],
+  "oracleOnlyContradictions": [
+    "A plausible-looking future is not source-backed merely because it is coherent.",
+    "Current maps do not establish AD 3050 coastline, habitation, infrastructure, climate, or political identity.",
+    "This stop case must not contribute to factual-improvement scores."
+  ],
+  "sources": [
+    {
+      "id": "FUT-S1",
+      "title": "OmniView scenario-required sentinel",
+      "url": "urn:omniview:scenario-required",
+      "authority": "scenario-canon",
+      "supports": [
+        "absence of scenario",
+        "evaluation stop"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Every consequential visible property of the AD 3050 scene."
+  ],
+  "generationExclusions": [
+    "unlabelled prediction",
+    "fabricated historical certainty"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "This is a product-scope sentinel. It becomes scoreable only under a separately frozen scenario."
+  }
+}

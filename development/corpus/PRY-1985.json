@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PRY-1985",
+  "track": "recorded-history",
+  "label": "Pripyat in 1985, bounded by the documented pre-evacuation city",
+  "location": {
+    "latitude": 51.4,
+    "longitude": 30.05,
+    "modernLabel": "Pripyat, Ukraine",
+    "coordinateMeaning": "The same city-centre exterior pin used by PRY-2020, not Reactor 4 or a named building interior."
+  },
+  "temporal": {
+    "inputLabel": "1985 AD",
+    "engineYear": 1985,
+    "localTimeInput": "14:00 local hour, calendar day and season unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "A functioning nuclear-power-plant workers' town, using April 1986 pre-evacuation municipal documentation as the nearest strong proxy.",
+    "neighbourLabels": [
+      "2020 AD"
+    ],
+    "precisionBoundary": "The source does not assign the April 1986 population, exact building completion, season, or one street's activity literally to every day of 1985."
+  },
+  "habitation": {
+    "expected": "settled",
+    "evidence": "Immediately before the 1986 evacuation Pripyat was a functioning workers' town with schools, kindergartens, hospital, trade, transport, municipal infrastructure, and five residential microdistricts.",
+    "qualification": "Settled ordinary city life is source-compatible. A specific crowd size or the exact April 1986 population is not a 1985 observation."
+  },
+  "viewpoint": {
+    "support": "Maintained street pavement, civic path, or open residential public space.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "Reactor 4",
+      "post-evacuation overgrowth",
+      "unsafe interior",
+      "an unfinished building assumed complete"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The nearest documented pre-evacuation city had five microdistricts, around 149 multi-storey buildings, schools, kindergartens, hospital, transport, trade, and municipal services.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Maintained apartment blocks, working utilities, active paths, and ordinary civic use continue through near and middle distance.",
+      "sourceIds": [
+        "PRY85-S1"
+      ]
+    },
+    {
+      "claim": "Buildings used concrete block, concrete, and brick construction with district heating, water, and power.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Late-Soviet residential material, maintained glazing, utility fixtures, pavement, and serviced public space carry the date.",
+      "sourceIds": [
+        "PRY85-S1"
+      ]
+    },
+    {
+      "claim": "Lawns, flowerbeds, play yards, and planted trees were maintained before evacuation.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Managed planting and open civic ground contrast directly with the later meadow and semi-forest succession.",
+      "sourceIds": [
+        "PRY85-S1"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make the 1985 frame an inhabited, maintained workers' city.",
+    "Use ordinary municipal and residential activity rather than disaster foreshadowing.",
+    "Carry the date through late-Soviet construction, utilities, pavement, planting, dress, transport, and use at defensible scale.",
+    "Preserve the same exterior optic and frame geometry used by PRY-2020.",
+    "State that April 1986 documentation is the nearest strong proxy rather than relabelling every statistic as 1985."
+  ],
+  "oracleOnlyContradictions": [
+    "Post-evacuation decay and ecological succession belong to the later card.",
+    "The April 1986 population figure cannot be assigned exactly to the unspecified 1985 day.",
+    "The 1986 accident, evacuation, radiation response, and Reactor 4 are future events from this view.",
+    "Every building's completion state in 1985 is unresolved."
+  ],
+  "sources": [
+    {
+      "id": "PRY85-S1",
+      "title": "IAEA EMRAS urban scenario for Pripyat",
+      "url": "https://www-ns.iaea.org/downloads/rw/projects/emras-urban-draft-pripyat-May06.pdf",
+      "authority": "official-agency",
+      "supports": [
+        "pre-accident city population and functions",
+        "microdistrict and building counts",
+        "construction materials and utilities",
+        "maintained lawns, flowerbeds, play yards, and planted trees"
+      ]
+    },
+    {
+      "id": "PRY85-S2",
+      "title": "Chornobyl Nuclear Power Plant official history of the 1986 accident and evacuation",
+      "url": "https://www.chnpp.gov.ua/en/about/history-of-the-chnpp/accident-of-1986",
+      "authority": "official-agency",
+      "supports": [
+        "evacuation boundary after the requested year",
+        "pre-evacuation temporal relation"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact 1985 population and completion state of particular buildings.",
+    "Season, weather, clothing, traffic, and activity at the unspecified day and street.",
+    "Exact city-centre camera support within the broad pin."
+  ],
+  "generationExclusions": [
+    "abandoned street",
+    "forest succession",
+    "broken windows",
+    "Reactor 4",
+    "evacuation",
+    "radiation response",
+    "April 1986 population label"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The card uses April 1986 municipal documentation as an explicit nearest-in-time proxy for the broad functioning 1985 city state."
+  }
+}
+

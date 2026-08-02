@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PATM-15000",
+  "track": "precision-stop",
+  "label": "Southern Patagonia fixed-coordinate surface stop, PATICE 15 ka BP slice",
+  "location": {
+    "latitude": -52.3480134993,
+    "longitude": -74.2659628698,
+    "modernLabel": "PATICE southern fixed-coordinate contrast point",
+    "coordinateMeaning": "The same fixed point used in PATM-25000 and PATM-20000; the 15 ka ice polygon no longer contains it."
+  },
+  "temporal": {
+    "inputLabel": "15 ka BP, approximately 13050 BC",
+    "engineYear": -13050,
+    "localTimeInput": "10:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Published PATICE 15 ka reconstruction slice establishes non-membership in reconstructed ice.",
+    "neighbourLabels": [
+      "20 ka BP",
+      "13 ka BP"
+    ],
+    "precisionBoundary": "Ice non-membership does not identify the new surface as exposed land, fjord, lake, sea, sediment, vegetation, or another material state."
+  },
+  "habitation": {
+    "expected": "indeterminate",
+    "evidence": "The ice reconstruction and regional occupation chronology do not by themselves resolve the complete surface or exact local human-use state.",
+    "qualification": "The view must stop before composition until a compatible palaeogeographic surface source is added."
+  },
+  "viewpoint": {
+    "support": "A world-fixed virtual aperture at the comparison coordinate; the physical surface beneath it remains unresolved by the ice polygon alone.",
+    "cameraRelation": "virtual-aperture",
+    "invalidAlternatives": [
+      "assumed exposed soil",
+      "assumed fjord water",
+      "assumed modern island shore",
+      "continued ice footing"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The point does not intersect the official PATICE Icesheet15ka reconstruction polygon.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The 25 and 20 ka ice footing cannot simply continue into the 15 ka view.",
+      "sourceIds": [
+        "PATM-S1",
+        "PATM-S2",
+        "PATM-S3"
+      ]
+    },
+    {
+      "claim": "The public PATICE 15 ka ArcGIS FeatureServer independently returns zero intersecting ice features for the point.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The non-membership is a robust negative ice check rather than an inference from a screenshot.",
+      "sourceIds": [
+        "PATM-S3"
+      ]
+    },
+    {
+      "claim": "The point is approximately 52.8 kilometres from the nearest reconstructed 15 ka ice margin.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The point is not a boundary-straddling ambiguity, but the replacement surface still requires a different dataset.",
+      "sourceIds": [
+        "PATM-S2"
+      ]
+    }
+  ],
+  "obligations": [
+    "Remove the prior ice footing from the comparison contract.",
+    "Keep the optic explicitly virtual until land, water, elevation, and vegetation are sourced.",
+    "Return source-unavailable for a scored factual render if no compatible palaeogeographic surface source is supplied.",
+    "Treat 15 ka evidence literally; it does not establish the exact state at 14 ka."
+  ],
+  "oracleOnlyContradictions": [
+    "Outside an ice polygon does not mean exposed land.",
+    "The 15 ka slice does not establish an exact 14 ka surface.",
+    "Modern island, fjord, shoreline, soil, and vegetation cannot be imported without palaeogeographic support.",
+    "A continued glacier-ice footing contradicts the 15 ka non-membership."
+  ],
+  "sources": [
+    {
+      "id": "PATM-S1",
+      "title": "The evolution of the Patagonian Ice Sheet from 35 ka to the present day",
+      "url": "https://researchportal.port.ac.uk/en/publications/the-evolution-of-the-patagonian-ice-sheet-from-35-ka-to-the-prese/",
+      "authority": "primary-research",
+      "supports": [
+        "PATICE reconstruction method",
+        "15 ka fragmentation context"
+      ]
+    },
+    {
+      "id": "PATM-S2",
+      "title": "PATICE supplementary reconstruction shapefiles, version 2",
+      "url": "https://data.mendeley.com/datasets/rjnw46vbdw/2",
+      "authority": "primary-research",
+      "supports": [
+        "Icesheet15ka non-membership",
+        "source projection",
+        "distance from reconstructed margin"
+      ]
+    },
+    {
+      "id": "PATM-S3",
+      "title": "PATICE public interactive map and 15 ka FeatureServer",
+      "url": "https://ncluni.maps.arcgis.com/apps/webappviewer/index.html?id=5d87e86761f14279b203a75ad8f31d22",
+      "authority": "authoritative-synthesis",
+      "supports": [
+        "independent point-intersection count of zero",
+        "15 ka public layer",
+        "fixed-coordinate comparison"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Whether the point is land, sea, fjord, lake, sediment, or another surface at 15 ka BP.",
+    "Elevation, coastline, vegetation, local ecology, weather, and season.",
+    "Exact local human use.",
+    "PATICE provides 15 and 13 ka slices rather than an exact 14 ka footprint."
+  ],
+  "generationExclusions": [
+    "assumed exposed land",
+    "assumed fjord",
+    "modern island shore",
+    "continued ice footing",
+    "invented vegetation",
+    "invented settlement"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The ice negative is source-checked. The card deliberately withholds a factual render until a separate palaeogeographic surface source resolves what replaced the ice."
+  }
+}
+

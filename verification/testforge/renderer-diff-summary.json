@@ -1,0 +1,12 @@
+{
+  "format_version": "1.0",
+  "source": "E:\\Github\\omniview-gl4ss-companion\\dropins\\renderer\\0002-material-photograph-relay.patch",
+  "changed_file_count": 2,
+  "groups": {
+    "production_code": [
+      "src/lib/promptTemplate.ts",
+      "src/lib/promptcraft.ts"
+    ]
+  },
+  "warnings": []
+}

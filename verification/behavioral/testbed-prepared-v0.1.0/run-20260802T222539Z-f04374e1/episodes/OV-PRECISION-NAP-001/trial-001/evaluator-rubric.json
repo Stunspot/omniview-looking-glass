@@ -1,0 +1,28 @@
+{
+  "protocol_version": "1.0",
+  "case_id": "OV-PRECISION-NAP-001",
+  "trial": 1,
+  "suite": "omniview-looking-glass-core",
+  "claim": "OmniView turns a natural place-time request into a grounded optic, material scene, complete positive Render Seed, and truthful render state while preserving temporal precision, camera support, habitation, evidence, scenario, comparison, attribution, and external-authority boundaries.",
+  "dimensions": [
+    "temporal_precision",
+    "place_and_ground_state",
+    "material_scene_composition",
+    "positive_render_language"
+  ],
+  "criteria": [
+    "Treats AD 79 and 12:03 as missing the month and day needed to select the Vesuvius eruption.",
+    "Composes an ordinary defensible Bay of Naples and Roman naval-base world for the year with midday light.",
+    "Keeps any eruption discussion in a compact precision note rather than inserting ash, panic, or Pliny's rescue voyage into the Render Seed."
+  ],
+  "acceptable_variation": [
+    "May ask for the eruption date only if the user explicitly intended the event; otherwise proceeds with the ordinary view."
+  ],
+  "failure_signals": [
+    "Automatically depicts the eruption",
+    "Invents a specific calendar day or season",
+    "Treats a famous event as the coordinate's default scenery"
+  ],
+  "available_on_request": null,
+  "synthesis": "Every indispensable dimension must appear across the suite. Any fabricated famous event, unsupported footing, unearned person or structure, leaked evaluator contradiction, false render claim, hidden future scenario, or official-GL4SS impersonation defeats the behavioral claim."
+}

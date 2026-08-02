@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "URU-3200",
+  "track": "recorded-history",
+  "label": "Uruk around 3200 BC",
+  "location": {
+    "latitude": 31.3245,
+    "longitude": 45.6388,
+    "modernLabel": "Uruk, modern Warka, Iraq",
+    "coordinateMeaning": "An archaeological-site centre used to test the broad Late Uruk city, not a claim that one excavated building occupied the exact pin."
+  },
+  "temporal": {
+    "inputLabel": "3200 BC",
+    "engineYear": -3200,
+    "localTimeInput": "07:00 local hour, calendar day unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Broad Late Uruk horizon around 3200 BC.",
+    "neighbourLabels": [
+      "3500 BC",
+      "2800 BC"
+    ],
+    "precisionBoundary": "The sources do not establish an exact year, street, ruler, population count, season, or named event."
+  },
+  "habitation": {
+    "expected": "dense",
+    "evidence": "Uruk was the largest settlement in southern Mesopotamia and a true city around 3200 BC, with monumental and extensive urban functions.",
+    "qualification": "Dense is a spatial rendering obligation for a major city, not a sourced headcount for one exact frame."
+  },
+  "viewpoint": {
+    "support": "An active compact urban exterior with packed earth or mudbrick material under the optic.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "modern excavation trench",
+      "present-day desert ruin panorama",
+      "a view from an unsupported sanctuary interior"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Around 3200 BC Uruk was a true city and possibly the world's largest settlement.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Continuous built surroundings and active people at several depths should make the city hard to see past.",
+      "sourceIds": [
+        "URU-S1"
+      ]
+    },
+    {
+      "claim": "Monumental buildings used mudbrick and some carried painted clay-cone mosaics.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Mudbrick dominates; cone mosaics can date selected monumental surfaces without decorating every wall.",
+      "sourceIds": [
+        "URU-S1",
+        "URU-S2"
+      ]
+    },
+    {
+      "claim": "Uruk developed on the margin of a freshwater-marsh deltaic landscape rather than today's dry plain.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Water, wet ground, channels, reeds, or marsh-edge distance should distinguish the living city from its modern ruins.",
+      "sourceIds": [
+        "URU-S2"
+      ]
+    },
+    {
+      "claim": "Administrative clay records and proto-writing belong to the period.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Clay tablets and managed goods are possible small-scale markers, not mandatory giant symbols.",
+      "sourceIds": [
+        "URU-S1",
+        "URU-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make Uruk a socially and materially dense working city.",
+    "Use mudbrick as the architectural ground truth.",
+    "Place activity and bodies at several distances rather than isolating one artifact.",
+    "Retain the freshwater-marsh or managed-water relation without turning the city into open swamp.",
+    "Reserve painted cone mosaics for appropriate monumental surfaces."
+  ],
+  "oracleOnlyContradictions": [
+    "Today's arid eroded ruins are not the 3200 BC land state.",
+    "Cone mosaics are not universal wall treatment.",
+    "A tablet corpus does not license readable modern-looking text in the image.",
+    "Exact population, street plan, clothing distribution, and channel course remain uncertain."
+  ],
+  "sources": [
+    {
+      "id": "URU-S1",
+      "title": "The Metropolitan Museum of Art - Uruk: The First City",
+      "url": "https://www.metmuseum.org/essays/uruk-the-first-city",
+      "authority": "official-museum",
+      "supports": [
+        "city scale around 3200 BC",
+        "monumental mudbrick",
+        "painted clay-cone mosaics",
+        "administrative clay records"
+      ]
+    },
+    {
+      "id": "URU-S2",
+      "title": "UNESCO World Heritage - Ahwar and the relict Mesopotamian cities",
+      "url": "https://whc.unesco.org/en/list/1481/",
+      "authority": "official-agency",
+      "supports": [
+        "freshwater-marsh setting",
+        "urban functions",
+        "mud as principal building material",
+        "contrast with present aridity"
+      ]
+    },
+    {
+      "id": "URU-S3",
+      "title": "Cuneiform Digital Library Initiative - Uruk III tablet",
+      "url": "https://cdli.earth/artifacts/000161",
+      "authority": "primary-text",
+      "supports": [
+        "Uruk III clay administrative record"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact local channel course and street plan.",
+    "Ordinary domestic architecture and dress in one frame.",
+    "Population total and density at the exact pin.",
+    "Visibility of any named temple or wall around 3200 BC."
+  ],
+  "generationExclusions": [
+    "modern desert ruins",
+    "archaeological trench",
+    "universal cone mosaic",
+    "readable modern text",
+    "isolated empty monument"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The around-3200 BC city, mudbrick, cone-mosaic, administrative, and marsh-margin claims are source-checked. Exact site-phase rendering remains bounded."
+  }
+}

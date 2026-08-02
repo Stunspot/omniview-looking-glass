@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PAC-1500",
+  "track": "geographic-sentinel",
+  "label": "Point Nemo, open South Pacific, AD 1500",
+  "location": {
+    "latitude": -48.8763,
+    "longitude": -123.3933,
+    "modernLabel": "Oceanic Pole of Inaccessibility, Point Nemo",
+    "coordinateMeaning": "A sea-surface aperture at the ocean coordinate farthest from land, not a vessel, island, seabed, or fixed human site."
+  },
+  "temporal": {
+    "inputLabel": "1500 AD",
+    "engineYear": 1500,
+    "localTimeInput": "12:00 local solar hour, calendar day and season unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "Open-ocean geography and broad preindustrial material boundary only.",
+    "neighbourLabels": [],
+    "precisionBoundary": "No source reconstructs exact local weather, waves, visibility, biology, or vessel presence at this coordinate and year."
+  },
+  "habitation": {
+    "expected": "uninhabited",
+    "evidence": "The coordinate is open ocean thousands of kilometres from land and has no permanent built habitation.",
+    "qualification": "This is the expected spatial class for an ordinary frame, not proof that no voyaging vessel ever crossed the exact point at an exact instant."
+  },
+  "viewpoint": {
+    "support": "An unsupported wormhole aperture just above the sea surface.",
+    "cameraRelation": "virtual-aperture",
+    "invalidAlternatives": [
+      "island shore",
+      "ship deck",
+      "aircraft",
+      "sea floor",
+      "floating modern instrument"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Point Nemo is the ocean location farthest from land, about 2688 kilometres from its nearest land points.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The horizon remains open water in every direction; land, reef, beach, and coastal vegetation do not belong.",
+      "sourceIds": [
+        "PAC-S1"
+      ]
+    },
+    {
+      "claim": "The coordinate lies over deep South Pacific ocean rather than visible shallow bottom.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The seafloor and reef structure cannot appear in a surface view.",
+      "sourceIds": [
+        "PAC-S2"
+      ]
+    },
+    {
+      "claim": "East Polynesian ocean voyaging existed before AD 1500, but regional archaeology cannot place or exclude a vessel at Point Nemo at one instant.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A vessel is possible in the abstract but unsupported in the default scene; the card must not convert uncertainty into either telemetry or spectacle.",
+      "sourceIds": [
+        "PAC-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Use only sea surface, horizon, sky, wind, waves, light, and defensible open-ocean atmosphere.",
+    "Declare the optic as virtual rather than inventing support.",
+    "Give the scene an event in water, cloud, or light without manufacturing a datable object.",
+    "Keep exact AD 1500 weather and animal presence explicitly uncertain."
+  ],
+  "oracleOnlyContradictions": [
+    "An island, reef, beach, coastline, or visible seabed contradicts the coordinate.",
+    "A ship, canoe, whale, albatross, plastic, or spacecraft debris is not established at the unspecified instant.",
+    "Point Nemo's nearest-land distance is metadata, not a visible marker.",
+    "The absence or presence of a vessel cannot be proven from regional voyaging chronology."
+  ],
+  "sources": [
+    {
+      "id": "PAC-S1",
+      "title": "NOAA Ocean Service - Where is Point Nemo?",
+      "url": "https://oceanservice.noaa.gov/facts/nemo.html",
+      "authority": "official-agency",
+      "supports": [
+        "coordinates",
+        "farthest-from-land status",
+        "nearest-land distance"
+      ]
+    },
+    {
+      "id": "PAC-S2",
+      "title": "GEBCO gridded bathymetry data",
+      "url": "https://www.gebco.net/data-products-gridded-bathymetry-data",
+      "authority": "official-agency",
+      "supports": [
+        "authoritative bathymetry route",
+        "deep-ocean context"
+      ]
+    },
+    {
+      "id": "PAC-S3",
+      "title": "High-precision radiocarbon dating of East Polynesian settlement",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3033267/",
+      "authority": "primary-research",
+      "supports": [
+        "regional East Polynesian settlement and voyaging chronology"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact AD 1500 weather, cloud, wave state, sea-surface temperature, and visibility.",
+    "Vessel, bird, marine mammal, plankton, and flotsam presence.",
+    "Exact local bathymetric depth until the authoritative grid is queried."
+  ],
+  "generationExclusions": [
+    "island",
+    "beach",
+    "reef",
+    "ship",
+    "canoe",
+    "whale",
+    "albatross",
+    "plastic",
+    "space debris",
+    "visible seabed"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "NOAA geography was checked directly. The card deliberately preserves vessel and weather uncertainty."
+  }
+}

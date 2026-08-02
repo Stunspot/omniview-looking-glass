@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "SAH-6000",
+  "track": "palaeoenvironment",
+  "label": "Wadi Takarkori during the African Humid Period, 6000 BC",
+  "location": {
+    "latitude": 24.883,
+    "longitude": 10.333,
+    "modernLabel": "Takarkori rock shelter, Tadrart Acacus, southwest Libya",
+    "coordinateMeaning": "An evidence-rich rock-shelter and wadi locality, not a proxy for every point in the Sahara."
+  },
+  "temporal": {
+    "inputLabel": "6000 BC",
+    "engineYear": -6000,
+    "localTimeInput": "08:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Approximately 7.95 ka cal BP, within Early Pastoral EP1 at 8.3 to 7.6 ka cal BP or 6400 to 5700 BC.",
+    "neighbourLabels": [
+      "9000 BC",
+      "3000 BC"
+    ],
+    "precisionBoundary": "The calibrated phase supports early pastoral site use, not an exact day, herd count, shoreline, rainfall total, camp layout, or full cattle-dairying tableau."
+  },
+  "habitation": {
+    "expected": "sparse",
+    "evidence": "The requested date falls within Early Pastoral EP1. Rock-shelter use, hearths, decorated pottery, and domestic sheep, goat, and cattle are attested from this phase.",
+    "qualification": "Sparse early pastoral site use is defensible. Fully cattle-centred dairying is attested only later, around 7.1 ka cal BP."
+  },
+  "viewpoint": {
+    "support": "Bedrock, shelter floor, or sedimentary wadi ground compatible with the archaeological locality.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "modern dune crest unrelated to the site",
+      "the centre of a palaeolake",
+      "dense urban street",
+      "a rainforest canopy"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The central Sahara remained green and wet relative to today, while post-8.2 ka water bodies and wet habitats were smaller, more seasonal, and mixed with increasingly open vegetation.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Rock and wadi ground sit inside a mixed grass, shrub, wetland, and open-savanna mosaic whose water relation feels seasonal rather than uniformly lush.",
+      "sourceIds": [
+        "SAH-S1"
+      ]
+    },
+    {
+      "claim": "The requested date falls within Early Pastoral EP1, with rock-shelter occupation, hearths, decorated pottery, and domestic sheep, goat, and cattle attested from the phase.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A few people performing early pastoral shelter work with restrained livestock, hearth, and pottery material are defensible.",
+      "sourceIds": [
+        "SAH-S2"
+      ]
+    },
+    {
+      "claim": "Water bodies recovered and spread after the 8.2 ka event, while local wet habitats remained seasonally unstable and the studied palaeolake lay kilometres from the shelter.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Seasonal water can shape the wider distance and ecology while the shelter foreground remains rock, sediment, plant, and camp ground.",
+      "sourceIds": [
+        "SAH-S2"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make the landscape a heterogeneous humid-phase grass, shrub, rock, wadi, and water mosaic.",
+    "Use small-scale early pastoral activity, restrained livestock, hearth, and decorated pottery rather than dense settlement.",
+    "Keep the water relation spatially honest: nearby in the system, not invented at the optic.",
+    "Use rock, sediment, plant form, hearth, decorated pottery, and early domestic livestock at restrained scale.",
+    "Let the 9000, 6000, and 3000 BC cards change gradually rather than flipping between rainforest and modern desert."
+  ],
+  "oracleOnlyContradictions": [
+    "A modern hyperarid dune sea flattens the African Humid Period.",
+    "A uniform rainforest canopy overstates the evidence.",
+    "A dense permanent town or state monument exceeds the site record.",
+    "A lake at the shelter entrance moves a water body documented kilometres away.",
+    "A fully cattle-centred dairying tableau imports a development attested roughly 850 years later."
+  ],
+  "sources": [
+    {
+      "id": "SAH-S1",
+      "title": "African Humid Period precipitation sustained by vegetation, soil, and lake feedbacks",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL088728",
+      "authority": "primary-research",
+      "supports": [
+        "mid-Holocene green-Sahara vegetation class",
+        "shrubs, grasses, steppe, and savanna",
+        "regional humid-period mechanism"
+      ]
+    },
+    {
+      "id": "SAH-S2",
+      "title": "Aquatic fauna from Takarkori reveals Holocene central Saharan climate and palaeohydrography",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228588",
+      "authority": "primary-research",
+      "supports": [
+        "EP1 calibrated range",
+        "early pastoral site material and domestic livestock",
+        "later full cattle and dairying chronology",
+        "aquatic remains and seasonal water history"
+      ]
+    },
+    {
+      "id": "SAH-S3",
+      "title": "Takarkori palaeoenvironment and Holocene cultural sequence",
+      "url": "https://digitalcommons.usf.edu/kip_articles/5196/",
+      "authority": "primary-research",
+      "supports": [
+        "water-body recovery after 8.2 ka",
+        "mixed and increasingly open vegetation",
+        "palaeolake relation"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Calibrated phase ranges are maximum spans and can overlap statistically.",
+    "Whether the shelter was occupied on the unspecified day.",
+    "Local vegetation density, lake extent, rainfall, and species abundance.",
+    "Exact season and condition of any hearth, structure, pottery, or livestock.",
+    "Whether cattle, sheep, and goat all enter one ordinary frame."
+  ],
+  "generationExclusions": [
+    "modern dune sea",
+    "rainforest canopy",
+    "dense city",
+    "monumental state architecture",
+    "lake at the shelter mouth",
+    "large cattle herd",
+    "full cattle dairying tableau"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The EP1 date, early pastoral material, livestock boundary, and seasonal humid-phase context are source-checked; exact scene composition remains bounded inference."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "AP11-1969",
+  "track": "precision-stop",
+  "label": "Apollo 11 launch at Pad 39A with year-and-hour input",
+  "location": {
+    "latitude": 28.6084,
+    "longitude": -80.6042,
+    "modernLabel": "Launch Pad 39A, Kennedy Space Center, Florida",
+    "coordinateMeaning": "The launch-pad coordinate, not a camera position on the flame trench or a spectator grandstand."
+  },
+  "temporal": {
+    "inputLabel": "1969 AD",
+    "engineYear": 1969,
+    "localTimeInput": "09:00 local hour, calendar day unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "NASA establishes the exact Apollo 11 launch at July 16, 1969, 09:32 EDT; the product input supplied here does not.",
+    "neighbourLabels": [],
+    "precisionBoundary": "A year and recurring clock hour cannot select a unique 32-minute event on one calendar day."
+  },
+  "habitation": {
+    "expected": "event",
+    "evidence": "NASA documents crew, launch personnel, and distant spectators for the exact launch event.",
+    "qualification": "Event presence is conditional on the full date. It is not the default habitation of every 09:00 hour in 1969."
+  },
+  "viewpoint": {
+    "support": "A declared standoff observer position or an explicit virtual aperture.",
+    "cameraRelation": "standoff",
+    "invalidAlternatives": [
+      "the launch pad beside an igniting Saturn V",
+      "inside a restricted service structure",
+      "a modern Pad 39A configuration"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Apollo 11 launched from Pad 39A on July 16, 1969 at 09:32 EDT.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "This exact event becomes renderable only when its full date is supplied or explicitly selected.",
+      "sourceIds": [
+        "AP11-S1",
+        "AP11-S2"
+      ]
+    },
+    {
+      "claim": "Historical public and press viewing occurred roughly three and a half miles from the pad.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A sourced launch view is a distant standoff composition, not a casual camera beside the rocket.",
+      "sourceIds": [
+        "AP11-S2"
+      ]
+    },
+    {
+      "claim": "Pad 39A and its 1969 launch infrastructure differ from the modern pad.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "A generic current photograph of Pad 39A is not a safe historical substitute.",
+      "sourceIds": [
+        "AP11-S1"
+      ]
+    }
+  ],
+  "obligations": [
+    "Surface the missing calendar date before claiming the Apollo 11 liftoff.",
+    "Offer a broad 1969 launch-complex interpretation or request the full date rather than manufacturing event precision.",
+    "If the full date is later supplied, use a standoff launch view and retain the 1969 pad configuration.",
+    "Keep the launch distinct from the lunar landing."
+  ],
+  "oracleOnlyContradictions": [
+    "The exact NASA timestamp is canonical metadata but is absent from the user's year-and-hour input.",
+    "A Saturn V ignition plume at every 09:00 hour in 1969 is unsupported.",
+    "Modern Pad 39A hardware is not 1969 evidence.",
+    "A launch-pad camera next to the firing vehicle is not the documented observer footing."
+  ],
+  "sources": [
+    {
+      "id": "AP11-S1",
+      "title": "NASA - Apollo 11 Mission Overview",
+      "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+      "authority": "official-agency",
+      "supports": [
+        "launch date",
+        "launch time",
+        "Pad 39A",
+        "Saturn V identifier"
+      ]
+    },
+    {
+      "id": "AP11-S2",
+      "title": "NASA - Apollo 11 historical log",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/ap11ann/apollo11_log/log.htm",
+      "authority": "official-agency",
+      "supports": [
+        "09:32 EDT launch",
+        "spectator standoff",
+        "launch sequence",
+        "historical place naming"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "The actual scene at 09:00 on an unspecified 1969 day.",
+    "Which ground assets occupied the frame outside the documented launch event.",
+    "Weather, crowd, and vehicle state without the date."
+  ],
+  "generationExclusions": [
+    "liftoff flame",
+    "launch plume",
+    "Apollo 11 crowd",
+    "July 16",
+    "09:32",
+    "modern SpaceX hardware"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "NASA date, time, pad, and standoff facts were checked directly. This card is intentionally a product-scope stop rather than a normal visual score."
+  }
+}

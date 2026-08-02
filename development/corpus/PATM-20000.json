@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PATM-20000",
+  "track": "palaeoenvironment",
+  "label": "Southern Patagonia fixed-coordinate contrast, PATICE 20 ka BP slice",
+  "location": {
+    "latitude": -52.3480134993,
+    "longitude": -74.2659628698,
+    "modernLabel": "PATICE southern fixed-coordinate contrast point",
+    "coordinateMeaning": "The same fixed point used in PATM-25000 and PATM-15000, preserving the world-coordinate comparison."
+  },
+  "temporal": {
+    "inputLabel": "20 ka BP, approximately 18050 BC",
+    "engineYear": -18050,
+    "localTimeInput": "10:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Published PATICE 20 ka reconstruction slice and point-in-polygon membership.",
+    "neighbourLabels": [
+      "25 ka BP",
+      "15 ka BP"
+    ],
+    "precisionBoundary": "The slice supports ice-sheet membership and broad retreat context, not an exact annual ice surface, storm, snow state, or flow geometry."
+  },
+  "habitation": {
+    "expected": "uninhabited",
+    "evidence": "The point remains inside reconstructed ice at 20 ka BP and predates the cited Southern Cone occupation horizon.",
+    "qualification": "The card makes a local ice-interior claim, not a universal claim about all Patagonia."
+  },
+  "viewpoint": {
+    "support": "Patagonian Ice Sheet surface at a point approximately 43.5 kilometres from the nearest reconstructed 20 ka margin.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "exposed foreland",
+      "modern island shore",
+      "fjord water",
+      "lateral moraine beside a valley glacier"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The point intersects the official PATICE Icesheet20ka reconstruction polygon.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The comparison remains on ice at 20 ka BP even though the reconstructed margin has moved closer.",
+      "sourceIds": [
+        "PATM-S1",
+        "PATM-S2"
+      ]
+    },
+    {
+      "claim": "The point is approximately 43.5 kilometres from the nearest reconstructed 20 ka margin in the source projection.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The view is still an interior-ice composition, with any margin kept outside the visible claim unless a compatible sightline is separately established.",
+      "sourceIds": [
+        "PATM-S2"
+      ]
+    },
+    {
+      "claim": "The reconstruction supports regional change between slices while leaving local surface form unresolved.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "Temporal difference should arise from defensible ice-surface and atmospheric choices without inventing exposed land at the point.",
+      "sourceIds": [
+        "PATM-S1",
+        "PATM-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Keep the fixed optic on ice.",
+    "Preserve the same coordinate, hour, medium, and frame geometry used at 25 ka.",
+    "Let the known closer margin influence only claims the sightline and source can support.",
+    "Treat exact surface relief, snow, and weather as bounded inference."
+  ],
+  "oracleOnlyContradictions": [
+    "The 20 ka polygon still contains the point.",
+    "A deglaciated shore, soil foreground, forest, or open water at the optic is unsupported.",
+    "A visible margin is not guaranteed merely because its nearest mapped point is 43.5 kilometres away.",
+    "Exact local ice geometry is not encoded by polygon membership."
+  ],
+  "sources": [
+    {
+      "id": "PATM-S1",
+      "title": "The evolution of the Patagonian Ice Sheet from 35 ka to the present day",
+      "url": "https://researchportal.port.ac.uk/en/publications/the-evolution-of-the-patagonian-ice-sheet-from-35-ka-to-the-prese/",
+      "authority": "primary-research",
+      "supports": [
+        "PATICE reconstruction method",
+        "20 ka slice",
+        "regional retreat chronology"
+      ]
+    },
+    {
+      "id": "PATM-S2",
+      "title": "PATICE supplementary reconstruction shapefiles, version 2",
+      "url": "https://data.mendeley.com/datasets/rjnw46vbdw/2",
+      "authority": "primary-research",
+      "supports": [
+        "Icesheet20ka polygon membership",
+        "source projection",
+        "distance from reconstructed margin"
+      ]
+    },
+    {
+      "id": "PATM-S3",
+      "title": "PATICE official reconstruction overview",
+      "url": "https://www.antarcticglaciers.org/glacial-geology/patagonian-ice-sheet/patice/",
+      "authority": "authoritative-synthesis",
+      "supports": [
+        "time-slice interpretation",
+        "reconstruction limitations"
+      ]
+    },
+    {
+      "id": "PATM-S4",
+      "title": "The arrival of Homo sapiens into the Southern Cone at 14,000 years ago",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0162870",
+      "authority": "primary-research",
+      "supports": [
+        "regional occupation chronology"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact 20 ka ice-surface elevation, slope, snow state, crevassing, weather, and season.",
+    "Whether the nearest reconstructed margin is visible from the chosen optic.",
+    "The reconstruction margin confidence is segment-specific; no confidence class is inferred for this interior point.",
+    "Calendar conversion uses BP relative to 1950 and is approximate at this visual scale."
+  ],
+  "generationExclusions": [
+    "deglaciated shore",
+    "soil foreground",
+    "forest",
+    "open water at the optic",
+    "lateral moraine",
+    "human figure"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "Point-in-polygon and nearest-margin calculations were recorded from the official PATICE version-2 reconstruction shapefiles."
+  }
+}
+

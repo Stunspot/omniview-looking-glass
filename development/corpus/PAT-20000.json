@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PAT-20000",
+  "track": "palaeoenvironment",
+  "label": "North Patagonian Ice Sheet interior, 20,000 BC",
+  "location": {
+    "latitude": -46.8,
+    "longitude": -73.5,
+    "modernLabel": "North Patagonian Icefield interior test coordinate",
+    "coordinateMeaning": "A deliberately ice-borne sentinel. Public PATICE layers place the point inside the reconstructed 35 ka and 15 ka ice polygons and inside the mapped modern glacier layer."
+  },
+  "temporal": {
+    "inputLabel": "20000 BC",
+    "engineYear": -20000,
+    "localTimeInput": "10:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Approximately 21.95 ka calendar BP, within a broad interval of ice-marginal stabilisation and well before rapid regional deglaciation.",
+    "neighbourLabels": [
+      "26000 BC",
+      "14000 BC"
+    ],
+    "precisionBoundary": "PATICE reconstructions are millennial map slices. They do not establish an exact annual surface elevation, snow state, weather event, or ice velocity."
+  },
+  "habitation": {
+    "expected": "uninhabited",
+    "evidence": "The selected coordinate is on glacier ice and predates source-backed Southern Cone occupation evidence by millennia.",
+    "qualification": "Archaeological non-evidence is not a universal proof about all Patagonia, but no human presence is defensible at this ice-interior coordinate."
+  },
+  "viewpoint": {
+    "support": "The surface of the Patagonian Ice Sheet.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "lateral moraine beside a valley glacier",
+      "modern lake shore",
+      "exposed boulder field",
+      "Holocene forest floor"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The Patagonian Ice Sheet remained extensive around the requested interval, with stabilisation around 21 to 18 ka before rapid deglaciation.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The scene is an ice-sheet surface, not the modern valley-glacier and moraine composition suggested by today's landscape.",
+      "sourceIds": [
+        "PAT-S1",
+        "PAT-S2"
+      ]
+    },
+    {
+      "claim": "The selected point intersects public PATICE ice polygons at 35 ka and 15 ka and the modern glacier polygon.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The optic stands on ice at this sentinel; moraine, shore, and exposed foreland are not viable support.",
+      "sourceIds": [
+        "PAT-S2"
+      ]
+    },
+    {
+      "claim": "The earliest cited Southern Cone occupation evidence is around 14 ka calendar BP, much later than the requested approximately 21.95 ka calendar BP.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Human activity is not recruited to animate the frame.",
+      "sourceIds": [
+        "PAT-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Put the optic on glacier ice and make that support legible.",
+    "Build the event from ice surface, snow, wind, cloud, crevasse geometry, light, and scale.",
+    "Keep exposed moraine, modern shore, soil, forest, and settlement out of the generation language.",
+    "Treat exact snow texture, weather, and ice topography as plausible atmosphere rather than dated fact.",
+    "Use PATM-25000, PATM-20000, and PATM-15000 for the fixed-coordinate margin contrast."
+  ],
+  "oracleOnlyContradictions": [
+    "A lateral moraine or boulder foreground cannot support the camera at this ice-interior coordinate.",
+    "A modern lake shore or present valley geometry post-dates deglaciation.",
+    "Human figures, camps, roads, and Holocene forest are unsupported.",
+    "A cosmogenic age, pollen signal, or mapped ice boundary is oracle metadata, not a visible label."
+  ],
+  "sources": [
+    {
+      "id": "PAT-S1",
+      "title": "The evolution of the Patagonian Ice Sheet from 35 ka to the present day",
+      "url": "https://researchportal.port.ac.uk/en/publications/the-evolution-of-the-patagonian-ice-sheet-from-35-ka-to-the-prese/",
+      "authority": "primary-research",
+      "supports": [
+        "PATICE time slices",
+        "maximum and retreat chronology",
+        "21 to 18 ka stabilisation",
+        "15 ka fragmentation"
+      ]
+    },
+    {
+      "id": "PAT-S2",
+      "title": "PATICE public interactive map and reconstruction layers",
+      "url": "https://ncluni.maps.arcgis.com/apps/webappviewer/index.html?id=5d87e86761f14279b203a75ad8f31d22",
+      "authority": "authoritative-synthesis",
+      "supports": [
+        "point-in-polygon checks at longitude -73.5, latitude -46.8",
+        "35 ka ice",
+        "15 ka ice",
+        "modern mapped glacier"
+      ]
+    },
+    {
+      "id": "PAT-S3",
+      "title": "The arrival of Homo sapiens into the Southern Cone at 14,000 years ago",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0162870",
+      "authority": "primary-research",
+      "supports": [
+        "source-backed Southern Cone occupation horizon"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact ice-surface elevation, crevassing, snow, cloud, and wind on the unspecified day.",
+    "Interpolation between published PATICE time slices.",
+    "Precise ice velocity and local accumulation.",
+    "The separate fixed-coordinate contrast uses published 25, 20, and 15 ka BP slices; it does not silently relabel them as 26000, 20000, and 14000 BC."
+  ],
+  "generationExclusions": [
+    "lateral moraine",
+    "boulder field",
+    "modern lake shore",
+    "forest",
+    "human camp",
+    "road",
+    "valley-glacier overlook"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "notes": "The sentinel remains a deliberately ice-borne composition. The separate PATM series now carries the source-resolved fixed-coordinate transition."
+  }
+}

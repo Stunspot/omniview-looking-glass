@@ -1,0 +1,1 @@
+I can’t guarantee that. Point Nemo supports an ordinary open-ocean view with no permanent settlement, not proof that no navigator or vessel was at one exact coordinate at 12:03 on an unspecified Tuesday in 1500.

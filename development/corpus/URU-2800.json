@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "URU-2800",
+  "track": "precision-stop",
+  "label": "Uruk Early Dynastic transition around 2800 BC",
+  "location": {
+    "latitude": 31.3245,
+    "longitude": 45.6388,
+    "modernLabel": "Uruk, modern Warka, Iraq",
+    "coordinateMeaning": "The same broad archaeological-site centre used by URU-3200; it is not a phase-resolved Early Dynastic street or building footprint."
+  },
+  "temporal": {
+    "inputLabel": "2800 BC",
+    "engineYear": -2800,
+    "localTimeInput": "07:00 local hour, calendar day unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "A continuously inhabited Early Dynastic transition and expanding city-state context after the strong 3200 BC Late Uruk horizon.",
+    "neighbourLabels": [
+      "3200 BC",
+      "3500 BC"
+    ],
+    "precisionBoundary": "The sources explicitly leave the processes and suitable site levels for 3100 to 2800 BC poorly understood; exact density, footprint, precinct layout, wall state, and population are unresolved."
+  },
+  "habitation": {
+    "expected": "indeterminate",
+    "evidence": "Uruk remained inhabited and important into the Early Dynastic city-state horizon.",
+    "qualification": "The corpus does not earn a precise settled-versus-dense score or a controlled street composition for the exact 2800 BC label."
+  },
+  "viewpoint": {
+    "support": "A provisional urban exterior on compacted earth or mudbrick-compatible material, pending phase-resolved spatial evidence.",
+    "cameraRelation": "indeterminate",
+    "invalidAlternatives": [
+      "a guaranteed completed city wall",
+      "a named palace or sanctuary plan",
+      "a modern excavation trench",
+      "a copied 3200 BC street"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The requested label belongs to the Early Dynastic transition after Uruk's strong Late Uruk urban horizon.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "An inhabited city-state context is defensible at broad scale, while exact street and density remain withheld.",
+      "sourceIds": [
+        "URU28-S1",
+        "URU28-S3"
+      ]
+    },
+    {
+      "claim": "The growth process and suitable site levels between about 3100 and 2800 BC are poorly understood in the cited urban study.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The comparison cannot honestly score precise built expansion or precinct geometry at 2800 BC.",
+      "sourceIds": [
+        "URU28-S2"
+      ]
+    },
+    {
+      "claim": "The Met places the broad wall-building horizon between 2900 and 2350 BC rather than fixing its complete visible state at 2800 BC.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A completed massive wall is not mandatory scenery for the exact card.",
+      "sourceIds": [
+        "URU28-S1"
+      ]
+    }
+  ],
+  "obligations": [
+    "Treat continued habitation and city-state transition as broad context.",
+    "Withhold exact population, site area, precinct plan, built density, and wall completion.",
+    "Keep the view visibly distinct from 3200 BC only after a phase-resolved source supplies the mechanism.",
+    "Return source-unavailable for a scored three-stop comparison until the 2800 BC spatial gap is closed."
+  ],
+  "oracleOnlyContradictions": [
+    "The exact processes underlying 3100 to 2800 BC growth are poorly resolved.",
+    "The broad wall horizon does not prove a completed wall in every 2800 BC frame.",
+    "A copied 3200 BC cultic-administrative scene is not a demonstrated 2800 BC difference.",
+    "The site-centre pin is not a phase-resolved street."
+  ],
+  "sources": [
+    {
+      "id": "URU28-S1",
+      "title": "The Metropolitan Museum of Art - Uruk: The First City",
+      "url": "https://www.metmuseum.org/essays/uruk-the-first-city",
+      "authority": "official-museum",
+      "supports": [
+        "continued Early Dynastic importance",
+        "broad 2900 to 2350 BC wall horizon",
+        "around-3200 BC contrast"
+      ]
+    },
+    {
+      "id": "URU28-S2",
+      "title": "Urban growth and early city formation at Uruk",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00438243.2019.1592018",
+      "authority": "primary-research",
+      "supports": [
+        "continued expansion",
+        "3100 to 2800 BC evidence gap",
+        "limits of phase-resolved spatial reconstruction"
+      ]
+    },
+    {
+      "id": "URU28-S3",
+      "title": "ORACC overview of Mesopotamian historical chronology",
+      "url": "https://oracc.museum.upenn.edu/amgg/Mesopotamianhistory/index.html",
+      "authority": "authoritative-synthesis",
+      "supports": [
+        "Early Dynastic transition",
+        "relative chronology caution"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Site area, population, density, street plan, precinct layout, wall state, and ordinary material at the requested label.",
+    "Exact relation between relative archaeological phases and 2800 BC.",
+    "Camera support at the broad site-centre pin."
+  ],
+  "generationExclusions": [
+    "completed city wall",
+    "exact population",
+    "exact site area",
+    "named palace",
+    "named sanctuary plan",
+    "copied 3200 BC scene",
+    "phase-resolved street"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The card deliberately stops scored comparison because the current corpus does not resolve a controlled 2800 BC spatial state."
+  }
+}
+

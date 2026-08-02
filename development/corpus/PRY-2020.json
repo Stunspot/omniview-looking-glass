@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "PRY-2020",
+  "track": "recorded-history",
+  "label": "Pripyat in 2020",
+  "location": {
+    "latitude": 51.4,
+    "longitude": 30.05,
+    "modernLabel": "Pripyat, Chornobyl Exclusion Zone, Ukraine",
+    "coordinateMeaning": "A city-centre pin, not Reactor 4, the Chornobyl plant, or a particular building interior."
+  },
+  "temporal": {
+    "inputLabel": "2020 AD",
+    "engineYear": 2020,
+    "localTimeInput": "14:00 local hour, calendar day unspecified",
+    "inputResolution": "year",
+    "supportedResolution": "Broad 2020 post-evacuation urban condition.",
+    "neighbourLabels": [
+      "1985 AD"
+    ],
+    "precisionBoundary": "The year does not establish season, fire conditions, access event, weather, or a person's presence at the chosen street."
+  },
+  "habitation": {
+    "expected": "traces-only",
+    "evidence": "The resident population was evacuated in 1986 and the town remained essentially uninhabited while some facilities and areas saw temporary official use.",
+    "qualification": "Traces-only means no ordinary resident street life. It does not prove that no authorized visitor, researcher, or worker could appear anywhere in the city."
+  },
+  "viewpoint": {
+    "support": "A street-level exterior on pavement or an open civic space.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "Reactor 4",
+      "unsafe interior",
+      "roof or basement",
+      "an unspecified radiation hot spot"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "Pripyat's resident population was evacuated in 1986 and normal urban habitation did not resume.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Built traces and weathering replace routine commerce, commuting, and maintained public life.",
+      "sourceIds": [
+        "PRY-S1"
+      ]
+    },
+    {
+      "claim": "Urban vegetation succession occupies pavement, lawns, groves, and street-side habitats.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Vegetation should read as ecologically differentiated encroachment rather than a single theatrical jungle layer.",
+      "sourceIds": [
+        "PRY-S2"
+      ]
+    },
+    {
+      "claim": "Some buildings, communications, and areas were used temporarily after evacuation.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "The card must not turn essentially uninhabited into a claim that human presence was impossible.",
+      "sourceIds": [
+        "PRY-S1",
+        "PRY-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Render post-Soviet urban fabric in a dated state of weathering and ecological succession.",
+    "Make abandoned human work and what has moved into it the scene's action.",
+    "Keep the default frame free of ordinary resident crowds and maintained commerce.",
+    "Use a street-level exterior unless a more precise, source-backed footing is supplied."
+  ],
+  "oracleOnlyContradictions": [
+    "Essentially uninhabited is not proof that no authorized person could be present.",
+    "The April 2020 exclusion-zone fires do not prove smoke or fire at an unspecified Pripyat view.",
+    "Reactor 4 is not at the city-centre coordinate.",
+    "A clean, maintained, populated town contradicts the post-evacuation state."
+  ],
+  "sources": [
+    {
+      "id": "PRY-S1",
+      "title": "IAEA EMRAS urban scenario for Pripyat",
+      "url": "https://www-ns.iaea.org/downloads/rw/projects/emras-urban-draft-pripyat-May06.pdf",
+      "authority": "official-agency",
+      "supports": [
+        "1986 evacuation",
+        "essentially uninhabited state",
+        "temporary post-accident use",
+        "urban environmental processes"
+      ]
+    },
+    {
+      "id": "PRY-S2",
+      "title": "Urban forest succession in abandoned Pripyat",
+      "url": "https://doi.org/10.1016/j.ufug.2015.09.009",
+      "authority": "primary-research",
+      "supports": [
+        "vegetation succession",
+        "street-side, grove, lawn, and pavement habitats"
+      ]
+    },
+    {
+      "id": "PRY-S3",
+      "title": "Chornobyl NPP - continuing decommissioning role",
+      "url": "https://www.chnpp.gov.ua/en/about",
+      "authority": "official-agency",
+      "supports": [
+        "official activity in the wider exclusion-zone system"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact 2020 condition of a particular building or street.",
+    "Vegetation density at the selected coordinate.",
+    "Whether an authorized person was present at the unspecified hour and day.",
+    "Local radiation conditions and access permissions."
+  ],
+  "generationExclusions": [
+    "ordinary commuters",
+    "open shops",
+    "maintained civic lawns",
+    "Reactor 4",
+    "guaranteed empty city"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The IAEA evacuation and urban-succession boundary is source-checked. Exact 2020 building-by-building and street-level condition remains unresolved."
+  }
+}

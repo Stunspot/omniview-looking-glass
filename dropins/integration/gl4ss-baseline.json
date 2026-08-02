@@ -1,0 +1,68 @@
+{
+  "sourceRepository": "https://github.com/elder-plinius/GL4SS",
+  "localControl": "E:\\Github\\GL4SS",
+  "commit": "ab4984597ecf3afbd8ea66309be5ed68ce429146",
+  "license": "AGPL-3.0-or-later",
+  "capturedAt": "2026-08-02",
+  "files": [
+    {
+      "path": "src/lib/openrouter.ts",
+      "bytes": 61144,
+      "sha256": "6f7f15fdf58543977d64632a0dda90ed20d411a552966b889c8223d0f2797c3e",
+      "seams": [
+        "buildSceneDirectionPrompt:400-586",
+        "parseHabitation:600-608",
+        "parseSceneDirection:626-679",
+        "generateSceneDirection:681-786"
+      ]
+    },
+    {
+      "path": "src/lib/promptcraft.ts",
+      "bytes": 49099,
+      "sha256": "3d585279cead87eb25cd86b5aea68c1829849b87dee465b5c9bf173390fad211",
+      "seams": [
+        "SceneDirection:66-129",
+        "buildPanelPrompt:549-784",
+        "buildImagePromptsFromDirection:811-830"
+      ]
+    },
+    {
+      "path": "src/lib/promptTemplate.ts",
+      "bytes": 12094,
+      "sha256": "9efcc927c87c8b45cb54666c08a07f22c727965fa649ed743172cfc17be93e27",
+      "seams": [
+        "PromptFields:54-110",
+        "DEFAULT_IMAGE_TEMPLATE:165-179",
+        "LEGACY_IMAGE_TEMPLATES:197-222",
+        "fillTemplate:228-246"
+      ]
+    },
+    {
+      "path": "src/portal/Portal.tsx",
+      "bytes": 61935,
+      "sha256": "234ad3d79896b3b49d3f62fac384eeacedc5db1ee6e3e44f2698a3868bed035e",
+      "seams": [
+        "template migration and validation:364-399"
+      ]
+    },
+    {
+      "path": "src/portal/lib/engine.ts",
+      "bytes": 35394,
+      "sha256": "499036034267d91f5bec351a95a71ebeb315eea4e7ded0c3d135796dcb8eafc7",
+      "seams": [
+        "only planner call:703-718",
+        "fallback degradation notice:723-729"
+      ]
+    }
+  ],
+  "contract": {
+    "plannerCalls": 1,
+    "sceneDirectionSchemaChange": false,
+    "providerChange": false,
+    "engineChange": false,
+    "storageChange": false,
+    "uiChange": false,
+    "customTemplatePreservationRequired": true,
+    "priorDefaultMustBecomeLegacy": true
+  }
+}

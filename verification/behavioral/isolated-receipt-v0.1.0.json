@@ -1,0 +1,53 @@
+{
+  "format": "omniview-behavioral-evidence/v1",
+  "run_id": "OV-ISOLATED-20260802-01",
+  "package_version": "0.1.0",
+  "execution_date": "2026-08-02",
+  "adapter": "Codex collaboration subagent",
+  "model_route": "gpt-5.6-terra",
+  "episode_shape": "Thirteen fresh subagents, one case per subagent, fork_turns=none.",
+  "context_boundary": "Each operator loaded the exact runtime SKILL.md and only the routed runtime references needed by its case. Operators did not receive the eval oracle, private source-card corpus, prior case outputs, builder history, browsing, image tools, providers, durable state, GL4SS runtime, or external-action authority. Normal harness-level system and workspace instructions remained present.",
+  "execution_claim": "Fresh single-case response behavior under this Codex collaboration harness. This is not installation, discovery, automatic activation, image generation, or another host's behavior.",
+  "runtime_hashes": {
+    "SKILL.md": "7ce4f1300a37dc169bb4c36bfd70374889c1bd8eb29097bdc6c6ba5f527d641c",
+    "references/grounding-and-precision.md": "4de4452dbd66e16b1eac6d50937511488b35bd6ec55bdc9d94cc3b71ce67a27f",
+    "references/wormhole-optics.md": "1f57ec38dc17ad63f05115ecaf64b89d693ba6ee1c6c4f5a195d37c15499c3a9",
+    "references/render-language.md": "32f82e908908491f57e88f468c9785460635c9f393a8c50d267b914fbae22eea",
+    "references/comparison-and-traversal.md": "a47998482f12f7db745345b4b05d0d34e20cbaa223789dec7d7e12d6b807689f",
+    "NOTICE.md": "56e80d9ea620f4798b9b599952e823a0a12b0e9bbf92c43cb476b79d5a84a59e",
+    "evals/omniview-cases.yaml": "7167b6c68789335cfd00895c548166a93eae40a9389235d07f93a7da7b2796d1",
+    "evals/eval-manifest.yaml": "cd8f63b727f5a27e6e4d5a12804d155cf07c4f763d4154ee38648530e8f43f69"
+  },
+  "environment_events": [
+    {
+      "case": "OV-PRECISION-NAP-001",
+      "attempt": "initial",
+      "status": "blocked",
+      "classification": "ENVIRONMENT_FAILURE",
+      "boundary": "The default read surface failed before dispatch because codex-windows-sandbox-setup.exe was missing.",
+      "accepted_as_case_output": false
+    },
+    {
+      "case": "OV-PRECISION-NAP-001",
+      "attempt": "retry",
+      "changed_premise": "The operator was explicitly authorized to use the available escalated read-only shell route for the exact runtime files.",
+      "status": "completed",
+      "accepted_as_case_output": true
+    }
+  ],
+  "cases": [
+    {"id": "OV-NEMO-PROMPT-001", "task": "iso2_nemo", "read_receipt": "READ_OK", "output": "raw/isolated-OV-NEMO-PROMPT-001.md"},
+    {"id": "OV-PRECISION-NAP-001", "task": "iso2_nap", "read_receipt": "READ_OK", "output": "raw/isolated-OV-PRECISION-NAP-001.md"},
+    {"id": "OV-URUK-DENSE-001", "task": "iso2_uruk", "read_receipt": "READ_OK", "output": "raw/isolated-OV-URUK-DENSE-001.md"},
+    {"id": "OV-PRIPYAT-COMPARE-001", "task": "iso2_pripyat", "read_receipt": "READ_OK", "output": "raw/isolated-OV-PRIPYAT-COMPARE-001.md"},
+    {"id": "OV-PATAGONIA-SUPPORT-001", "task": "iso2_patagonia", "read_receipt": "READ_OK", "output": "raw/isolated-OV-PATAGONIA-SUPPORT-001.md"},
+    {"id": "OV-SAHARA-HUMID-001", "task": "iso2_sahara", "read_receipt": "READ_OK", "output": "raw/isolated-OV-SAHARA-HUMID-001.md"},
+    {"id": "OV-FUTURE-SCENARIO-001", "task": "iso2_future", "read_receipt": "READ_OK", "output": "raw/isolated-OV-FUTURE-SCENARIO-001.md"},
+    {"id": "OV-APOLLO-EXACT-001", "task": "iso2_apollo", "read_receipt": "READ_OK", "output": "raw/isolated-OV-APOLLO-EXACT-001.md"},
+    {"id": "OV-RENDER-DEGRADE-001", "task": "iso2_render_degrade", "read_receipt": "READ_OK", "output": "raw/isolated-OV-RENDER-DEGRADE-001.md"},
+    {"id": "OV-TRAVERSE-AUTHORITY-001", "task": "iso2_traverse", "read_receipt": "READ_OK", "output": "raw/isolated-OV-TRAVERSE-AUTHORITY-001.md"},
+    {"id": "OV-STYLE-MEDIUM-001", "task": "iso2_style", "read_receipt": "READ_OK", "output": "raw/isolated-OV-STYLE-MEDIUM-001.md"},
+    {"id": "OV-GEOGRAPHY-CCTV-001", "task": "iso2_geography", "read_receipt": "READ_OK", "output": "raw/isolated-OV-GEOGRAPHY-CCTV-001.md"},
+    {"id": "OV-IDENTITY-001", "task": "iso2_identity", "read_receipt": "READ_OK", "output": "raw/isolated-OV-IDENTITY-001.md"}
+  ]
+}

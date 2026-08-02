@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "working_directory": "<candidate-gl4ss-root>",
+  "started_at": "2026-08-02T22:14:43.772335+00:00",
+  "finished_at": "2026-08-02T22:14:52.280930+00:00",
+  "duration_seconds": 8.508595,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "\n> lookingglass@0.0.0 build\n> tsc -b && vite build\n\n\u001b[36mvite v7.3.1 \u001b[32mbuilding client environment for production...\u001b[36m\u001b[39m\ntransforming...\n\u001b[32m✓\u001b[39m 66 modules transformed.\nrendering chunks...\ncomputing gzip size...\n\u001b[2mdist/\u001b[22m\u001b[32mindex.html                       \u001b[39m\u001b[1m\u001b[2m  2.67 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:   1.38 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[35massets/main-C2s5-9ow.css         \u001b[39m\u001b[1m\u001b[2m 84.98 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:  20.44 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[36massets/GlobeView-BLNv94jH.js     \u001b[39m\u001b[1m\u001b[2m  5.14 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip:   2.31 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[36massets/main-D-HD1-6o.js          \u001b[39m\u001b[1m\u001b[2m480.65 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m │ gzip: 154.96 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[36massets/three.module-PDSP0dbZ.js  \u001b[39m\u001b[1m\u001b[33m734.33 kB\u001b[39m\u001b[22m\u001b[2m │ gzip: 189.46 kB\u001b[22m\n\u001b[32m✓ built in 4.15s\u001b[39m\n",
+  "stderr": "\u001b[33m\n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\u001b[39m\n",
+  "status": "passed"
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0",
+  "root": "E:\\Github\\omniview-gl4ss-companion",
+  "package_managers": [],
+  "candidates": [
+    {
+      "framework": "unknown",
+      "language": "unknown",
+      "confidence": "low",
+      "command": null,
+      "evidence": [
+        "no supported framework signal found"
+      ]
+    }
+  ],
+  "warnings": []
+}

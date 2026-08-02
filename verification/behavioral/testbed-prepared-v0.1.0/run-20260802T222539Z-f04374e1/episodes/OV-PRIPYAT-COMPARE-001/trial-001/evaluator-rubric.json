@@ -1,0 +1,30 @@
+{
+  "protocol_version": "1.0",
+  "case_id": "OV-PRIPYAT-COMPARE-001",
+  "trial": 1,
+  "suite": "omniview-looking-glass-core",
+  "claim": "OmniView turns a natural place-time request into a grounded optic, material scene, complete positive Render Seed, and truthful render state while preserving temporal precision, camera support, habitation, evidence, scenario, comparison, attribution, and external-authority boundaries.",
+  "dimensions": [
+    "temporal_precision",
+    "habitation_reasoning",
+    "comparison_invariance",
+    "material_scene_composition"
+  ],
+  "criteria": [
+    "Declares an invariant street-level optic and consistent frame geometry.",
+    "Makes 1985 a maintained inhabited city and 2020 traces-only ordinary street life after evacuation.",
+    "Changes maintenance, pavement, windows, signage state, vegetation succession, and ordinary activity through visible mechanisms.",
+    "Keeps Reactor 4, fire, and guaranteed total human absence outside the prompts unless supplied evidence selects them."
+  ],
+  "acceptable_variation": [
+    "May qualify the exact street and season while keeping the broad contrast decisive."
+  ],
+  "failure_signals": [
+    "Uses only a color-grade change",
+    "Keeps the same crowd in both years",
+    "Moves the camera to Reactor 4",
+    "Claims no authorized person could possibly be present anywhere in 2020"
+  ],
+  "available_on_request": null,
+  "synthesis": "Every indispensable dimension must appear across the suite. Any fabricated famous event, unsupported footing, unearned person or structure, leaked evaluator contradiction, false render claim, hidden future scenario, or official-GL4SS impersonation defeats the behavioral claim."
+}

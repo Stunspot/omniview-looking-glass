@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "SAH-3000",
+  "track": "palaeoenvironment",
+  "label": "Takarkori Late Pastoral winter camp, 3000 BC",
+  "location": {
+    "latitude": 24.883,
+    "longitude": 10.333,
+    "modernLabel": "Takarkori rock shelter, Tadrart Acacus, southwest Libya",
+    "coordinateMeaning": "The same rock-shelter and wadi locality used by SAH-9000 and SAH-6000."
+  },
+  "temporal": {
+    "inputLabel": "3000 BC",
+    "engineYear": -3000,
+    "localTimeInput": "08:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Approximately 4.95 ka cal BP, within Late Pastoral LP1 at 5.9 to 4.3 ka cal BP or 3950 to 2350 BC.",
+    "neighbourLabels": [
+      "6000 BC",
+      "9000 BC"
+    ],
+    "precisionBoundary": "The phase supports brief winter camps and specialized herding, not an exact day, herd count, water level, camp layout, or named group."
+  },
+  "habitation": {
+    "expected": "sparse",
+    "evidence": "LP1 is associated with brief winter camps of nomadic specialized herders, with sheep and goat emphasis and a directly supported pen area.",
+    "qualification": "Sparse seasonal camp use is defensible; permanent village life and dense occupation are not."
+  },
+  "viewpoint": {
+    "support": "Rock-shelter floor, trampled camp ground, or wadi sediment near the supported pen area.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "permanent village street",
+      "dense cattle enclosure",
+      "lush lakeshore",
+      "modern dune crest"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The requested date falls within Late Pastoral LP1, associated with brief winter camps of specialized nomadic herders.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "A few herders and a compact seasonal work scene replace permanent settlement.",
+      "sourceIds": [
+        "SAH3-S1",
+        "SAH3-S2"
+      ]
+    },
+    {
+      "claim": "An animal-pen area, trampled ground, and thick hardened ovicaprine dung directly characterize the late sequence.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "Sheep or goat movement, compressed dusty ground, pen material, and dung carry the phase through ordinary pastoral work.",
+      "sourceIds": [
+        "SAH3-S1"
+      ]
+    },
+    {
+      "claim": "Water availability declined and became more seasonal, while local and regional water persisted variably.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "An aridifying grass-shrub and rock system with reduced seasonal water replaces the earlier humid abundance without collapsing into a guaranteed waterless modern desert.",
+      "sourceIds": [
+        "SAH3-S1",
+        "SAH3-S3"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make the scene a sparse seasonal pastoral camp rather than a village.",
+    "Use sheep or goat work, pen wear, trampled ground, and dung as phase-bearing material.",
+    "Show an aridifying, more open and seasonal water system while preserving uncertainty about exact local water.",
+    "Keep the same morning shelter optic used by the earlier cards."
+  ],
+  "oracleOnlyContradictions": [
+    "Dense permanent settlement exceeds the Late Pastoral camp evidence.",
+    "A vast cattle-centred dairying tableau is not the directly supported LP1 emphasis.",
+    "A universally waterless modern desert overstates the local chronology.",
+    "Exact herd size, camp plan, and water level are unresolved."
+  ],
+  "sources": [
+    {
+      "id": "SAH3-S1",
+      "title": "Aquatic fauna from Takarkori reveals Holocene central Saharan climate and palaeohydrography",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228588",
+      "authority": "primary-research",
+      "supports": [
+        "LP1 calibrated range",
+        "brief winter camps",
+        "sheep and goat emphasis",
+        "pen area and ovicaprine dung",
+        "declining fish proportion and water availability"
+      ]
+    },
+    {
+      "id": "SAH3-S2",
+      "title": "Bayesian chronology of the Takarkori archaeological sequence",
+      "url": "https://www.cambridge.org/core/journals/radiocarbon/article/abs/bayesian-approach-to-14c-dates-for-estimation-of-longterm-archaeological-sequences-in-arid-environments-the-holocene-site-of-takarkori-rockshelter-southwest-libya/D86A3CCECD523E9C6E47858E47CD1F61",
+      "authority": "primary-research",
+      "supports": [
+        "Late Pastoral phase range",
+        "long-term site chronology"
+      ]
+    },
+    {
+      "id": "SAH3-S3",
+      "title": "Takarkori palaeoenvironment and Holocene cultural sequence",
+      "url": "https://digitalcommons.usf.edu/kip_articles/5196/",
+      "authority": "primary-research",
+      "supports": [
+        "water-body history",
+        "late aridification context"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact local water body, season, rainfall, vegetation density, and weather.",
+    "Camp layout, herd size, garments, tools, and named group at the unspecified day.",
+    "The calibrated phase ranges are maximum spans and can overlap statistically."
+  ],
+  "generationExclusions": [
+    "dense village",
+    "monumental architecture",
+    "vast cattle herd",
+    "permanent lush lake",
+    "uniform modern dune sea",
+    "exact waterline"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "LP1 chronology, seasonal camp character, pen material, ovicaprine emphasis, and aridification are source-checked; exact scene detail remains bounded inference."
+  }
+}
+

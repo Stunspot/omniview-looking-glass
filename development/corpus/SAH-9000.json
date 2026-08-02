@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "caseId": "SAH-9000",
+  "track": "palaeoenvironment",
+  "label": "Takarkori before the measured occupation sequence, 9000 BC",
+  "location": {
+    "latitude": 24.883,
+    "longitude": 10.333,
+    "modernLabel": "Takarkori rock shelter, Tadrart Acacus, southwest Libya",
+    "coordinateMeaning": "The same shelter and wadi locality used by SAH-6000 and SAH-3000; the requested date predates the site's measured occupation sequence."
+  },
+  "temporal": {
+    "inputLabel": "9000 BC",
+    "engineYear": -9000,
+    "localTimeInput": "08:00 local hour, calendar day and season unspecified",
+    "inputResolution": "period",
+    "supportedResolution": "Approximately 10.95 ka cal BP, roughly 750 years before the earliest calibrated Takarkori occupation range.",
+    "neighbourLabels": [
+      "6000 BC",
+      "3000 BC"
+    ],
+    "precisionBoundary": "Nearby later evidence can bound a cautious humid-phase landscape, but it does not directly observe the shelter ecology or human use at 9000 BC."
+  },
+  "habitation": {
+    "expected": "uninhabited",
+    "evidence": "The requested date predates the earliest measured Takarkori occupation phase, LA1 at 10.2 to 9.4 ka cal BP or approximately 8250 to 7500 BC.",
+    "qualification": "Uninhabited is the ordinary evaluation default for the shelter optic, not proof that no person passed anywhere in the region."
+  },
+  "viewpoint": {
+    "support": "Bedrock, shelter floor, or wadi sediment at the archaeological locality.",
+    "cameraRelation": "physical-footing",
+    "invalidAlternatives": [
+      "occupied hut floor",
+      "pottery-bearing campsite",
+      "livestock pen",
+      "the centre of an assumed lake"
+    ]
+  },
+  "visibleGroundTruth": [
+    {
+      "claim": "The earliest calibrated Takarkori occupation phase begins after the requested date.",
+      "evidenceState": "source-backed",
+      "visualConsequence": "People, huts, pottery, hearths, grinding stones, and livestock are withheld from the site scene.",
+      "sourceIds": [
+        "SAH9-S1"
+      ]
+    },
+    {
+      "claim": "The earliest later record around 10.17 to 10.0 ka cal BP supports high water availability, freshwater habitats, grassland, and sparse wooded savanna.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "A pre-occupation rock shelter can sit above a patchy wetland, grass, shrub, and open-woodland system, explicitly treated as near-time inference.",
+      "sourceIds": [
+        "SAH9-S1",
+        "SAH9-S2"
+      ]
+    },
+    {
+      "claim": "The evidence does not resolve a local shoreline, plant density, species encounter, or rainfall event at 9000 BC.",
+      "evidenceState": "bounded-inference",
+      "visualConsequence": "The view uses a restrained humid-phase mosaic rather than an exact palaeolake or lush uniform biome."
+      ,
+      "sourceIds": [
+        "SAH9-S2"
+      ]
+    }
+  ],
+  "obligations": [
+    "Make the pre-occupation status visible through a complete physical landscape rather than later human material.",
+    "Label the humid grass, shrub, wetland, and sparse-woodland reconstruction as near-time bounded inference.",
+    "Keep water relation spatially cautious.",
+    "Preserve the same shelter coordinate and morning optic used by the later Sahara cards."
+  ],
+  "oracleOnlyContradictions": [
+    "The requested date predates the measured LA1 occupation range.",
+    "Pottery, huts, hearths, grinding stones, livestock, and human figures would import later site phases.",
+    "The near-time humid landscape is inference rather than a direct 9000 BC observation.",
+    "A lake at the shelter mouth is not established."
+  ],
+  "sources": [
+    {
+      "id": "SAH9-S1",
+      "title": "Aquatic fauna from Takarkori reveals Holocene central Saharan climate and palaeohydrography",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228588",
+      "authority": "primary-research",
+      "supports": [
+        "LA1 calibrated range",
+        "pre-occupation status at 9000 BC",
+        "later occupation materials",
+        "early humid water system"
+      ]
+    },
+    {
+      "id": "SAH9-S2",
+      "title": "Takarkori palaeoenvironment and Holocene cultural sequence",
+      "url": "https://digitalcommons.usf.edu/kip_articles/5196/",
+      "authority": "primary-research",
+      "supports": [
+        "first recognized occupation around 10.17 ka cal BP",
+        "high water availability",
+        "freshwater habitats",
+        "grassland and sparse wooded savanna"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Exact local land cover, water position, plant density, rainfall, weather, and season at 9000 BC.",
+    "Whether any person passed through the wider region despite the later measured site sequence.",
+    "The near-time environmental analogy spans several centuries."
+  ],
+  "generationExclusions": [
+    "human figure",
+    "hut",
+    "pottery",
+    "hearth",
+    "grinding stone",
+    "livestock",
+    "animal pen",
+    "lake at the shelter mouth"
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewedAt": "2026-08-02T00:00:00Z",
+    "notes": "The calibrated occupation ranges support a pre-occupation card. Environmental content is explicitly downgraded to near-time bounded inference."
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "omniview-looking-glass",
+  "interface": {
+    "displayName": "OmniView - The Looking Glass Companion"
+  },
+  "plugins": [
+    {
+      "name": "omniview-looking-glass",
+      "source": {
+        "source": "local",
+        "path": "./plugins/omniview-looking-glass"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+

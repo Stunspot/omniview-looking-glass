@@ -1,0 +1,312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://collaborative-dynamics.example/schemas/omniview-source-card.schema.json",
+  "title": "OmniView frozen source card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "caseId",
+    "track",
+    "label",
+    "location",
+    "temporal",
+    "habitation",
+    "viewpoint",
+    "visibleGroundTruth",
+    "obligations",
+    "oracleOnlyContradictions",
+    "sources",
+    "uncertainty"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "caseId": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+    },
+    "track": {
+      "enum": [
+        "recorded-history",
+        "palaeoenvironment",
+        "geographic-sentinel",
+        "precision-stop",
+        "scenario-stop"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "latitude",
+        "longitude",
+        "modernLabel",
+        "coordinateMeaning"
+      ],
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "modernLabel": {
+          "type": "string"
+        },
+        "coordinateMeaning": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "temporal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inputLabel",
+        "inputResolution",
+        "supportedResolution",
+        "neighbourLabels",
+        "precisionBoundary"
+      ],
+      "properties": {
+        "inputLabel": {
+          "type": "string"
+        },
+        "engineYear": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "The GL4SS numeric year convention: positive for AD labels and negative for BC labels."
+        },
+        "localTimeInput": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The user-selected local hour or day phase, without implying a calendar day."
+        },
+        "inputResolution": {
+          "enum": [
+            "year",
+            "full-date",
+            "period",
+          "scenario"
+        ]
+        },
+        "supportedResolution": {
+          "type": "string"
+        },
+        "neighbourLabels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 4
+        },
+        "precisionBoundary": {
+          "type": "string"
+        }
+      }
+    },
+    "habitation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "expected",
+        "evidence",
+        "qualification"
+      ],
+      "properties": {
+        "expected": {
+          "enum": [
+            "uninhabited",
+            "traces-only",
+            "sparse",
+            "settled",
+            "dense",
+            "event",
+            "indeterminate"
+          ]
+        },
+        "evidence": {
+          "type": "string"
+        },
+        "qualification": {
+          "type": "string"
+        }
+      }
+    },
+    "viewpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "support",
+        "cameraRelation",
+        "invalidAlternatives"
+      ],
+      "properties": {
+        "support": {
+          "type": "string"
+        },
+        "cameraRelation": {
+          "enum": [
+            "physical-footing",
+            "afloat",
+            "virtual-aperture",
+            "standoff",
+            "indeterminate"
+          ]
+        },
+        "invalidAlternatives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "visibleGroundTruth": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "evidenceState",
+          "visualConsequence",
+          "sourceIds"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "evidenceState": {
+            "enum": [
+              "source-backed",
+              "bounded-inference",
+              "scenario"
+            ]
+          },
+          "visualConsequence": {
+            "type": "string"
+          },
+          "sourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "obligations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "oracleOnlyContradictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Negative or contradiction facts used by evaluators. These never enter generation prompts."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "url",
+          "authority",
+          "supports"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "authority": {
+            "enum": [
+              "primary-research",
+              "official-agency",
+              "official-museum",
+              "primary-text",
+              "authoritative-synthesis"
+              ,
+              "scenario-canon"
+            ]
+          },
+          "supports": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "generationExclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optional build-time list used to ensure oracle-only contradiction nouns never leak into generated prompts."
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "source-checked",
+            "domain-reviewed",
+            "frozen"
+          ]
+        },
+        "reviewedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

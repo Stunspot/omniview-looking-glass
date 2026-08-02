@@ -1,0 +1,39 @@
+{
+  "format_version": "1.0",
+  "root": "E:\\Github\\omniview-gl4ss-companion",
+  "file_count": 98,
+  "languages": [
+    {
+      "name": "TypeScript",
+      "files": 33
+    },
+    {
+      "name": "Python",
+      "files": 2
+    },
+    {
+      "name": "JavaScript",
+      "files": 1
+    }
+  ],
+  "manifests": [
+    ".work/GL4SS/package-lock.json",
+    ".work/GL4SS/package.json"
+  ],
+  "test_directories": [
+    "dropins/tests"
+  ],
+  "test_files": [
+    "dropins/tests/verify-candidate.mjs"
+  ],
+  "test_file_count": 1,
+  "config_files": [
+    ".work/GL4SS/eslint.config.js",
+    ".work/GL4SS/tsconfig.app.json",
+    ".work/GL4SS/tsconfig.json",
+    ".work/GL4SS/tsconfig.node.json",
+    ".work/GL4SS/vite.config.ts"
+  ],
+  "ci_files": [],
+  "warnings": []
+}

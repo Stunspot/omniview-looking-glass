@@ -1,0 +1,26 @@
+{
+  "protocol_version": "1.0",
+  "case_id": "OV-STYLE-MEDIUM-001",
+  "trial": 1,
+  "suite": "omniview-looking-glass-core",
+  "claim": "OmniView turns a natural place-time request into a grounded optic, material scene, complete positive Render Seed, and truthful render state while preserving temporal precision, camera support, habitation, evidence, scenario, comparison, attribution, and external-authority boundaries.",
+  "dimensions": [
+    "material_scene_composition",
+    "positive_render_language"
+  ],
+  "criteria": [
+    "Preserves the grounded Uruk scene while replacing photographic capture language with tempera pigment, plaster tooth, edge, layering, and monumental composition behavior.",
+    "Keeps material action, habitation, date-bearing evidence, depth, and light coherent in the new medium.",
+    "Avoids contradictory camera-stock, lens, or photorealistic quality language."
+  ],
+  "acceptable_variation": [
+    "May retain viewpoint and framing language that also applies to painting."
+  ],
+  "failure_signals": [
+    "Appends 'tempera style' to an otherwise photographic prompt",
+    "Drops the historical and spatial content",
+    "Combines incompatible photographic capture and painted-surface instructions"
+  ],
+  "available_on_request": null,
+  "synthesis": "Every indispensable dimension must appear across the suite. Any fabricated famous event, unsupported footing, unearned person or structure, leaked evaluator contradiction, false render claim, hidden future scenario, or official-GL4SS impersonation defeats the behavioral claim."
+}
