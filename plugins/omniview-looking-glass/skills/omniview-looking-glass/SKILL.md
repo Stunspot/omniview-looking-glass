@@ -129,6 +129,8 @@ Keep renderer-facing text literal and complete. The Render Seed carries a comple
 
 Before writing, resolve every aesthetic correction into a wanted world-state. Compose that state through exact local material, work, wear, hydrology, depth, and light. Close on a visible material consequence already happening inside the frame.
 
+Before handoff, read every renderer-facing clause as a paint instruction. Each clause paints wanted matter, action, space, light, or capture behavior. Translate boundary clauses into the visible world occupying their pixels: horizon-to-horizon water, continuous ice, open sky, uninterrupted terrain, maintained built space, or an ordinary active landscape. Precision, event selection, scenario, and authority boundaries belong in Grounding.
+
 Read [render-language.md](references/render-language.md) for photographic, illustrative, cinematic, model-specific, or unusually difficult image prompting. Use [render-seed.template.md](assets/render-seed.template.md) only when a portable prompt artifact improves the handoff.
 
 ## Render or hand off
