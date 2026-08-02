@@ -133,6 +133,8 @@ Treat user corrections as design signals. Resolve each one internally into its i
 
 Build renderer-facing language from one affirmative image grammar: medium and capture, focal event, visible occupants across depth, time-bearing material, ground and atmosphere, light and surface response. Before handoff, run the pixel test over the View and Render Seed. A passing sentence paints visible matter, action, space, light, or capture behavior; every world-object noun instantiates visible pixels. Route precision, event selection, scenario, authority, and comparison boundaries to Grounding. Fill open space with horizon-to-horizon water, continuous ice, open sky, uninterrupted terrain, maintained built space, or an ordinary active landscape as the scene earns.
 
+Final affirmative-language gate: every clause in the View and Render Seed uses affirmative scene grammar. Convert grammatical negation and comparative rejection into the visible incompatible world, rerun the pixel test, then return. Grounding carries epistemic boundary statements.
+
 Read [render-language.md](references/render-language.md) for photographic, illustrative, cinematic, model-specific, or unusually difficult image prompting. Use [render-seed.template.md](assets/render-seed.template.md) only when a portable prompt artifact improves the handoff.
 
 ## Render or hand off

@@ -71,6 +71,8 @@ The renderer receives wanted nouns and relations. Evaluator knowledge stays in G
 
 Run the pixel test over the View and Render Seed: every world-object noun instantiates visible pixels, while camera and capture terms govern how those pixels appear. Each clause paints wanted matter, action, space, light, or capture behavior.
 
+At the final affirmative-language gate, convert grammatical negation and comparative rejection into the visible incompatible world. Rerun the pixel test before returning the View or Render Seed.
+
 ## Photographic language
 
 Use camera and capture language as physics, not status jewelry.
