@@ -4,7 +4,7 @@ Run from the repository root:
 
     python -X utf8 verification/scripts/verify_package.py
     python -X utf8 verification/scripts/verify_corpus.py
-    node dropins/tests/verify-candidate.mjs --control E:\Github\GL4SS --candidate E:\Github\omniview-gl4ss-companion\.work\GL4SS
+    node dropins/tests/verify-candidate.mjs --control <frozen-gl4ss-control> --candidate <bounded-candidate>
 
 The first command validates plugin closure, manifests, runtime references, private-path exclusions, eval integrity, and byte parity between the canonical portable skill and the Claude/generic distribution.
 

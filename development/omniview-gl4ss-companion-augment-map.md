@@ -19,7 +19,7 @@ This repository contains two related but deliberately separate handoffs.
 
 ### GL4SS drop-in upgrade pack
 
-The drop-in pack is a patch proposal against GL4SS at commit ab4984597ecf3afbd8ea66309be5ed68ce429146. Any copied or adapted GL4SS source remains clearly attributed and under compatible AGPL custody. The source checkout at E:\Github\GL4SS remains pristine.
+The drop-in pack is a patch proposal against GL4SS at commit ab4984597ecf3afbd8ea66309be5ed68ce429146. Any copied or adapted GL4SS source remains clearly attributed and under compatible AGPL custody. The source checkout at <frozen-gl4ss-control> remains pristine.
 
 ### OmniView companion Augment
 

@@ -1,58 +1,127 @@
 {
-  "project_id": "OV-DOC-0.1.0",
-  "title": "OmniView private peer handoff",
-  "product_version": "0.1.0-private-preview",
-  "status": "accessibility-reviewed",
-  "audiences": [
-    {
-      "id": "gl4ss-maintainer",
-      "need": "apply, verify, and reverse the two bounded GL4SS patches"
-    },
-    {
-      "id": "agent-skill-user",
-      "need": "install the correct host artifact and reach prompt-only first value"
-    },
-    {
-      "id": "evidence-reviewer",
-      "need": "distinguish built, installed, invoked, rendered, and verified states"
-    }
-  ],
-  "top_tasks": [
-    {"id": "choose", "outcome": "select the GL4SS or companion door"},
-    {"id": "act", "outcome": "apply or install the correct artifact safely"},
-    {"id": "first-value", "outcome": "obtain one grounded prompt-only view"},
-    {"id": "verify", "outcome": "check bytes and interpret retained evidence"},
-    {"id": "recover", "outcome": "stop, reverse, retry safely, or report a defect"}
-  ],
-  "sources": [
-    {"path": "plugins/omniview-looking-glass/skills/omniview-looking-glass/SKILL.md", "state": "source-verified"},
-    {"path": "dropins/integration/dropin-manifest.json", "state": "source-verified"},
-    {"path": "verification/behavioral/final-v0.1.0/", "state": "source-verified"},
-    {"path": "verification/hesperos/source-ledger.md", "state": "source-verified"}
-  ],
-  "topics": [
-    {"path": "README.md", "purpose": "orientation"},
-    {"path": "docs/INSTALLATION.md", "purpose": "host procedures"},
-    {"path": "docs/USING-OMNIVIEW.md", "purpose": "first value and deeper operations"},
-    {"path": "docs/GL4SS-DROPINS.md", "purpose": "maintainer procedure"},
-    {"path": "docs/TROUBLESHOOTING.md", "purpose": "recovery"},
-    {"path": "docs/TRUST-PRIVACY-AND-LIMITS.md", "purpose": "trust boundary"},
-    {"path": "docs/PACKAGE-REFERENCE.md", "purpose": "artifact reference"},
-    {"path": "docs/ACCESSIBILITY.md", "purpose": "accessibility scope"}
-  ],
-  "accessibility_reviews": [
-    {
-      "path": "verification/hesperos/reviews/documentation-accessibility-review.md",
-      "status": "REVIEW_PASS",
-      "scope": "static private handoff"
-    }
-  ],
-  "verification": [
-    {"check": "Hesperos Markdown lint", "state": "passed", "files": 13},
-    {"check": "private-kit local links", "state": "passed"},
-    {"check": "assistive technology", "state": "not-tested"},
-    {"check": "representative users", "state": "not-tested"}
-  ],
-  "owner": "Collaborative Dynamics",
-  "next_move": "retain declared live-host, provider, assistive-technology, and user-testing residuals"
+    "project_id":  "OV-DOC-0.1.0",
+    "title":  "OmniView public release",
+    "product_version":  "0.1.0",
+    "status":  "public-delta-reviewed",
+    "audiences":  [
+                      {
+                          "id":  "gl4ss-maintainer",
+                          "need":  "apply, verify, and reverse the two bounded GL4SS patches"
+                      },
+                      {
+                          "id":  "agent-skill-user",
+                          "need":  "install the correct host artifact and reach prompt-only first value"
+                      },
+                      {
+                          "id":  "evidence-reviewer",
+                          "need":  "distinguish built, installed, invoked, rendered, and verified states"
+                      }
+                  ],
+    "top_tasks":  [
+                      {
+                          "id":  "choose",
+                          "outcome":  "select the GL4SS or companion door"
+                      },
+                      {
+                          "id":  "act",
+                          "outcome":  "apply or install the correct artifact safely"
+                      },
+                      {
+                          "id":  "first-value",
+                          "outcome":  "obtain one grounded prompt-only view"
+                      },
+                      {
+                          "id":  "verify",
+                          "outcome":  "check bytes and interpret retained evidence"
+                      },
+                      {
+                          "id":  "recover",
+                          "outcome":  "stop, reverse, retry safely, or report a defect"
+                      }
+                  ],
+    "sources":  [
+                    {
+                        "path":  "plugins/omniview-looking-glass/skills/omniview-looking-glass/SKILL.md",
+                        "state":  "source-verified"
+                    },
+                    {
+                        "path":  "dropins/integration/dropin-manifest.json",
+                        "state":  "source-verified"
+                    },
+                    {
+                        "path":  "verification/behavioral/final-v0.1.0/",
+                        "state":  "source-verified"
+                    },
+                    {
+                        "path":  "verification/hesperos/source-ledger.md",
+                        "state":  "source-verified"
+                    }
+                ],
+    "topics":  [
+                   {
+                       "path":  "README.md",
+                       "purpose":  "orientation"
+                   },
+                   {
+                       "path":  "docs/INSTALLATION.md",
+                       "purpose":  "host procedures"
+                   },
+                   {
+                       "path":  "docs/USING-OMNIVIEW.md",
+                       "purpose":  "first value and deeper operations"
+                   },
+                   {
+                       "path":  "docs/GL4SS-DROPINS.md",
+                       "purpose":  "maintainer procedure"
+                   },
+                   {
+                       "path":  "docs/TROUBLESHOOTING.md",
+                       "purpose":  "recovery"
+                   },
+                   {
+                       "path":  "docs/TRUST-PRIVACY-AND-LIMITS.md",
+                       "purpose":  "trust boundary"
+                   },
+                   {
+                       "path":  "docs/PACKAGE-REFERENCE.md",
+                       "purpose":  "artifact reference"
+                   },
+                   {
+                       "path":  "docs/ACCESSIBILITY.md",
+                       "purpose":  "accessibility scope"
+                   }
+               ],
+    "accessibility_reviews":  [
+                                  {
+                                      "path":  "verification/hesperos/reviews/documentation-accessibility-review.md",
+                                      "status":  "REVIEW_PASS",
+                                      "scope":  "pre-publication candidate"
+                                  },
+                                  {
+                                      "path":  "verification/hesperos/reviews/public-release-delta-review.md",
+                                      "status":  "REVIEW_PASS_WITH_BOUNDARY",
+                                      "scope":  "public licensing and release-channel delta; in-process"
+                                  }
+                              ],
+    "verification":  [
+                         {
+                             "check":  "Hesperos Markdown lint",
+                             "state":  "passed",
+                             "files":  15
+                         },
+                         {
+                             "check":  "public-release local links",
+                             "state":  "pending-release-build"
+                         },
+                         {
+                             "check":  "assistive technology",
+                             "state":  "not-tested"
+                         },
+                         {
+                             "check":  "representative users",
+                             "state":  "not-tested"
+                         }
+                     ],
+    "owner":  "Collaborative Dynamics",
+    "next_move":  "retain declared live-host, provider, assistive-technology, and user-testing residuals"
 }

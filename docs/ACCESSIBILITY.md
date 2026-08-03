@@ -4,7 +4,7 @@ OmniView's core handoff is text. A reader can install, invoke, understand, verif
 
 ## Documentation design
 
-The private kit uses:
+The public release uses:
 
 - plain Markdown with one page title and ordered heading levels;
 - descriptive link text instead of bare destination labels;

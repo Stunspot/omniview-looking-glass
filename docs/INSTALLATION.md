@@ -1,8 +1,8 @@
 # Installation
 
-Version 0.1.0 is a private preview. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
+Version 0.1.0 is a public release. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
 
-Artifact paths on this page are relative to the root of the assembled private kit. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
+Artifact paths on this page are relative to the root of the assembled public release. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
 
 ## Before you install
 
@@ -55,7 +55,7 @@ Ask:
 
 A useful discovery check must demonstrate that the installed skill was selected. A plausible historical answer by itself is not discovery evidence.
 
-This preview has no qualified Codex selection receipt yet. Treat discovery as awaiting fresh-host qualification unless the host exposes an observable selection record.
+This release has no qualified Codex selection receipt yet. Treat discovery as awaiting fresh-host qualification unless the host exposes an observable selection record.
 
 The package includes Codex-facing metadata that permits implicit selection. Qualify explicit selection before testing implicit selection.
 

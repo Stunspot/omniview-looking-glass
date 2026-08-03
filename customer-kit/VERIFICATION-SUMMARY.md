@@ -1,14 +1,14 @@
 # Verification Summary
 
-Disposition for the assembled local private peer handoff: **READY_WITH_RESIDUAL_RISK**. This does not authorize sending, installation, upstream submission, publication, or public redistribution.
+Disposition for the assembled public release: **READY_WITH_RESIDUAL_RISK**. Public repository and release publication are owner-authorized; installation, upstream submission, provider rendering, and external messaging remain separate actions.
 
 This page distinguishes observed local evidence from untested host and provider behavior.
 
 ## Observed
 
-### Private kit
+### Public release
 
-The deterministic builder produced 39 files. The final kit verifier checks the complete manifest and checksum sets, one-root Claude ZIP topology, Codex-Claude portable byte parity, local links, and exclusion of private host paths. A repeated build must reproduce every file hash.
+The deterministic builder produces a fully manifested public release. The release verifier checks complete manifest and checksum sets, one-root Claude ZIP topology, Codex-Claude portable byte parity, local links, licensing surfaces, and exclusion of private host paths. A repeated build must reproduce every file hash.
 
 ### GL4SS patch integration
 
@@ -112,6 +112,6 @@ Custody-seal commit: `0049fdf21910fff738d32f070adabf7ef1e49df4`
 - An earlier candidate dependency audit reported pre-existing vulnerabilities; no audit receipt is part of this evidence packet, and no dependency remediation is claimed.
 - GL4SS’s production build retains a chunk-size warning.
 - Some vivid prompt details are necessarily bounded scene inference rather than directly sourced micro-history.
-- The companion still requires an owner-selected public license before public distribution.
+- Public distribution uses MIT for original deterministic software, CC BY-ND 4.0 for original authored Augment material, and AGPL-3.0-or-later for the GL4SS drop-in pack.
 
-Do not turn this private-handoff disposition into a public performance claim. A public release, live-host qualification, or rendered A/B requires its own evidence and authority.
+Do not turn this public-release disposition into a live-host or rendered-performance claim. Installation, upstream acceptance, provider qualification, and rendered A/B still require their own evidence and authority.

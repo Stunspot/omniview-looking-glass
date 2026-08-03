@@ -4,7 +4,7 @@
 
 OmniView turns natural requests such as “open a view onto Uruk around 3200 BC at first light” into grounded scene interpretations and image-ready prompts. When a host exposes an authorized image tool, OmniView can hand the prompt to it. When no image tool is available, the prompt remains the complete product rather than a consolation prize.
 
-This private-preview repository contains two separate handoffs:
+This public repository contains two separate handoffs:
 
 1. **Two bounded GL4SS drop-ins.** They replace the planner and render-language seams inside Pliny the Liberator’s existing application without adding a model call, changing a public TypeScript contract, or redesigning GL4SS.
 2. **The OmniView companion Augment.** It gives Codex or Claude an agent-operated wormhole camera for single views, comparisons, and temporal traversals.
@@ -77,6 +77,6 @@ Not established:
 - live image-tool dispatch, returned image custody, or provider compatibility;
 - rendered superiority or cross-model visual quality;
 - blank-context isolation or observed model identity for the behavioral suite;
-- a public license for the original OmniView companion materials.
+- live-host and rendered-quality qualification beyond the retained evidence boundary.
 
-Private preview means exactly that. No publication, upstream submission, installation, or message to Pliny is performed by this repository.
+Public version 0.1.0 uses the standard Collaborative Dynamics split license for original OmniView material, while the GL4SS-derived drop-ins remain AGPL-3.0-or-later. Publication does not imply upstream acceptance, installation, provider execution, or endorsement by Pliny.

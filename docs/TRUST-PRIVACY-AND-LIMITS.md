@@ -42,13 +42,13 @@ Dispatch is not the same as a returned image. The truthful states are `prompt-on
 
 ## Host limits
 
-Codex and Claude artifacts were created and structurally verified. Fresh-host installation, discovery, explicit invocation, implicit selection, and healthy end-to-end behavior were not observed for this preview. Read the [Host matrix](../customer-kit/HOST-MATRIX.md) before describing the package as active.
+Codex and Claude artifacts were created and structurally verified. Fresh-host installation, discovery, explicit invocation, implicit selection, and healthy end-to-end behavior were not observed for this release. Read the [Host matrix](../customer-kit/HOST-MATRIX.md) before describing the package as active.
 
 ## License and relationship
 
 OmniView is an independent Collaborative Dynamics companion inspired by The Looking Glass / GL4SS by Pliny the Liberator. It is not an official, endorsed, upstream, or replacement GL4SS release.
 
-The GL4SS-derived patches remain under compatible AGPL custody. Original OmniView companion materials are private preview materials with no public license grant yet. Private receipt does not authorize public redistribution; read [Provenance](../customer-kit/PROVENANCE.md).
+Original OmniView deterministic software is available under MIT, authored Augment material under CC BY-ND 4.0, and the separate GL4SS-derived drop-in pack under AGPL-3.0-or-later. These licenses do not imply endorsement or upstream status; read [Provenance](../customer-kit/PROVENANCE.md).
 
 ## Security posture
 

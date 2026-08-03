@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "customer_docs": [
     "README.md",
+    "NOTICE.md",
+    "TRADEMARKS.md",
     "LICENSES/README.md",
     "customer-kit/HOST-MATRIX.md",
     "customer-kit/PROVENANCE.md",

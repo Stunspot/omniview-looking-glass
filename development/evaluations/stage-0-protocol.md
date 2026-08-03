@@ -8,7 +8,7 @@ Stage 0 establishes that the candidate is a genuine drop-in, preserves degraded 
 
 ## Frozen control
 
-- Source checkout: E:\Github\GL4SS
+- Source checkout: <frozen-gl4ss-control>
 - Commit: ab4984597ecf3afbd8ea66309be5ed68ce429146
 - Control planner: the exact buildSceneDirectionPrompt implementation at that commit
 - Control renderer: the exact DEFAULT_IMAGE_TEMPLATE and buildPanelPrompt implementation at that commit
@@ -40,7 +40,7 @@ AP11-1969 and FUT-3050 are stop cases. They are not scored as ordinary scene suc
 - The prior exact default is appended, not rewritten, in LEGACY_IMAGE_TEMPLATES.
 - Portal migration remains byte-sensitive and leaves genuine user edits intact.
 
-Integration build runs only in a disposable verification checkout, never in E:\Github\GL4SS.
+Integration build runs only in a disposable verification checkout, never in <frozen-gl4ss-control>.
 
 ## Gate 3 - Planner prompt structure
 

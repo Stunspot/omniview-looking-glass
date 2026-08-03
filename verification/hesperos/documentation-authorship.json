@@ -1,106 +1,116 @@
 {
-  "authored_files": [
-    {
-      "bytes": 5285,
-      "path": "README.md",
-      "sha256": "8b0c624216b569fa2af5c563a46955b66ca87c98cc452e02dd1499033baf0de0"
-    },
-    {
-      "bytes": 751,
-      "path": "LICENSES/README.md",
-      "sha256": "6e7b7d1629d6816a5f7d5d2a89240d8c02742d7f4cbb386fca1163963cc26698"
-    },
-    {
-      "bytes": 2698,
-      "path": "customer-kit/HOST-MATRIX.md",
-      "sha256": "5e8773a42371a97f0035fc1da4058150d747d73ee5f6636d790aa14e05f89409"
-    },
-    {
-      "bytes": 2161,
-      "path": "customer-kit/PROVENANCE.md",
-      "sha256": "db2d3a527ff9ccb53ab1397752d806c1376ef00bb230046d5b28e2ad6aa18f8d"
-    },
-    {
-      "bytes": 3374,
-      "path": "customer-kit/START-HERE.md",
-      "sha256": "9acb4bb15c1a6d0d98df82e460c476c57d9acb0a3fc8af232ea5f6fa34dd60cd"
-    },
-    {
-      "bytes": 5078,
-      "path": "customer-kit/VERIFICATION-SUMMARY.md",
-      "sha256": "10037966cfea574b0ea12fc757406a7041d63f671487f833837163e3296aaf0e"
-    },
-    {
-      "bytes": 2669,
-      "path": "docs/ACCESSIBILITY.md",
-      "sha256": "3badaa7a0c3318ab977ca0d607464ead35c638d5dea02b63649078e92f7300d7"
-    },
-    {
-      "bytes": 4618,
-      "path": "docs/GL4SS-DROPINS.md",
-      "sha256": "5d8e22bd65c25a7f27acb127a530dc79e8a546cb77bc968bd821bdfffd9a9458"
-    },
-    {
-      "bytes": 4743,
-      "path": "docs/INSTALLATION.md",
-      "sha256": "31041a3e882c5f1a457d1c541b92ad43c4603bc683a0564cd5be13d705906dba"
-    },
-    {
-      "bytes": 3645,
-      "path": "docs/PACKAGE-REFERENCE.md",
-      "sha256": "1ab803baca44ada86bba5e9b28592f8d7ed877b9f1cce31c049b1468e6382fc4"
-    },
-    {
-      "bytes": 3889,
-      "path": "docs/TROUBLESHOOTING.md",
-      "sha256": "4ffb2796c0759123c288e3110153f1bc1791d99b02aba60852e0b9a623ba99aa"
-    },
-    {
-      "bytes": 4149,
-      "path": "docs/TRUST-PRIVACY-AND-LIMITS.md",
-      "sha256": "2be2d29d98e4fae964058eb0bb593ce33f991110e3ae2cd3c3ec9c2942ee6dbf"
-    },
-    {
-      "bytes": 5313,
-      "path": "docs/USING-OMNIVIEW.md",
-      "sha256": "de4786264759c38bec9014bd60134571a1191159f1459e301c43e168c9a54b5d"
-    }
-  ],
-  "authoring": {
-    "authorship_scope": "authored",
-    "capability": "hesperos-documentation",
-    "capability_entrypoint_sha256": "f9284a8b14ca20a4661b15db542e3d8f52d3cf1ef42c1c56f4ed540a1036a3b3",
-    "mode": "in-process",
-    "run_id": "omniview-0.1.0-final"
-  },
-  "authoring_response": {
-    "bytes": 591,
-    "path": "verification/hesperos/assets/documentation-authorship-response.md",
-    "sha256": "398879f2ff34f1fcdb19888ecfc79b9e70eef243c5b6b4d0c4595b0823ac7dc5"
-  },
-  "claim_boundary": "Binds retained evidence for one Hesperos authoring or material-revision run. It does not prove independent review, host activation, publication, accessibility conformance, or customer outcomes.",
-  "created_at": "2026-08-03T02:52:08+00:00",
-  "documentation_fingerprint": "d38b0689beadb29be58149288fbbe101be498fb1403ac4c67db4f87982749083",
-  "documentation_manifest": {
-    "bytes": 543,
-    "path": "verification/hesperos/documentation-manifest.json",
-    "sha256": "72451f8e8a8386dd2c2b71967b6aa195e83f8edd75e57f5362e8976cdc08c79c"
-  },
-  "evidence_packet": {
-    "bytes": 2168,
-    "path": "verification/hesperos/documentation-brief.md",
-    "sha256": "3b36dd345ffdf94374210c300c15b9477d6e8ae20bdf1af6ddffdf60ccfba5ce"
-  },
-  "execution_evidence": [
-    {
-      "bytes": 591,
-      "path": "verification/hesperos/assets/documentation-authorship-response.md",
-      "sha256": "398879f2ff34f1fcdb19888ecfc79b9e70eef243c5b6b4d0c4595b0823ac7dc5"
-    }
-  ],
-  "format": "cd-hesperos-documentation-authorship/v1",
-  "product": {
-    "slug": "omniview-looking-glass",
-    "version": "0.1.0"
-  }
+    "authored_files":  [
+                           {
+                               "bytes":  5430,
+                               "path":  "README.md",
+                               "sha256":  "299835915f321674439ecf31047765cb798a5e53df4d9ed3e2ea4eb3bb9b1ef7"
+                           },
+                           {
+                               "bytes":  771,
+                               "path":  "NOTICE.md",
+                               "sha256":  "ce76f15cd6fe917734de0d89e9c995d0e38234e7984f1701e0a051e6c461393c"
+                           },
+                           {
+                               "bytes":  758,
+                               "path":  "TRADEMARKS.md",
+                               "sha256":  "c518497f4dec5b8558933a996f3e3ea4005e9c61d19641f6c0a825dcdd4e0740"
+                           },
+                           {
+                               "bytes":  769,
+                               "path":  "LICENSES/README.md",
+                               "sha256":  "f7556d87836d61bd7ef769a11675df147d8cc6a3e4113594843914fc3e0d0622"
+                           },
+                           {
+                               "bytes":  2698,
+                               "path":  "customer-kit/HOST-MATRIX.md",
+                               "sha256":  "171518a9799e98b3e37db102ed2dd4e8777c05507bab61c46a3e407f4a6a1e41"
+                           },
+                           {
+                               "bytes":  2288,
+                               "path":  "customer-kit/PROVENANCE.md",
+                               "sha256":  "f632a3979e8379fb67f4ffcb26fae88520dd4a96a343af875ce12bd72c88d98a"
+                           },
+                           {
+                               "bytes":  3375,
+                               "path":  "customer-kit/START-HERE.md",
+                               "sha256":  "19c1b96c744d793b846a0c3cdb0be864bde6bc9b88790c06105a80b091267768"
+                           },
+                           {
+                               "bytes":  5285,
+                               "path":  "customer-kit/VERIFICATION-SUMMARY.md",
+                               "sha256":  "0ab1b1882690ae099e09510104f8eaf2a57470aca311ca761346b3a7adf07ae1"
+                           },
+                           {
+                               "bytes":  2672,
+                               "path":  "docs/ACCESSIBILITY.md",
+                               "sha256":  "edd51dba44597750b43fcdfea7e43ffd2ca47328d01ad4b9929efa0c7d00db8d"
+                           },
+                           {
+                               "bytes":  4621,
+                               "path":  "docs/GL4SS-DROPINS.md",
+                               "sha256":  "ce3c6c62a3d9408cf219bc7504220af98b09782cd28519f41cfb875e986ad1b0"
+                           },
+                           {
+                               "bytes":  4745,
+                               "path":  "docs/INSTALLATION.md",
+                               "sha256":  "def5c3745998f0a405d8e7caee3cfe56745a17b32c5966c5df470d736b835ca1"
+                           },
+                           {
+                               "bytes":  3673,
+                               "path":  "docs/PACKAGE-REFERENCE.md",
+                               "sha256":  "46575ba2bdd642eb8b34d026417b5cd4b0903130f823f70d06d7eb6a65a12fc5"
+                           },
+                           {
+                               "bytes":  3888,
+                               "path":  "docs/TROUBLESHOOTING.md",
+                               "sha256":  "d1da317def1d098aa50bfe55d9c80c4a5287340f9eb53c7b956e47518c9be46f"
+                           },
+                           {
+                               "bytes":  4165,
+                               "path":  "docs/TRUST-PRIVACY-AND-LIMITS.md",
+                               "sha256":  "3a1009a6d2792d31fe76f6308cbab42ec77599a69e5ef9d2eb9b4403b2a9916a"
+                           },
+                           {
+                               "bytes":  5313,
+                               "path":  "docs/USING-OMNIVIEW.md",
+                               "sha256":  "de4786264759c38bec9014bd60134571a1191159f1459e301c43e168c9a54b5d"
+                           }
+                       ],
+    "authoring":  {
+                      "authorship_scope":  "material-revision",
+                      "capability":  "hesperos-documentation",
+                      "capability_entrypoint_sha256":  "f9284a8b14ca20a4661b15db542e3d8f52d3cf1ef42c1c56f4ed540a1036a3b3",
+                      "mode":  "in-process",
+                      "run_id":  "omniview-0.1.0-public-release"
+                  },
+    "authoring_response":  {
+                               "bytes":  633,
+                               "path":  "verification/hesperos/assets/documentation-authorship-response.md",
+                               "sha256":  "4cf4cf378c1a41d45f78f252057b74a579c53540b51a024cc7c383880ea20d5a"
+                           },
+    "claim_boundary":  "Binds retained evidence for one Hesperos material-revision run. It does not prove independent review, host activation, publication, accessibility conformance, or customer outcomes.",
+    "created_at":  "2026-08-03T03:46:42Z",
+    "documentation_fingerprint":  "50f1af4ba4227a30188be6b104c6c4f3a695c423e028654bee60fb4a843f3245",
+    "documentation_manifest":  {
+                                   "bytes":  581,
+                                   "path":  "verification/hesperos/documentation-manifest.json",
+                                   "sha256":  "f789c4081c40511d76cfcfd9d65fd6c7601a5daba1efdfc65f43a0df411cddc2"
+                               },
+    "evidence_packet":  {
+                            "bytes":  2255,
+                            "path":  "verification/hesperos/documentation-brief.md",
+                            "sha256":  "fdd5fb9682476e28ed255cde5e32ec84779525564d343da28a15b5a2f030c4e3"
+                        },
+    "execution_evidence":  [
+                               {
+                                   "bytes":  633,
+                                   "path":  "verification/hesperos/assets/documentation-authorship-response.md",
+                                   "sha256":  "4cf4cf378c1a41d45f78f252057b74a579c53540b51a024cc7c383880ea20d5a"
+                               }
+                           ],
+    "format":  "cd-hesperos-documentation-authorship/v1",
+    "product":  {
+                    "slug":  "omniview-looking-glass",
+                    "version":  "0.1.0"
+                }
 }

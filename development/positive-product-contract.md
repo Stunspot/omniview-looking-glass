@@ -39,10 +39,10 @@ A private, build-complete, documented, and verification-reviewed peer handoff. P
 ## Canonical inputs and custody
 
 - GL4SS commit ab4984597ecf3afbd8ea66309be5ed68ce429146 is the inspected source baseline.
-- E:\Github\GL4SS remains pristine; the companion project does not develop inside Pliny's checkout.
+- <frozen-gl4ss-control> remains pristine; the companion project does not develop inside Pliny's checkout.
 - Pliny retains authorship of GL4SS, its product identity, interaction metaphor, and source material.
 - Sam Walker and Nova compose the proposed prompt upgrades and companion Augment.
-- E:\Indranet\promptcraft\[ADVICE] - Prompt Design.md and the Augment Builder canonical Prompt Design v3 are consulted promptcraft doctrine.
+- the consulted Prompt Design doctrine and the Augment Builder canonical Prompt Design v3 are consulted promptcraft doctrine.
 - Copied or adapted AGPL-covered source must retain exact provenance and compatible custody. Original companion materials remain separately identified until Sam chooses a license.
 
 ## Acceptance evidence

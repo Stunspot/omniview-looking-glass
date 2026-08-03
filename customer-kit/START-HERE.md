@@ -1,8 +1,8 @@
 # Start Here
 
-This private handoff gives you two doors. Pick the one matching what you want to change.
+This public release gives you two doors. Pick the one matching what you want to change.
 
-Paths on this page are relative to the root of the assembled private kit.
+Paths on this page are relative to the root of the assembled public release.
 
 ## Door one: upgrade GL4SS without changing GL4SS
 
@@ -66,6 +66,6 @@ The short version:
 
 Inspired by The Looking Glass / GL4SS by Pliny the Liberator; composed by stunspot and Nova.
 
-The companion is independent and unofficial. The GL4SS-derived patches retain AGPL custody. The original OmniView companion materials are a private preview with no public license grant yet.
+The companion is independent and unofficial. Original OmniView software uses MIT, authored Augment material uses CC BY-ND 4.0, and the GL4SS-derived drop-in pack remains AGPL-3.0-or-later.
 
 Read [Provenance](PROVENANCE.md) and [Trust, privacy, and limits](../docs/TRUST-PRIVACY-AND-LIMITS.md) before redistribution. The [Accessibility statement](../docs/ACCESSIBILITY.md) gives the nonvisual workflow and the current testing boundary.

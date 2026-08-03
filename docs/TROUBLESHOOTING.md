@@ -10,7 +10,7 @@ Start with the boundary that failed. Files present on disk, host discovery, skil
 4. Request explicit selection before testing implicit selection.
 5. Preserve the host's exact response or log when reporting the problem.
 
-A plausible place-time answer does not prove that the installed skill was selected. This private preview has no fresh-host discovery receipt.
+A plausible place-time answer does not prove that the installed skill was selected. This public release has no fresh-host discovery receipt.
 
 ## The answer needs a more exact place or time
 

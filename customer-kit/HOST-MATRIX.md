@@ -1,6 +1,6 @@
 # Host Matrix
 
-Version: 0.1.0 private preview
+Version: 0.1.0 public release
 
 This matrix keeps package construction separate from installation, discovery, invocation, and healthy live behavior.
 
@@ -8,7 +8,7 @@ This matrix keeps package construction separate from installation, discovery, in
 |---|---|---|---|
 | Artifact created | Yes | Yes | Portable skill folders exist in the source repository. |
 | Structurally verified | Yes | Yes | The package verifier reports 12 portable files and byte parity. |
-| Included in private kit | Yes | Yes | The final kit verifier checks both artifacts, the complete checksum set, and ZIP topology. |
+| Included in public release | Yes | Yes | The release verifier checks both artifacts, the complete checksum set, and ZIP topology. |
 | Installed on a fresh host | Not observed | Not observed | No customer or clean-host installation was performed. |
 | Discoverable by the host | Not observed | Not observed | Filesystem presence is not discovery evidence. |
 | Explicitly invoked | Not observed | Not observed | Behavioral cases exercised the runtime text in a harness, not an installed package. |

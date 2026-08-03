@@ -19,15 +19,15 @@
 
 | Source | Role | State | Runtime path or exclusion reason |
 |---|---|---|---|
-| E:\Github\GL4SS at ab498459... | Product baseline and integration contract | canonical external | Preserved outside this repository; no mutation |
+| <frozen-gl4ss-control> at ab498459... | Product baseline and integration contract | canonical external | Preserved outside this repository; no mutation |
 | GL4SS prompt and runtime source excerpts | Seam analysis and possible patch provenance | consulted / derived as named | Copied only when a drop-in requires exact compatible source |
 | Sam Walker's active-thread direction | Product authority and relationship boundary | canonical | Development record; distilled rather than transcribed |
-| E:\Indranet\promptcraft\[ADVICE] - Prompt Design.md | Promptcraft doctrine | consulted | Build-only |
+| the consulted Prompt Design doctrine | Promptcraft doctrine | consulted | Build-only |
 | Augment Builder canonical Prompt Design v3 | Promptcraft doctrine | consulted | Build-only unless a runtime derivative is earned |
 
 ## Build topology
 
-- Working package: E:\Github\omniview-gl4ss-companion
+- Working package: <repository-root>
 - Canonical or source-custody package: same repository during mapping and construction
 - Customer release kit: pending map
 - Target hosts: Codex and Claude

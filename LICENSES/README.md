@@ -11,5 +11,5 @@ Redistribution of those derived patches must retain compatible AGPL custody and 
 
 ## OmniView companion
 
-The agent-native OmniView companion is separately composed by stunspot and Nova and is inspired by GL4SS. Its final license remains an owner decision. Nothing in this development repository presents it as an official GL4SS release or grants a public license before that decision is made.
+The agent-native OmniView companion is separately composed by stunspot and Nova and is inspired by GL4SS. Original deterministic software is licensed under MIT and original authored Augment material under CC BY-ND 4.0. Nothing in this repository presents OmniView as an official or endorsed GL4SS release.
 

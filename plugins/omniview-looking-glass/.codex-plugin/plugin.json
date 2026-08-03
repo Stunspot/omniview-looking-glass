@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "An agent-operated wormhole camera for grounded views through place and time.",
   "author": {
-    "name": "Collaborative Dynamics"
+    "name": "Collaborative Dynamics",
+    "url": "https://github.com/Stunspot"
   },
-  "license": "UNLICENSED; private preview",
+  "homepage": "https://github.com/Stunspot/omniview-looking-glass",
+  "repository": "https://github.com/Stunspot/omniview-looking-glass",
+  "license": "Split license; see LICENSE.md",
   "keywords": [
     "historical visualization",
     "deep time",

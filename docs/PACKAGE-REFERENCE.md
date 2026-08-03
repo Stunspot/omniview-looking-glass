@@ -1,8 +1,8 @@
 # Package Reference
 
-Version: 0.1.0 private preview
+Version: 0.1.0 public release
 
-The source repository is canonical. The assembled private kit is a derived delivery artifact whose manifest and checksums describe its exact bytes.
+The source repository is canonical. The assembled public release is a derived delivery artifact whose manifest and checksums describe its exact bytes.
 
 ## Delivery artifacts
 
@@ -13,8 +13,8 @@ The source repository is canonical. The assembled private kit is a derived deliv
 | Claude skill | `claude/omniview-looking-glass.zip` | ZIP with one top-level skill folder. |
 | GL4SS proposal | `gl4ss-dropins/` | Ordered planner and renderer patches plus verifier. |
 | Documentation | `docs/` and `customer-kit/` | Install, use, verify, recover, trust, and provenance. |
-| License notices | `LICENSES/` | Companion private-preview status and GL4SS custody. |
-| Inventory | `private-preview-manifest.json` | Machine-readable file inventory and build contract. |
+| License notices | `LICENSE.md`, `TRADEMARKS.md`, and `LICENSES/` | OmniView split license, marks, and GL4SS AGPL custody. |
+| Inventory | `release-manifest.json` | Machine-readable file inventory and build contract. |
 | Checksums | `SHA256SUMS.txt` | Sorted SHA-256 digest for each delivered file except the checksum file itself. |
 
 ## Portable skill topology
@@ -53,9 +53,9 @@ The Codex artifact additionally contains `agents/openai.yaml`. That host metadat
 
 Development corpus, raw trial material, ignored candidate checkouts, and private harness paths are not customer runtime dependencies and are not included in the delivery kit.
 
-## Verify a kit
+## Verify a release
 
-Read `private-preview-manifest.json` for version, topology, source custody, and included paths. Recompute SHA-256 digests and compare them with `SHA256SUMS.txt`.
+Read `release-manifest.json` for version, topology, source custody, and included paths. Recompute SHA-256 digests and compare them with `SHA256SUMS.txt`.
 
 A matching digest establishes file-byte identity with that manifest. It does not establish host discovery, invocation, source truth, provider behavior, or visual quality.
 

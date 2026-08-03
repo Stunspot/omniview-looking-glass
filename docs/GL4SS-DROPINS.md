@@ -12,7 +12,7 @@ These two patches upgrade the planner-to-render relay inside Pliny the Liberator
 | Planner patch SHA-256 | `7b6d98fe6755e77e0db6c731d1845236dc6eb6770aac90f90790bf016b51ff7f` |
 | Renderer patch SHA-256 | `42936c0e11cbbe628a82525021dda3d5963d6987ac449daf813053f1d28565b1` |
 
-The assembled private kit places the files under:
+The assembled public release places the files under:
 
     gl4ss-dropins/planner/0001-witness-shot-relay.patch
     gl4ss-dropins/renderer/0002-material-photograph-relay.patch
