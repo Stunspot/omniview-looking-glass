@@ -1,0 +1,18 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "verification\\scripts\\verify_package.py"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": "2026-08-03T02:54:18.588205+00:00",
+  "finished_at": "2026-08-03T02:54:18.702145+00:00",
+  "duration_seconds": 0.113939,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\n  \"check\": \"package\",\n  \"status\": \"PASS\",\n  \"version\": \"0.1.0\",\n  \"portable_files\": 12,\n  \"claude_parity\": true,\n  \"claim_boundary\": \"Static package closure and byte parity only; no installation, discovery, invocation, image-tool, or live-host claim.\"\n}\n",
+  "stderr": "",
+  "status": "passed"
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "verification\\scripts\\verify_behavior_suite.py",
+    "verify",
+    "--run-dir",
+    "verification\\behavioral\\final-v0.1.0"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": "2026-08-03T02:54:18.825311+00:00",
+  "finished_at": "2026-08-03T02:54:20.209689+00:00",
+  "duration_seconds": 1.384378,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\n  \"check\": \"evidence-integrity\",\n  \"status\": \"PASS\",\n  \"cases\": 13,\n  \"claim_boundary\": \"Byte custody and declared isolation metadata only; no behavioral-quality claim.\"\n}\n",
+  "stderr": "",
+  "status": "passed"
+}

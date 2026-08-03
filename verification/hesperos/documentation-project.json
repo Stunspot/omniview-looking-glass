@@ -2,7 +2,7 @@
   "project_id": "OV-DOC-0.1.0",
   "title": "OmniView private peer handoff",
   "product_version": "0.1.0-private-preview",
-  "status": "review-needed",
+  "status": "accessibility-reviewed",
   "audiences": [
     {
       "id": "gl4ss-maintainer",
@@ -40,7 +40,13 @@
     {"path": "docs/PACKAGE-REFERENCE.md", "purpose": "artifact reference"},
     {"path": "docs/ACCESSIBILITY.md", "purpose": "accessibility scope"}
   ],
-  "accessibility_reviews": [],
+  "accessibility_reviews": [
+    {
+      "path": "verification/hesperos/reviews/documentation-accessibility-review.md",
+      "status": "REVIEW_PASS",
+      "scope": "static private handoff"
+    }
+  ],
   "verification": [
     {"check": "Hesperos Markdown lint", "state": "passed", "files": 13},
     {"check": "private-kit local links", "state": "passed"},
@@ -48,5 +54,5 @@
     {"check": "representative users", "state": "not-tested"}
   ],
   "owner": "Collaborative Dynamics",
-  "next_move": "run independent documentation-accessibility review against final customer-document bytes"
+  "next_move": "retain declared live-host, provider, assistive-technology, and user-testing residuals"
 }

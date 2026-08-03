@@ -2,7 +2,7 @@
   "manifest_version": "1.0",
   "target": {
     "name": "OmniView 0.1.0 private peer handoff",
-    "revision": "runtime-e986b6acd1555925864c6c5314de4f729ba9874a-kit-source-88f51a4260725f341e8f01c20aff33b63a6acc8c",
+    "revision": "runtime-e986b6acd1555925864c6c5314de4f729ba9874a-kit-source-92b8763c69f969c20a8c27cd7cf2e866ad5ae487",
     "target_class": "release_candidate"
   },
   "scope": {
@@ -206,7 +206,7 @@
       "severity": "high",
       "likelihood": "medium",
       "confidence": "high",
-      "disposition": "planned",
+      "disposition": "covered",
       "verification": ["S-DOCUMENTATION-JOURNEY", "T-DOC-LINT", "T-DOC-REVIEW", "E-010", "E-011"]
     },
     {
@@ -224,7 +224,7 @@
       "severity": "high",
       "likelihood": "medium",
       "confidence": "high",
-      "disposition": "planned",
+      "disposition": "covered",
       "verification": ["S-DOCUMENTATION-JOURNEY", "T-DOC-REVIEW", "T-KIT-VERIFY", "E-008", "E-011"]
     },
     {
@@ -320,7 +320,7 @@
       "expected": ["both readers have a viable text-first path", "commands expose stop and recovery conditions", "claims remain at their evidence state"],
       "forbidden": ["dead-end procedure", "sensory-only essential meaning", "public-license implication", "live-host or conformance overclaim"],
       "evidence": ["verification/hesperos/documentation-authorship.json", "verification/hesperos/reviews/documentation-accessibility-review.md"],
-      "status": "designed"
+      "status": "executed"
     },
     {
       "id": "S-CORPUS-CLOSURE",
@@ -403,7 +403,8 @@
       "id": "T-DOC-REVIEW",
       "scenario_ids": ["S-DOCUMENTATION-JOURNEY", "S-PATCH-BOUNDARY"],
       "path": "verification/hesperos/reviews/documentation-accessibility-review.md",
-      "status": "unexecuted"
+      "status": "passed",
+      "execution_id": "E-011"
     },
     {
       "id": "T-CORPUS-VERIFY",
@@ -498,9 +499,9 @@
       "id": "E-011",
       "command": ["collaboration-agent-review", "documentation-accessibility-reviewer", "final"],
       "working_directory": "<repository-root>",
-      "status": "not_run",
-      "exit_code": null,
-      "raw_evidence": null
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/hesperos/reviews/documentation-accessibility-review.md"
     }
   ],
   "findings": [
@@ -616,10 +617,25 @@
       "revisit_condition": "explicit external-transfer, install, upstream, publication, or license decision"
     }
   ],
-  "review": {"status": "NOT_RUN", "findings": []},
+  "review": {
+    "status": "REVIEW_PASS_WITH_CONDITIONS",
+    "reviewer": "independent TestForge verification reviewer",
+    "findings": [
+      "READY_WITH_RESIDUAL_RISK is supported only for the assembled local private peer-handoff package.",
+      "No send, install, upstream, publication, public redistribution or license, provider render, or live-host claim is supported or authorized."
+    ]
+  },
   "decision": {
-    "status": "INSUFFICIENT_EVIDENCE",
-    "basis": ["final documentation and independent verification review are pending"],
-    "authority_required": []
+    "status": "READY_WITH_RESIDUAL_RISK",
+    "basis": [
+      "frozen-base patch verification plus candidate build and lint passed",
+      "portable package, corpus, behavioral custody, and 13-case behavioral review passed within their declared boundaries",
+      "the deterministic 39-file private kit passed topology, checksum, ZIP-safety, parity, private-path, and local-link checks",
+      "independent Hesperos documentation review passed and independent TestForge review passed with the bounded-status condition satisfied"
+    ],
+    "authority_required": [
+      "Sam Walker must explicitly authorize any external send, installation, upstream submission, publication, or provider render",
+      "the designated owner must select and document a public license before public redistribution"
+    ]
   }
 }

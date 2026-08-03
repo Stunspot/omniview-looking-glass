@@ -1,0 +1,20 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "verification\\scripts\\verify_documentation.py",
+    "--linter",
+    "C:\\Users\\user\\.codex\\plugins\\cache\\personal\\scribe-hesperos-clearpath\\0.1.0\\skills\\hesperos-documentation\\scripts\\lint_accessible_markdown.py"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": "2026-08-03T02:54:20.636797+00:00",
+  "finished_at": "2026-08-03T02:54:21.653507+00:00",
+  "duration_seconds": 1.016707,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\n  \"check\": \"documentation-lint\",\n  \"status\": \"PASS\",\n  \"files\": 13,\n  \"failed\": [],\n  \"results\": [\n    {\n      \"path\": \"README.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"LICENSES/README.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"customer-kit/HOST-MATRIX.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"customer-kit/PROVENANCE.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"customer-kit/START-HERE.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"customer-kit/VERIFICATION-SUMMARY.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/ACCESSIBILITY.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/GL4SS-DROPINS.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/INSTALLATION.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/PACKAGE-REFERENCE.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/TROUBLESHOOTING.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/TRUST-PRIVACY-AND-LIMITS.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"path\": \"docs/USING-OMNIVIEW.md\",\n      \"status\": \"passed\",\n      \"exit_code\": 0,\n      \"stdout\": \"PASS\\n\",\n      \"stderr\": \"\"\n    }\n  ],\n  \"claim_boundary\": \"Static Markdown lint only; no assistive-technology or user outcome claim.\"\n}\n",
+  "stderr": "",
+  "status": "passed"
+}

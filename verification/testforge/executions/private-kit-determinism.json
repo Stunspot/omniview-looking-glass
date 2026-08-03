@@ -1,0 +1,22 @@
+{
+  "format_version": "1.0",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "verification/scripts/verify_private_kit_determinism.py",
+    "--gl4ss-root",
+    "<frozen-gl4ss-control>"
+  ],
+  "working_directory": "<repository-root>",
+  "started_at": null,
+  "finished_at": null,
+  "duration_seconds": null,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "private-kit-determinism PASS; files=39; changed=[]; builder_exit_code=0; source_commit=92b8763c69f969c20a8c27cd7cf2e866ad5ae487",
+  "stderr": "",
+  "status": "passed",
+  "capture_method": "normalized from the current-task shell receipt",
+  "claim_boundary": "Whole-tree before-and-after SHA-256 comparison for the kit built from source commit 92b8763c69f969c20a8c27cd7cf2e866ad5ae487."
+}
