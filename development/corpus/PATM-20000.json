@@ -68,7 +68,7 @@
     "Keep the fixed optic on ice.",
     "Preserve the same coordinate, hour, medium, and frame geometry used at 25 ka.",
     "Let the known closer margin influence only claims the sightline and source can support.",
-    "Treat exact surface relief, snow, and weather as bounded inference."
+    "Treat exact surface relief, snow, and weather as bounded inference, using one ordinary surface mechanism and one depth or light relation to keep the image materially complete."
   ],
   "oracleOnlyContradictions": [
     "The 20 ka polygon still contains the point.",
@@ -139,4 +139,3 @@
     "notes": "Point-in-polygon and nearest-margin calculations were recorded from the official PATICE version-2 reconstruction shapefiles."
   }
 }
-

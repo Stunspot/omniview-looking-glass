@@ -137,6 +137,7 @@
       ],
       "failure_signals": [
         "Places the camera on a lateral moraine, lake shore, forest floor, or exposed boulder field",
+        "Leaves the reconstructed ice as a generic blank plane with no bounded surface mechanism, material event, or depth relation",
         "Presents exact weather or surface topography as source-observed",
         "Pastes dataset language into the Render Seed"
       ]

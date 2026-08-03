@@ -68,7 +68,7 @@ The source establishes the world class, while a coherent photograph requires ord
 
 Example: the polygon supports ice; an unspecified hour supports plausible wind-carved snow, cloud, blue shadow, and crevasse geometry as bounded compositional choices. Dated observations require direct support.
 
-An unresolved local texture lowers specificity while the established world class still supplies a complete support, surface relation, depth structure, and material event. Completeness comes from those visible relations. At year-only precision, broad clock-phase illumination and calendar-robust atmospheric depth are sufficient; calendar-specific celestial or weather detail becomes a named composed ordinary-day scenario. Let the Grounding note keep each warrant exact.
+An unresolved local texture sets the scale of inference while the established world class still supplies a complete support, surface relation, depth structure, and material event. Choose one ordinary class-true surface mechanism and one depth or light relation, then identify those compositional choices as bounded visual inference in Grounding. For reconstructed ice, wind-shaped snow relief or a shallow stress seam can carry the near plane while the supported ice-sheet extent carries the world class. At year-only precision, broad clock-phase illumination and calendar-robust atmospheric depth are sufficient; calendar-specific celestial or weather detail becomes a named composed ordinary-day scenario.
 
 ### Scenario
 
