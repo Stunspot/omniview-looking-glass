@@ -258,10 +258,11 @@ def parse_header(raw: bytes, allowed: dict[str, dict[str, Any]]) -> tuple[str, s
         if not parsed:
             raise ValueError(f"invalid FILE_HASHES item: {item}")
         name, value = parsed.groups()
-        if name in hashes:
+        normalized_name = name.lower()
+        if normalized_name in hashes:
             raise ValueError(f"duplicate FILE_HASHES basename: {name}")
-        hashes[name] = value
-    expected = {Path(name).name: record["sha256"] for name, record in allowed.items()}
+        hashes[normalized_name] = value
+    expected = {Path(name).name.lower(): record["sha256"] for name, record in allowed.items()}
     if hashes != expected:
         raise ValueError("FILE_HASHES must exactly match this case's allowed runtime subset")
     return turn, head, hashes, visible
