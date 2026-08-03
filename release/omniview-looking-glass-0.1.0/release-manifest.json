@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "product": "omniview-looking-glass",
+  "version": "0.1.0",
+  "channel": "public-release",
+  "source_commit": "fdbf3af868065ec7c133119a7fc08385fc2e90fc",
+  "runtime_evidence_commit": "e986b6acd1555925864c6c5314de4f729ba9874a",
+  "behavior_payload_commit": "8a11716736321ea835091828ecd77cbbffb8243c",
+  "behavior_custody_commit": "0049fdf21910fff738d32f070adabf7ef1e49df4",
+  "gl4ss_target_commit": "ab4984597ecf3afbd8ea66309be5ed68ce429146",
+  "claim_boundary": "Public release bytes; no live-host install, discovery, invocation, image dispatch, or rendered-quality claim.",
+  "payload": [
+    {
+      "path": "claude/omniview-looking-glass.zip",
+      "bytes": 75890,
+      "sha256": "d05217110880219f87738f514b2bbcb0402779e0e2efb18fec553d40d83a5e85"
+    },
+    {
+      "path": "codex/omniview-looking-glass/agents/openai.yaml",
+      "bytes": 278,
+      "sha256": "fc2fce941e0a9db311517e38f2a233a0d1e8b90752178367290dd67536cea72e"
+    },
+    {
+      "path": "codex/omniview-looking-glass/assets/render-seed.template.md",
+      "bytes": 744,
+      "sha256": "0347676e3bb37b031ca676c426f1ec2d8cd249212f650986b644fbab4113799f"
+    },
+    {
+      "path": "codex/omniview-looking-glass/assets/view-record.template.md",
+      "bytes": 530,
+      "sha256": "c7dc8945ef09339f8e9060da6743266d2a3663b329bc8591ed4cf8956b7c9c0c"
+    },
+    {
+      "path": "codex/omniview-looking-glass/evals/eval-manifest.yaml",
+      "bytes": 1130,
+      "sha256": "cd8f63b727f5a27e6e4d5a12804d155cf07c4f763d4154ee38648530e8f43f69"
+    },
+    {
+      "path": "codex/omniview-looking-glass/evals/omniview-cases.yaml",
+      "bytes": 17386,
+      "sha256": "b3312f687493b367b328dedbe8472e056bb65ec7b3e16eafc91111e19edfaf44"
+    },
+    {
+      "path": "codex/omniview-looking-glass/LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "codex/omniview-looking-glass/NOTICE.md",
+      "bytes": 760,
+      "sha256": "56e80d9ea620f4798b9b599952e823a0a12b0e9bbf92c43cb476b79d5a84a59e"
+    },
+    {
+      "path": "codex/omniview-looking-glass/package-manifest.yaml",
+      "bytes": 114,
+      "sha256": "44d265c79f34d5a3182d4c550a82cd58b57649f2d4a20fe07617a42d85839815"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/comparison-and-traversal.md",
+      "bytes": 6288,
+      "sha256": "a645aee3850551426848c8c0ab59311eeefc94bc898c406de8420bcfffe04cb6"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/grounding-and-precision.md",
+      "bytes": 8900,
+      "sha256": "e4b4cddb7cd50e511f4e9485bddd7c653bab7f8d68c953a92a30a8bd759314b9"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/render-language.md",
+      "bytes": 8376,
+      "sha256": "71c1aa025cdfe95a2a18b9dcbd8bedda6e9adba5be4824201d6b95d2226d0f40"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/wormhole-optics.md",
+      "bytes": 7121,
+      "sha256": "bad34faa19649d957ebac529c84c492446f253ab3cd1b9137ccba99310a12d2d"
+    },
+    {
+      "path": "codex/omniview-looking-glass/SKILL.md",
+      "bytes": 19180,
+      "sha256": "14a752d22ce9088c28612dcb7a7d3ba423fc2bdd8979887aa2e18ec090a9fa7e"
+    },
+    {
+      "path": "customer-kit/HOST-MATRIX.md",
+      "bytes": 2698,
+      "sha256": "171518a9799e98b3e37db102ed2dd4e8777c05507bab61c46a3e407f4a6a1e41"
+    },
+    {
+      "path": "customer-kit/PROVENANCE.md",
+      "bytes": 2288,
+      "sha256": "f632a3979e8379fb67f4ffcb26fae88520dd4a96a343af875ce12bd72c88d98a"
+    },
+    {
+      "path": "customer-kit/START-HERE.md",
+      "bytes": 3375,
+      "sha256": "19c1b96c744d793b846a0c3cdb0be864bde6bc9b88790c06105a80b091267768"
+    },
+    {
+      "path": "customer-kit/VERIFICATION-SUMMARY.md",
+      "bytes": 5285,
+      "sha256": "0ab1b1882690ae099e09510104f8eaf2a57470aca311ca761346b3a7adf07ae1"
+    },
+    {
+      "path": "docs/ACCESSIBILITY.md",
+      "bytes": 2672,
+      "sha256": "edd51dba44597750b43fcdfea7e43ffd2ca47328d01ad4b9929efa0c7d00db8d"
+    },
+    {
+      "path": "docs/GL4SS-DROPINS.md",
+      "bytes": 4621,
+      "sha256": "ce3c6c62a3d9408cf219bc7504220af98b09782cd28519f41cfb875e986ad1b0"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "bytes": 4745,
+      "sha256": "def5c3745998f0a405d8e7caee3cfe56745a17b32c5966c5df470d736b835ca1"
+    },
+    {
+      "path": "docs/PACKAGE-REFERENCE.md",
+      "bytes": 3673,
+      "sha256": "46575ba2bdd642eb8b34d026417b5cd4b0903130f823f70d06d7eb6a65a12fc5"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 3888,
+      "sha256": "d1da317def1d098aa50bfe55d9c80c4a5287340f9eb53c7b956e47518c9be46f"
+    },
+    {
+      "path": "docs/TRUST-PRIVACY-AND-LIMITS.md",
+      "bytes": 4165,
+      "sha256": "3a1009a6d2792d31fe76f6308cbab42ec77599a69e5ef9d2eb9b4403b2a9916a"
+    },
+    {
+      "path": "docs/USING-OMNIVIEW.md",
+      "bytes": 5313,
+      "sha256": "de4786264759c38bec9014bd60134571a1191159f1459e301c43e168c9a54b5d"
+    },
+    {
+      "path": "gl4ss-dropins/integration/dropin-manifest.json",
+      "bytes": 1392,
+      "sha256": "a419611f03aec3661bcdf945fdcfb963c1c50c6263e33fa791fe29f63f2813bc"
+    },
+    {
+      "path": "gl4ss-dropins/integration/gl4ss-baseline.json",
+      "bytes": 1967,
+      "sha256": "c3b51af4b2b622b2826799b8b5276db332568303ff4499b34d656ba8495b78bf"
+    },
+    {
+      "path": "gl4ss-dropins/planner/0001-witness-shot-relay.patch",
+      "bytes": 27429,
+      "sha256": "7b6d98fe6755e77e0db6c731d1845236dc6eb6770aac90f90790bf016b51ff7f"
+    },
+    {
+      "path": "gl4ss-dropins/planner/README.md",
+      "bytes": 1821,
+      "sha256": "083c77d03bb550d757114414ee42c6f0250fd007b527bf6ffdc60b934bbe2f76"
+    },
+    {
+      "path": "gl4ss-dropins/README.md",
+      "bytes": 2410,
+      "sha256": "c709eed08ba1011961dfe498bb5cabdfdec5b2a6cc27cb3b9dbc16b9cb2e832f"
+    },
+    {
+      "path": "gl4ss-dropins/renderer/0002-material-photograph-relay.patch",
+      "bytes": 12260,
+      "sha256": "42936c0e11cbbe628a82525021dda3d5963d6987ac449daf813053f1d28565b1"
+    },
+    {
+      "path": "gl4ss-dropins/renderer/README.md",
+      "bytes": 1842,
+      "sha256": "0732ebeec0e28c299703886a3eb59a260125eb4bf37da0968cb913d3074a5dcf"
+    },
+    {
+      "path": "gl4ss-dropins/tests/verify-candidate.mjs",
+      "bytes": 16311,
+      "sha256": "8697902bac8e970a5e917ca02adab7b5f4ee2ee883f8135b16463c4036a7c4c5"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "LICENSES/GL4SS-AGPL-3.0.txt",
+      "bytes": 35186,
+      "sha256": "1aa87fff0d0a5174f43259c320b7082de75698c6628bd5cdaa9c9fff533e126f"
+    },
+    {
+      "path": "LICENSES/OMNIVIEW-SPLIT-LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "LICENSES/README.md",
+      "bytes": 769,
+      "sha256": "f7556d87836d61bd7ef769a11675df147d8cc6a3e4113594843914fc3e0d0622"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 771,
+      "sha256": "ce76f15cd6fe917734de0d89e9c995d0e38234e7984f1701e0a051e6c461393c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5430,
+      "sha256": "299835915f321674439ecf31047765cb798a5e53df4d9ed3e2ea4eb3bb9b1ef7"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "bytes": 758,
+      "sha256": "c518497f4dec5b8558933a996f3e3ea4005e9c61d19641f6c0a825dcdd4e0740"
+    }
+  ]
+}

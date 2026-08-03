@@ -111,7 +111,7 @@
                          },
                          {
                              "check":  "public-release local links",
-                             "state":  "pending-release-build"
+                             "state":  "passed"
                          },
                          {
                              "check":  "assistive technology",
