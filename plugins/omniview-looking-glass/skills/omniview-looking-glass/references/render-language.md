@@ -64,7 +64,7 @@ Treat the user's correction as a private design signal. Resolve it into the posi
 | Caught-in-motion composition | An unforced off-centre composition catches action already under way, with partial occlusion and uneven depth |
 | Habitat-specific vegetation | Named plant forms occupy moisture, shade, bank, canopy, or disturbed ground according to the local habitat |
 | Tension through relation | Held motion, watchfulness, crowd anticipation, guarded distance, and environmental consequence carry the tension |
-| Open-ocean extent | Horizon-to-horizon water, a cloud-broken sky, cross-swell geometry, spray, and atmospheric distance fill every depth |
+| Open-ocean extent | Horizon-to-horizon water, open sky, cross-swell geometry, spray, and atmospheric distance fill every depth |
 | Ordinary year-level moment | Intact landform, ongoing work, maintained structures, ordinary traffic, and date-robust clock-phase illumination carry the selected date |
 
 The renderer receives wanted nouns and relations. Evaluator knowledge stays in Grounding.
@@ -90,7 +90,7 @@ Name a camera body, stock, process, or lens only when it recruits a useful and c
 
 Example:
 
-> A wide documentary photograph from a virtual aperture 1.5 metres above the swell. Fine grain sits in the dark water; moonlit spray rolls through a long luminous highlight shoulder; focus loosens toward the rain-veiled horizon; the crossing wave ridge lands left of centre as if caught in one unrepeatable lift.
+> A wide documentary photograph from a virtual aperture 1.5 metres above the swell. Fine grain sits in the dark water; deep ambient night luminance catches spray along a subdued highlight shoulder; focus loosens toward the atmospheric horizon; the crossing wave ridge lands left of centre as if caught in one unrepeatable lift.
 
 For a drawn, painted, diagrammatic, collage, or print medium, replace photographic capture with the medium's actual mark, edge, layering, surface, and color behavior.
 

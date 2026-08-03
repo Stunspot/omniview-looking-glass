@@ -16,7 +16,7 @@ The requested time has a resolution. Preserve it.
 
 A year and an hour are still missing a month and day. AD 79 at Misenum supports the ordinary Bay of Naples and Roman naval-base world of that year; it does not independently select the hours of the Vesuvius eruption. A 1969 label at Launch Complex 39A supports the Apollo-era launch site; Apollo 11's launch requires 16 July at 09:32 EDT.
 
-The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, date-resolution-compatible land, material state, and date-robust local light carry the date. At year precision, use calendar-invariant cues: AD 79 at 12:03 can show the midday work phase, broad illumination, and ordinary maritime atmospheric depth while keeping solar altitude, shadow geometry, surface temperature, season-bearing atmosphere and weather, vegetation phase, clothing season, and seasonal palette open in Grounding. A user-supplied full date or evidence-resolved season unlocks those properties.
+The best view at coarse precision is often more convincing than an unsupported famous instant. Let ordinary work, date-resolution-compatible land, material state, and date-robust local light carry the date. At year precision, use calendar-invariant cues: AD 79 at 12:03 can show the midday work phase and broad illumination; AD 1500 at local midnight can show deep ambient night luminance over dark water and sky. Keep solar or lunar geometry, a particular moon phase or star field, twilight state, shadow geometry, surface temperature, season-bearing atmosphere and weather, vegetation phase, clothing season, and seasonal palette open in Grounding. A user-supplied full date or evidence-resolved season unlocks those properties.
 
 ## Resolve coordinate meaning
 
@@ -68,7 +68,7 @@ The source establishes the world class, while a coherent photograph requires ord
 
 Example: the polygon supports ice; an unspecified hour supports plausible wind-carved snow, cloud, blue shadow, and crevasse geometry as bounded compositional choices. Dated observations require direct support.
 
-An unresolved local texture lowers specificity while the established world class still supplies a complete support, surface relation, depth structure, and material event. Completeness comes from those visible relations. At year-only precision, broad clock-phase illumination and calendar-robust atmospheric depth are sufficient; calendar-specific weather becomes a named composed ordinary-day scenario. Let the Grounding note keep each warrant exact.
+An unresolved local texture lowers specificity while the established world class still supplies a complete support, surface relation, depth structure, and material event. Completeness comes from those visible relations. At year-only precision, broad clock-phase illumination and calendar-robust atmospheric depth are sufficient; calendar-specific celestial or weather detail becomes a named composed ordinary-day scenario. Let the Grounding note keep each warrant exact.
 
 ### Scenario
 

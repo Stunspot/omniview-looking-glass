@@ -25,6 +25,7 @@
         "Returns a complete copy-ready prompt without attempting or claiming a render.",
         "Declares a floating or virtual aperture just above open water rather than inventing a deck, island, aircraft, or photographer.",
         "Builds a complete uninhabited ordinary frame from swell, weather, sky, light, and plausible open-ocean life only where earned.",
+        "Uses date-robust night luminance while the year-only request leaves lunar phase, lunar path, specific star field, and calendar-bearing atmosphere unresolved.",
         "Uses one material event across depth and makes midnight govern the light."
       ],
       "acceptable_variation": [
@@ -33,6 +34,7 @@
       "failure_signals": [
         "Invents a ship, island, beach, or standing human",
         "Treats Point Nemo's remoteness as proof about every instant of AD 1500",
+        "Invents a particular moon phase, lunar path, star field, twilight state, or season from the year and local hour alone",
         "Returns grounding notes but no usable prompt",
         "Claims an image was generated"
       ]

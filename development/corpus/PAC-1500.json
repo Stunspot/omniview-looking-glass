@@ -12,11 +12,11 @@
   "temporal": {
     "inputLabel": "1500 AD",
     "engineYear": 1500,
-    "localTimeInput": "12:00 local solar hour, calendar day and season unspecified",
+    "localTimeInput": "local midnight, calendar day and season unspecified",
     "inputResolution": "year",
     "supportedResolution": "Open-ocean geography and broad preindustrial material boundary only.",
     "neighbourLabels": [],
-    "precisionBoundary": "No source reconstructs exact local weather, waves, visibility, biology, or vessel presence at this coordinate and year."
+    "precisionBoundary": "No source reconstructs exact lunar phase, celestial geometry, local weather, waves, visibility, biology, or vessel presence at this coordinate and year."
   },
   "habitation": {
     "expected": "uninhabited",
@@ -64,6 +64,7 @@
     "Use only sea surface, horizon, sky, wind, waves, light, and defensible open-ocean atmosphere.",
     "Declare the optic as virtual rather than inventing support.",
     "Give the scene an event in water, cloud, or light without manufacturing a datable object.",
+    "Use date-robust ambient night luminance; a particular moon phase, lunar path, star field, or twilight state requires a full date or an explicit composed ordinary-day scenario.",
     "Keep exact AD 1500 weather and animal presence explicitly uncertain."
   ],
   "oracleOnlyContradictions": [
@@ -105,7 +106,7 @@
     }
   ],
   "uncertainty": [
-    "Exact AD 1500 weather, cloud, wave state, sea-surface temperature, and visibility.",
+    "Exact AD 1500 lunar phase, celestial geometry, weather, cloud, wave state, sea-surface temperature, and visibility.",
     "Vessel, bird, marine mammal, plankton, and flotsam presence.",
     "Exact local bathymetric depth until the authoritative grid is queried."
   ],

@@ -100,10 +100,11 @@ Use two to four facts strong enough to distinguish the useful neighboring views.
 
 ## Trace light through the world
 
-Begin with local hour and source:
+Begin with local hour and a source at the calendar's resolved precision:
 
-- sun or moon altitude and direction;
-- cloud diffusion or hard clear light;
+- full-date solar or lunar altitude, direction, and moon phase;
+- date-robust clock-phase illumination when month and day remain open;
+- source-backed or explicitly composed atmospheric diffusion and hardness;
 - fire, window, lamp, screen, or industrial light only where the material world supports it.
 
 Then make light do work:
