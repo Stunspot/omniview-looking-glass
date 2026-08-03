@@ -114,6 +114,7 @@ def copy_payload(gl4ss_root: Path) -> None:
     dropin_files = (
         'README.md',
         'integration/dropin-manifest.json',
+        'integration/gl4ss-baseline.json',
         'planner/0001-witness-shot-relay.patch',
         'planner/README.md',
         'renderer/0002-material-photograph-relay.patch',

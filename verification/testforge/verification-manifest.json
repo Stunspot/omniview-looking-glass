@@ -1,0 +1,625 @@
+{
+  "manifest_version": "1.0",
+  "target": {
+    "name": "OmniView 0.1.0 private peer handoff",
+    "revision": "runtime-e986b6acd1555925864c6c5314de4f729ba9874a-kit-source-88f51a4260725f341e8f01c20aff33b63a6acc8c",
+    "target_class": "release_candidate"
+  },
+  "scope": {
+    "included": [
+      "two GL4SS drop-in patches against commit ab4984597ecf3afbd8ea66309be5ed68ce429146",
+      "OmniView portable runtime and Codex metadata at version 0.1.0",
+      "Codex folder and Claude ZIP private-delivery artifacts",
+      "thirteen-case behavioral evidence and its declared custody boundary",
+      "customer documentation and deterministic private-kit assembly"
+    ],
+    "excluded": [
+      "fresh-host installation, discovery, invocation, and implicit selection",
+      "live image or video provider dispatch and returned-output custody",
+      "rendered quality, provider compatibility, and cross-model superiority",
+      "public release, public license selection, upstream submission, or external sending",
+      "remediation of pre-existing GL4SS dependency or bundle topology",
+      "assistive-technology, browser, and representative-user testing"
+    ],
+    "constraints": [
+      "behavioral cases used disclosed fresh turns on reused collaboration agents",
+      "observed model identity is unavailable",
+      "one accepted response exists per behavioral case",
+      "six grounding source cards remain draft"
+    ],
+    "safety_boundary": [
+      "local non-production verification only",
+      "no provider render, install, publish, push, upstream submission, purchase, or external message",
+      "private handoff readiness does not itself authorize transfer"
+    ]
+  },
+  "claim_custody": {
+    "observed": [
+      {
+        "id": "OBS-PATCH",
+        "statement": "Both ordered patches reproduce the bounded GL4SS candidate at the frozen commit while preserving checked public contracts, and that candidate builds and lints.",
+        "basis": "candidate verifier, build, and lint execution records",
+        "confidence": "high"
+      },
+      {
+        "id": "OBS-PACKAGE",
+        "statement": "The portable runtime has twelve closed files with byte parity between Codex portable content and the Claude distribution.",
+        "basis": "package verifier execution record",
+        "confidence": "high"
+      },
+      {
+        "id": "OBS-BEHAVIOR",
+        "statement": "All thirteen captured cases received independent behavioral PASS judgments within the declared reused-agent fresh-turn route.",
+        "basis": "final behavioral suite, three reviews, and evidence-custody seal",
+        "confidence": "high",
+        "consequence": "This is model-harness evidence, not live-host evidence."
+      },
+      {
+        "id": "OBS-KIT",
+        "statement": "The 39-file private kit passed topology, complete-checksum, ZIP-safety, parity, private-path, local-link, and deterministic-rebuild checks.",
+        "basis": "private-kit verifier and repeated-build evidence",
+        "confidence": "high"
+      },
+      {
+        "id": "OBS-DOCS",
+        "statement": "Thirteen customer-facing Markdown files passed static Hesperos lint.",
+        "basis": "one linter execution per declared customer document",
+        "confidence": "high",
+        "consequence": "Static lint is not assistive-technology or user testing."
+      }
+    ],
+    "inferred": [
+      {
+        "id": "INF-PORTABLE",
+        "statement": "The byte-matched portable skill should express the same prompt behavior on compatible Codex and Claude hosts.",
+        "basis": "portable topology, identical runtime bytes, and bounded harness behavior",
+        "confidence": "medium"
+      },
+      {
+        "id": "INF-VISUAL",
+        "statement": "The positive material render language is a credible improvement candidate for GL4SS imagery.",
+        "basis": "prompt analysis and behavior outputs without provider renders",
+        "confidence": "low"
+      }
+    ],
+    "assumed": [
+      {
+        "id": "ASM-HOST",
+        "statement": "A recipient host still supports the documented skill topology and invocation route.",
+        "basis": "current host documentation rather than a fresh-host receipt",
+        "confidence": "medium"
+      }
+    ],
+    "unresolved": [
+      {
+        "id": "UNR-LIVE-HOST",
+        "statement": "Fresh-host installation, discovery, explicit invocation, implicit selection, and healthy end-to-end behavior are unknown.",
+        "basis": "no authorized live-host qualification",
+        "confidence": "high"
+      },
+      {
+        "id": "UNR-RENDER",
+        "statement": "Provider dispatch, returned-image custody, compatibility, and rendered quality are unknown.",
+        "basis": "no authorized provider call or rendered A/B",
+        "confidence": "high"
+      },
+      {
+        "id": "UNR-SOURCES",
+        "statement": "Every external historical and palaeoenvironmental claim has not been freshly revalidated; six source cards remain draft.",
+        "basis": "corpus metadata and evidence boundary",
+        "confidence": "high"
+      },
+      {
+        "id": "UNR-ACCESS",
+        "statement": "Assistive-technology, browser, and representative-user outcomes are unknown.",
+        "basis": "no such execution evidence",
+        "confidence": "high"
+      }
+    ]
+  },
+  "impact_map": [
+    "GL4SS planner prompt assembly and deterministic still/cinematic compiler",
+    "portable skill instructions, references, templates, evals, and host metadata",
+    "place-time grounding, optic support, habitation, precision, scenario, comparison, and traversal behavior",
+    "render authority and truthful tool-state reporting",
+    "Codex folder, Claude ZIP, GL4SS patch pack, documentation, notices, manifest, and checksums",
+    "private-handoff evidence claims, provenance, privacy, accessibility, and recovery guidance"
+  ],
+  "invariants": [
+    {"id": "I-PATCH-BASE", "statement": "Drop-ins target one exact GL4SS commit and apply in planner-then-renderer order."},
+    {"id": "I-PATCH-BOUNDARY", "statement": "The patches add no model call, provider, dependency, storage layer, UI, or public TypeScript field."},
+    {"id": "I-PRECISION", "statement": "The view carries only the temporal, geographic, habitation, and scenario precision earned by input and sources."},
+    {"id": "I-OPTIC", "statement": "Every viewpoint has honest physical support, safe standoff, or an explicit virtual aperture."},
+    {"id": "I-AUTHORITY", "statement": "One authorized render is distinct from text-only work; multi-render routes state count before host authority."},
+    {"id": "I-TOOL-STATE", "statement": "Dispatch, returned output, failed render, prompt-only, and source-unavailable remain distinct states."},
+    {"id": "I-PARITY", "statement": "The twelve portable files remain byte-identical between Codex portable content and Claude distribution."},
+    {"id": "I-DELIVERY", "statement": "Every delivered file is checksummed; the Claude ZIP has one safe root; local links resolve; private host paths are absent."},
+    {"id": "I-CUSTODY", "statement": "Private-handoff claims remain bounded from live-host, provider, rendered-quality, public-license, and accessibility-conformance claims."}
+  ],
+  "risks": [
+    {
+      "id": "R-001",
+      "statement": "When the drop-ins are applied to the wrong GL4SS bytes or exceed their bounded seams, the application can fail or silently change public behavior outside the proposal.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-PATCH-BOUNDARY", "T-PATCH-VERIFY", "E-001", "E-002", "E-003"]
+    },
+    {
+      "id": "R-002",
+      "statement": "When a broad date or famous place is treated as a selected event or calendar state, OmniView can present invented precision as the requested world.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-BEHAVIOR-GROUNDING", "T-BEHAVIOR-SUITE", "E-006"]
+    },
+    {
+      "id": "R-003",
+      "statement": "When geography, habitation, or camera support is inferred from a label instead of the dated site, the prompt can invent land, universal absence, or an impossible witness position.",
+      "severity": "medium",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-BEHAVIOR-GROUNDING", "T-BEHAVIOR-SUITE", "E-006"]
+    },
+    {
+      "id": "R-004",
+      "statement": "When a visual verb, failed dispatch, comparison, or traversal is interpreted as broader authority than supplied, the host can incur unapproved external calls or report a render that never returned.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-RENDER-AUTHORITY", "T-BEHAVIOR-SUITE", "E-006"]
+    },
+    {
+      "id": "R-005",
+      "statement": "When harness route, model identity, execution, or evidence boundaries are overstated, a private handoff can be trusted for behavior it never observed.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-EVIDENCE-CUSTODY", "T-BEHAVIOR-CUSTODY", "E-007"]
+    },
+    {
+      "id": "R-006",
+      "statement": "When portable files diverge, references escape, manifests drift, or private development paths enter the package, one host can receive broken or sensitive bytes.",
+      "severity": "high",
+      "likelihood": "low",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-PACKAGE-CLOSURE", "T-PACKAGE-VERIFY", "E-004"]
+    },
+    {
+      "id": "R-007",
+      "statement": "When kit inventory, checksums, ZIP topology, local links, or repeated builds diverge, the recipient cannot establish what was delivered or safely open it.",
+      "severity": "medium",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-KIT-DELIVERY", "T-KIT-VERIFY", "T-KIT-DETERMINISM", "E-008", "E-009"]
+    },
+    {
+      "id": "R-008",
+      "statement": "When prerequisites, result states, stop conditions, recovery, or evidence limits are missing, a maintainer or skill user can damage work, retry an uncertain external action, or describe an unverified state as healthy.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "planned",
+      "verification": ["S-DOCUMENTATION-JOURNEY", "T-DOC-LINT", "T-DOC-REVIEW", "E-010", "E-011"]
+    },
+    {
+      "id": "R-009",
+      "statement": "When grounding source-card structure or internal visible-claim links break, behavioral prompts can consume an incoherent evidence corpus.",
+      "severity": "medium",
+      "likelihood": "low",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-CORPUS-CLOSURE", "T-CORPUS-VERIFY", "E-005"]
+    },
+    {
+      "id": "R-010",
+      "statement": "When private-preview language or GL4SS attribution is incomplete, a recipient can infer public redistribution rights or official upstream status that do not exist.",
+      "severity": "high",
+      "likelihood": "medium",
+      "confidence": "high",
+      "disposition": "planned",
+      "verification": ["S-DOCUMENTATION-JOURNEY", "T-DOC-REVIEW", "T-KIT-VERIFY", "E-008", "E-011"]
+    },
+    {
+      "id": "R-011",
+      "statement": "When the known unknown-habitation fallback is presented as repaired, the maintainer receives a broader patch claim than the code earns.",
+      "severity": "medium",
+      "likelihood": "low",
+      "confidence": "high",
+      "disposition": "covered",
+      "verification": ["S-PATCH-BOUNDARY", "T-PATCH-VERIFY", "T-DOC-REVIEW", "E-001", "E-011"]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S-PATCH-BOUNDARY",
+      "risk_ids": ["R-001", "R-011"],
+      "title": "Frozen GL4SS patch integration and bounded contracts",
+      "layer": "integration",
+      "preconditions": ["pristine control at the frozen commit", "candidate contains the intended ordered patches"],
+      "action": ["verify control and patch hashes", "check combined application", "exercise planner and real still/cinematic compilers", "build and lint the candidate"],
+      "expected": ["patches exactly reproduce the candidate", "checked public contracts remain unchanged", "planner and compilers satisfy bounded oracles", "build and lint exit zero"],
+      "forbidden": ["wrong-base application accepted", "unrelated contract drift", "unknown-habitation fallback claimed repaired"],
+      "evidence": ["verification/testforge/executions/candidate-verifier.json", "verification/testforge/executions/candidate-build.json", "verification/testforge/executions/candidate-lint.json"],
+      "status": "executed"
+    },
+    {
+      "id": "S-BEHAVIOR-GROUNDING",
+      "risk_ids": ["R-002", "R-003"],
+      "title": "Place-time precision, habitation, support, medium, and scenario behavior",
+      "layer": "contract",
+      "preconditions": ["runtime bytes fixed at commit e986b6acd1555925864c6c5314de4f729ba9874a", "thirteen canonical cases and declared reused-agent fresh-turn route"],
+      "action": ["run and independently judge year-level, exact-event, dense, sparse, uninhabited, ocean, ice, future, comparison, and medium cases"],
+      "expected": ["each output satisfies its case oracle", "uncertainty and scenario boundaries remain visible", "the optic support and habitation state cohere"],
+      "forbidden": ["famous-event inference from a year", "invented land or universal absence", "calendar-specific detail without earned precision"],
+      "evidence": ["verification/behavioral/final-v0.1.0/suite-receipt.json", "verification/behavioral/final-v0.1.0/reviews/behavior-review.md", "verification/behavioral/final-v0.1.0/reviews/adversarial-review.md"],
+      "status": "executed"
+    },
+    {
+      "id": "S-RENDER-AUTHORITY",
+      "risk_ids": ["R-004"],
+      "title": "Prompt-only degradation and traversal render authority",
+      "layer": "contract",
+      "preconditions": ["image tool unavailable for degradation case", "five-stop traversal requests render-count disclosure"],
+      "action": ["evaluate prompt-only degradation and multi-render authority cases"],
+      "expected": ["a complete seed survives unavailable rendering", "zero dispatch is reported", "the intended count precedes any multi-render route"],
+      "forbidden": ["fictional render receipt", "unannounced batch authority", "dispatch equated with returned image"],
+      "evidence": ["verification/behavioral/final-v0.1.0/executions/OV-RENDER-DEGRADE-001.json", "verification/behavioral/final-v0.1.0/executions/OV-TRAVERSE-AUTHORITY-001.json"],
+      "status": "executed"
+    },
+    {
+      "id": "S-EVIDENCE-CUSTODY",
+      "risk_ids": ["R-005"],
+      "title": "Behavioral byte custody and declared isolation boundary",
+      "layer": "observability",
+      "preconditions": ["final run, packets, raw outputs, executions, reviews, and suite receipt retained"],
+      "action": ["verify hashes, case set, runtime commit, turn IDs, outputs, route metadata, and payload commit seal"],
+      "expected": ["thirteen cases and exact bytes reconcile", "model identity remains null", "reused-agent route remains disclosed"],
+      "forbidden": ["blank-context claim", "observed-model claim", "behavioral-quality claim inferred from byte custody alone"],
+      "evidence": ["verification/behavioral/final-v0.1.0/evidence-custody.json", "verification/behavioral/final-v0.1.0/reviews/evidence-review.md"],
+      "status": "executed"
+    },
+    {
+      "id": "S-PACKAGE-CLOSURE",
+      "risk_ids": ["R-006"],
+      "title": "Portable runtime closure and host-distribution parity",
+      "layer": "static",
+      "preconditions": ["Codex and Claude source distributions present"],
+      "action": ["validate manifests, frontmatter, runtime references, private markers, and portable byte parity"],
+      "expected": ["twelve portable files close and match byte-for-byte", "Codex metadata remains the only host-specific extra"],
+      "forbidden": ["missing runtime reference", "private development path", "silent host divergence"],
+      "evidence": ["verification/testforge/executions/package-verifier-final.json"],
+      "status": "executed"
+    },
+    {
+      "id": "S-KIT-DELIVERY",
+      "risk_ids": ["R-007"],
+      "title": "Deterministic and self-checking private kit",
+      "layer": "integration",
+      "preconditions": ["final source bytes committed", "frozen GL4SS license bytes available"],
+      "action": ["build twice", "compare every file hash", "verify manifest, checksums, ZIP paths, parity, private markers, and local links"],
+      "expected": ["all 39 files reproduce identically", "every delivered file is covered by the checksum set", "the Claude ZIP has one safe root"],
+      "forbidden": ["path traversal", "private host path", "broken local link", "unmanifested payload", "nondeterministic byte"],
+      "evidence": ["verification/testforge/executions/private-kit-verifier.json", "verification/testforge/executions/private-kit-determinism.json"],
+      "status": "executed"
+    },
+    {
+      "id": "S-DOCUMENTATION-JOURNEY",
+      "risk_ids": ["R-008", "R-010"],
+      "title": "Find, understand, act, verify, recover, and preserve authority",
+      "layer": "exploratory",
+      "preconditions": ["thirteen customer documents frozen", "assembled kit available", "Hesperos brief and source ledger retained"],
+      "action": ["lint every declared Markdown file", "walk both reader journeys", "challenge links, prerequisites, stop conditions, recovery, evidence, privacy, accessibility, provenance, and license language"],
+      "expected": ["both readers have a viable text-first path", "commands expose stop and recovery conditions", "claims remain at their evidence state"],
+      "forbidden": ["dead-end procedure", "sensory-only essential meaning", "public-license implication", "live-host or conformance overclaim"],
+      "evidence": ["verification/hesperos/documentation-authorship.json", "verification/hesperos/reviews/documentation-accessibility-review.md"],
+      "status": "designed"
+    },
+    {
+      "id": "S-CORPUS-CLOSURE",
+      "risk_ids": ["R-009"],
+      "title": "Grounding source-card schema and internal links",
+      "layer": "static",
+      "preconditions": ["seventeen source cards and Draft 2020-12 schema present"],
+      "action": ["validate every card and internal visible-claim source link"],
+      "expected": ["all seventeen cards pass schema and internal-link checks"],
+      "forbidden": ["claim of fresh external truth revalidation"],
+      "evidence": ["verification/testforge/executions/corpus-verifier.json"],
+      "status": "executed"
+    }
+  ],
+  "tests": [
+    {
+      "id": "T-PATCH-VERIFY",
+      "scenario_ids": ["S-PATCH-BOUNDARY"],
+      "path": "dropins/tests/verify-candidate.mjs",
+      "status": "passed",
+      "execution_id": "E-001"
+    },
+    {
+      "id": "T-PATCH-BUILD",
+      "scenario_ids": ["S-PATCH-BOUNDARY"],
+      "path": ".work/GL4SS/package.json",
+      "status": "passed",
+      "execution_id": "E-002"
+    },
+    {
+      "id": "T-PATCH-LINT",
+      "scenario_ids": ["S-PATCH-BOUNDARY"],
+      "path": ".work/GL4SS/eslint.config.js",
+      "status": "passed",
+      "execution_id": "E-003"
+    },
+    {
+      "id": "T-BEHAVIOR-SUITE",
+      "scenario_ids": ["S-BEHAVIOR-GROUNDING", "S-RENDER-AUTHORITY"],
+      "path": "plugins/omniview-looking-glass/skills/omniview-looking-glass/evals/omniview-cases.yaml",
+      "status": "passed",
+      "execution_id": "E-006"
+    },
+    {
+      "id": "T-BEHAVIOR-CUSTODY",
+      "scenario_ids": ["S-EVIDENCE-CUSTODY"],
+      "path": "verification/scripts/verify_behavior_suite.py",
+      "status": "passed",
+      "execution_id": "E-007"
+    },
+    {
+      "id": "T-PACKAGE-VERIFY",
+      "scenario_ids": ["S-PACKAGE-CLOSURE"],
+      "path": "verification/scripts/verify_package.py",
+      "status": "passed",
+      "execution_id": "E-004"
+    },
+    {
+      "id": "T-KIT-VERIFY",
+      "scenario_ids": ["S-KIT-DELIVERY", "S-DOCUMENTATION-JOURNEY"],
+      "path": "verification/scripts/verify_private_kit.py",
+      "status": "passed",
+      "execution_id": "E-008"
+    },
+    {
+      "id": "T-KIT-DETERMINISM",
+      "scenario_ids": ["S-KIT-DELIVERY"],
+      "path": "verification/scripts/verify_private_kit_determinism.py",
+      "status": "passed",
+      "execution_id": "E-009"
+    },
+    {
+      "id": "T-DOC-LINT",
+      "scenario_ids": ["S-DOCUMENTATION-JOURNEY"],
+      "path": "verification/scripts/verify_documentation.py",
+      "status": "passed",
+      "execution_id": "E-010"
+    },
+    {
+      "id": "T-DOC-REVIEW",
+      "scenario_ids": ["S-DOCUMENTATION-JOURNEY", "S-PATCH-BOUNDARY"],
+      "path": "verification/hesperos/reviews/documentation-accessibility-review.md",
+      "status": "unexecuted"
+    },
+    {
+      "id": "T-CORPUS-VERIFY",
+      "scenario_ids": ["S-CORPUS-CLOSURE"],
+      "path": "verification/scripts/verify_corpus.py",
+      "status": "passed",
+      "execution_id": "E-005"
+    }
+  ],
+  "executions": [
+    {
+      "id": "E-001",
+      "command": ["node", "dropins/tests/verify-candidate.mjs", "--control", "<frozen-gl4ss-control>", "--candidate", "<bounded-candidate>"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/candidate-verifier.json"
+    },
+    {
+      "id": "E-002",
+      "command": ["npm.cmd", "run", "build"],
+      "working_directory": "<candidate-gl4ss-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/candidate-build.json"
+    },
+    {
+      "id": "E-003",
+      "command": ["npm.cmd", "run", "lint"],
+      "working_directory": "<candidate-gl4ss-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/candidate-lint.json"
+    },
+    {
+      "id": "E-004",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_package.py"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/package-verifier-final.json"
+    },
+    {
+      "id": "E-005",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_corpus.py"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/corpus-verifier.json"
+    },
+    {
+      "id": "E-006",
+      "command": ["collaboration-agent-evaluation", "final-v0.1.0", "thirteen-cases"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/behavioral/final-v0.1.0/suite-receipt.json and reviews/behavior-review.md"
+    },
+    {
+      "id": "E-007",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_behavior_suite.py", "verify", "--run-dir", "verification/behavioral/final-v0.1.0"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/behavioral-custody-final.json"
+    },
+    {
+      "id": "E-008",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_private_kit.py"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/private-kit-verifier.json"
+    },
+    {
+      "id": "E-009",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_private_kit_determinism.py", "--gl4ss-root", "<frozen-gl4ss-control>"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/private-kit-determinism.json"
+    },
+    {
+      "id": "E-010",
+      "command": ["python", "-X", "utf8", "verification/scripts/verify_documentation.py", "--linter", "<installed-hesperos-linter>"],
+      "working_directory": "<repository-root>",
+      "status": "passed",
+      "exit_code": 0,
+      "raw_evidence": "verification/testforge/executions/documentation-lint.json"
+    },
+    {
+      "id": "E-011",
+      "command": ["collaboration-agent-review", "documentation-accessibility-reviewer", "final"],
+      "working_directory": "<repository-root>",
+      "status": "not_run",
+      "exit_code": null,
+      "raw_evidence": null
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-001",
+      "classification": "EXPECTED_CONTRACT_CHANGE",
+      "severity": "low",
+      "statement": "The minimal GL4SS patch intentionally preserves the existing unknown-habitation warning-and-continue fallback.",
+      "evidence": ["verification/testforge/executions/candidate-verifier.json", "docs/GL4SS-DROPINS.md"],
+      "confidence": "high",
+      "next_action": "Reopen only if Pliny wants fallback semantics changed in a separately qualified patch.",
+      "status": "accepted"
+    },
+    {
+      "id": "F-002",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "severity": "medium",
+      "statement": "No fresh-host install, discovery, invocation, image dispatch, returned-output, or rendered-quality evidence exists.",
+      "evidence": ["customer-kit/HOST-MATRIX.md", "customer-kit/VERIFICATION-SUMMARY.md"],
+      "confidence": "high",
+      "next_action": "Run separate host and provider qualification only with explicit install and render authority.",
+      "status": "open"
+    },
+    {
+      "id": "F-003",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "severity": "low",
+      "statement": "Behavioral evidence used fresh turns on reused agents, exposes no observed model identity, and contains one accepted result per case.",
+      "evidence": ["verification/behavioral/final-v0.1.0/run.json", "verification/behavioral/final-v0.1.0/suite-receipt.json"],
+      "confidence": "high",
+      "next_action": "Repeat in blank contexts with observed transport identity and stochastic samples before model-specific claims.",
+      "status": "open"
+    },
+    {
+      "id": "F-004",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "severity": "medium",
+      "statement": "Corpus structure passes, but six cards remain draft and every external claim was not freshly revalidated.",
+      "evidence": ["verification/testforge/executions/corpus-verifier.json", "customer-kit/VERIFICATION-SUMMARY.md"],
+      "confidence": "high",
+      "next_action": "Revalidate load-bearing source cards before stronger domain-correctness claims.",
+      "status": "open"
+    },
+    {
+      "id": "F-005",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "severity": "low",
+      "statement": "Static accessibility checks pass, but no assistive-technology, browser, or representative-user completion evidence exists.",
+      "evidence": ["docs/ACCESSIBILITY.md", "verification/hesperos/documentation-project.json"],
+      "confidence": "high",
+      "next_action": "Run task-based accessibility and usability evaluation before a conformance or user-tested claim.",
+      "status": "open"
+    },
+    {
+      "id": "F-006",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "severity": "high",
+      "statement": "The original companion materials have no public license grant.",
+      "evidence": ["plugins/omniview-looking-glass/skills/omniview-looking-glass/LICENSE.md", "customer-kit/PROVENANCE.md"],
+      "confidence": "high",
+      "next_action": "Sam or the designated owner must select and document a license before public distribution.",
+      "status": "open"
+    }
+  ],
+  "residual_risks": [
+    {
+      "id": "RR-001",
+      "statement": "Behavioral results may vary in blank contexts, on other models, or across repeated sampling.",
+      "treatment": "Keep claims bound to the retained reused-agent route and thirteen captured results.",
+      "owner": "Collaborative Dynamics",
+      "revisit_condition": "model-specific qualification, public performance claim, or runtime prompt change"
+    },
+    {
+      "id": "RR-002",
+      "statement": "Live host and provider compatibility, cost behavior, dispatch, and returned-output custody remain unknown.",
+      "treatment": "Keep install and render states unverified; require separate authority and receipts.",
+      "owner": "Collaborative Dynamics",
+      "revisit_condition": "fresh-host qualification or authorized provider A/B"
+    },
+    {
+      "id": "RR-003",
+      "statement": "Six draft source cards and unrefreshed external claims limit domain-correctness confidence.",
+      "treatment": "Use uncertainty and source-unavailable behavior; revalidate load-bearing cards before stronger claims.",
+      "owner": "Collaborative Dynamics",
+      "revisit_condition": "domain release, source challenge, or stronger historical claim"
+    },
+    {
+      "id": "RR-004",
+      "statement": "The text-first journey lacks assistive-technology, browser, and representative-user evidence.",
+      "treatment": "Make no conformance or user-tested claim and retain an alternative-format reporting route.",
+      "owner": "Collaborative Dynamics",
+      "revisit_condition": "public documentation surface or accessibility claim"
+    },
+    {
+      "id": "RR-005",
+      "statement": "The GL4SS unknown-habitation fallback remains unchanged.",
+      "treatment": "Disclose it as an intentional boundary of the two-patch proposal.",
+      "owner": "GL4SS maintainer",
+      "revisit_condition": "request for fallback semantics or parser redesign"
+    },
+    {
+      "id": "RR-006",
+      "statement": "The candidate retains a Vite chunk-size warning and an earlier unretained report of pre-existing dependency vulnerabilities.",
+      "treatment": "Do not claim dependency or bundle remediation; qualify separately if distribution scope changes.",
+      "owner": "GL4SS maintainer",
+      "revisit_condition": "public deployment, dependency update, or performance/security gate"
+    },
+    {
+      "id": "RR-007",
+      "statement": "Private handoff readiness does not authorize sending, installation, upstream submission, publication, or public redistribution.",
+      "treatment": "Keep the artifact local until Sam grants the relevant action and license authority.",
+      "owner": "Sam Walker",
+      "revisit_condition": "explicit external-transfer, install, upstream, publication, or license decision"
+    }
+  ],
+  "review": {"status": "NOT_RUN", "findings": []},
+  "decision": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "basis": ["final documentation and independent verification review are pending"],
+    "authority_required": []
+  }
+}

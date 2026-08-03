@@ -1,10 +1,14 @@
 # Verification Summary
 
-Disposition for the private peer handoff: **READY_WITH_RESIDUAL_RISK**, pending the final documentation, kit, and manifest gates.
+Disposition for the assembled local private peer handoff: **READY_WITH_RESIDUAL_RISK**. This does not authorize sending, installation, upstream submission, publication, or public redistribution.
 
 This page distinguishes observed local evidence from untested host and provider behavior.
 
 ## Observed
+
+### Private kit
+
+The deterministic builder produced 39 files. The final kit verifier checks the complete manifest and checksum sets, one-root Claude ZIP topology, Codex-Claude portable byte parity, local links, and exclusion of private host paths. A repeated build must reproduce every file hash.
 
 ### GL4SS patch integration
 

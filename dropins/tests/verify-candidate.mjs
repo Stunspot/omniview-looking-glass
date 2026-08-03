@@ -149,12 +149,11 @@ const args = parseArgs(process.argv.slice(2));
 assert.ok(args.control, '--control is required');
 assert.ok(args.candidate, '--candidate is required');
 
-const repositoryRoot = path.resolve(
+const packRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   '..',
-  '..',
 );
-const integrationRoot = path.join(repositoryRoot, 'dropins', 'integration');
+const integrationRoot = path.join(packRoot, 'integration');
 const baseline = JSON.parse(
   await readFile(path.join(integrationRoot, 'gl4ss-baseline.json'), 'utf8'),
 );

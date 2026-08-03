@@ -47,6 +47,8 @@ Use the paths for your unpacked kit:
 
 Do not force the patches onto another commit. Rebase the proposal deliberately and requalify it instead.
 
+If the first patch applies but the second patch fails or the process is interrupted, stop. Inspect `git status --short` and do not build from an uncertain partial state. Discard the disposable candidate, or reverse only the patch that actually applied before trying again.
+
 ## Build and lint the candidate
 
 Use the package manager and lockfile already present in GL4SS:

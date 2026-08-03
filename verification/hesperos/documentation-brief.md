@@ -1,0 +1,11 @@
+# Documentation brief
+
+- Product and version: OmniView - The Looking Glass Companion, 0.1.0 private preview.
+- Intended readers and prior knowledge: Pliny as GL4SS maintainer; Codex and Claude users who can install a local skill; reviewers who need exact evidence boundaries. Readers need ordinary repository or host navigation, not prompt-engineering expertise.
+- Top tasks and use moment: choose the GL4SS or companion door; apply or install the correct artifact; reach a grounded prompt-only first view; distinguish render and evidence states; verify bytes; recover without damaging unrelated work.
+- Delivery surface and format: one private kit rooted at `README.md`, with plain-Markdown guides, one Codex folder, one Claude ZIP, two GL4SS patches, license notices, a JSON manifest, and SHA-256 checksums.
+- Source authorities: sealed OmniView runtime; frozen GL4SS commit and patch manifest; retained behavioral, adversarial, custody, build, lint, corpus, and packaging evidence; current official host documentation for install paths; owner relationship and license decisions.
+- Risk and accessibility context: no live fresh-host installation or image-provider receipt; metered and external tool calls retain host authority; no public license grant; text-first route is complete; no assistive-technology, browser, or representative-user test.
+- Successful outcome: a reader can find the right artifact, understand its boundary, act safely, recognize first value, verify the delivered bytes, and recover or report a defect without reading development internals.
+- Known gaps or conflicts: six source cards remain draft; behavioral turns used fresh turns on reused agents; model identity was not observed; one accepted result per case; no rendered A/B; GL4SS unknown-habitation fallback and chunk warning remain; public release and live-host qualification require separate evidence.
+- Owner, deadline, and review authority: Collaborative Dynamics owns custody; Hesperos independent accessibility review and TestForge independent verification review govern this private-handoff gate; Sam retains publication, upstream, license, install, and external-send authority.

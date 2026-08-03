@@ -55,6 +55,8 @@ Ask:
 
 A useful discovery check must demonstrate that the installed skill was selected. A plausible historical answer by itself is not discovery evidence.
 
+This preview has no qualified Codex selection receipt yet. Treat discovery as awaiting fresh-host qualification unless the host exposes an observable selection record.
+
 The package includes Codex-facing metadata that permits implicit selection. Qualify explicit selection before testing implicit selection.
 
 ## Install for Claude

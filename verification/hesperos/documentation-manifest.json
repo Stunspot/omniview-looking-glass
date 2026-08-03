@@ -1,0 +1,20 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "product": "omniview-looking-glass",
+  "version": "0.1.0",
+  "customer_docs": [
+    "README.md",
+    "LICENSES/README.md",
+    "customer-kit/HOST-MATRIX.md",
+    "customer-kit/PROVENANCE.md",
+    "customer-kit/START-HERE.md",
+    "customer-kit/VERIFICATION-SUMMARY.md",
+    "docs/ACCESSIBILITY.md",
+    "docs/GL4SS-DROPINS.md",
+    "docs/INSTALLATION.md",
+    "docs/PACKAGE-REFERENCE.md",
+    "docs/TROUBLESHOOTING.md",
+    "docs/TRUST-PRIVACY-AND-LIMITS.md",
+    "docs/USING-OMNIVIEW.md"
+  ]
+}

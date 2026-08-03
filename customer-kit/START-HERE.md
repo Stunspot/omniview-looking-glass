@@ -59,7 +59,7 @@ The short version:
 
 - static package, corpus, patch, build, lint, and 13-case prompt behavior have local receipts;
 - live host installation and live image generation do not;
-- all final reviewers returned `PASS_WITH_RESIDUAL_RISK`;
+- the three retained behavioral, adversarial, and evidence-custody reviewers returned `PASS_WITH_RESIDUAL_RISK`;
 - no model-specific qualification is claimed because the behavioral route did not expose observed model identity.
 
 ## Relationship and license
