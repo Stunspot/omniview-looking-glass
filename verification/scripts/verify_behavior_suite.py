@@ -168,9 +168,10 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     prepared_at = utc_now()
     runtime_commit = git_head()
     isolation_contract = {
-        "episode_mode": "one fresh turn per selected case",
-        "freshness_state": "attributed harness assertion; uniqueness is mechanically checked",
-        "exclusions": ["eval oracles", "development corpus", "prior outputs", "reviews", "browsing", "image tools", "providers", "durable state", "external actions"],
+        "episode_mode": "one fresh turn per selected case on a reused collaboration agent",
+        "freshness_state": "attributed harness assertion; unique turn labels are mechanically checked",
+        "context_boundary": "The harness thread limit prevented thirteen new blank-context agents. Each credited turn is assigned a case different from that agent's retained prior case; unrelated relay or prior-case content may remain in context.",
+        "exclusions": ["eval oracles", "development corpus", "same-case prior outputs", "behavioral reviews", "browsing", "image tools", "providers", "durable state", "external actions"],
     }
     host = {"label": args.host, "attributed": True}
     adapter = {"label": args.adapter, "attributed": True}
