@@ -1,7 +1,8 @@
 <p align="center">
   <img src="./docs/assets/brand/omniview-readme-hero.png" alt="OmniView aperture spanning an ancient river city, open ocean, and an electric twentieth-century street.">
 </p>
-OmniView — The Looking Glass Companion
+
+# OmniView — The Looking Glass Companion
 
 > A wormhole camera is not a subject with a year stapled to it. It is a place to stand, a world to read, and a moment made visible.
 
