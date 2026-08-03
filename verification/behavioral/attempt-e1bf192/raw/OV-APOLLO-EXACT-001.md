@@ -1,0 +1,9 @@
+READ_OK; HEAD=e1bf192da672e3d036228bbf2e45160ffdee628c; SKILL_SHA256=e16cdc912dcad3fdcb20c4aaa4453b9dfab1870017840043f394e4c9e6d9ef10; FILES=SKILL.md,grounding-and-precision.md,wormhole-optics.md,render-language.md
+
+**View:** From a public viewing position across the low coastal flats near Launch Complex 39A, the Saturn V stands bright above its launch pedestal at 09:32 EDT, its white skin and black roll patterns sharply cut by the Florida morning sun. In the foreground, spectators lean behind a rope line as the ignition bloom turns the waterlogged grass and distant gantries amber; the rocket’s exhaust column swells beneath it while it begins its climb over the palms and marsh.
+
+**Render prompt:** Wide documentary photograph from an ordinary public viewing position near Launch Complex 39A, Cape Kennedy, Florida, July 16, 1969, 09:32 EDT. Apollo 11’s Saturn V rises from Pad 39A, white stages with black roll patterns lifting above the launch tower as a dense orange-white exhaust column billows across the pad. Spectators in 1969 summer clothes crowd behind a rope line in the foreground, faces lifted, some shielding their eyes; low marsh grass, drainage water, palms, and distant industrial gantries establish the coastal launch complex across the middle distance. Clear Florida morning sunlight rakes the rocket’s painted skin, catches heat haze above the flame trench, and turns the drifting exhaust luminous against a humid blue sky. Off-centre ascent, foreground heads partially occluding the pad, long-lens documentary framing, fine photographic grain, deep atmospheric distance.
+
+**Grounding:** The supplied date and hour select Apollo 11’s Launch Complex 39A liftoff. The precise public viewing position is treated as a bounded visual inference; the launch, pad, coastal setting, crowd, and morning-light relations govern the scene.
+
+**Render state:** prompt-only.

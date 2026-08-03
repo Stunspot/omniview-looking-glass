@@ -1,0 +1,8 @@
+
+**Render prompt**
+
+One wide documentary frame from physical footing at human eye height on a packed-earth lane in Uruk around 3200 BC at first light; off-centre in the foreground, a seal cutter rolls a carved cylinder through wet clay while a porter pivots past with a reed basket, forcing two carriers to angle their loads around him; dense city life overlaps through every depth—barefoot laborers shoulder mudbrick molds, scribes press reed styluses into damp tablets beside stacked beveled-rim bowls, sheep funnel between plastered walls, and reed boats nose against a canal landing as grain sacks change hands. Fresh mudbrick, white gypsum plaster, colored clay-cone mosaic, woven reed matting, bitumen-darkened boat seams, wet clay tablets, and scuffed basket fibers carry the Uruk-period material world; monumental precinct walls rise beyond tightly worked lanes while irrigated palms and reeds mark the watercourse at the city’s edge. Cool first light grazes brick joints, glows through suspended chaff and kiln smoke, flashes on canal water and damp clay, and separates crowded near bodies from the pale monumental mass beyond; caught-in-motion asymmetry, partial occlusion, deep atmospheric layering, restrained natural color, fine-grained photographic texture.
+
+**Grounding**
+
+The broad date supports a phase-level Uruk city, dense habitation, canal-linked work, mudbrick construction, administrative clay, cylinder seals, beveled-rim bowls, and monumental precinct architecture. The exact lane, workers, animal passage, smoke, and first-light action are bounded visual inferences composed into one ordinary coherent moment; season and precise solar geometry remain unresolved.

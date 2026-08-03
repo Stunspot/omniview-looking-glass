@@ -3,3 +3,4 @@ node_modules/
 *.tsbuildinfo
 *.log
 verification/generated/
+__pycache__/

@@ -1,0 +1,7 @@
+READ_OK; HEAD=1757a8cd992c5d00b346a7ce8a26737a1bc13755; SKILL_SHA256=7666fc0e4b9467e83e3bb6ae1a9c0799978905390574ea9bc1221ad4ceae9f1c; FILES=SKILL.md,grounding-and-precision.md,wormhole-optics.md,render-language.md
+
+**Render prompt**
+
+Wide documentary photograph, Uruk around 3200 BC at first light, from physical footing at human eye height on a damp packed-clay lane beside a shallow managed channel. Off-centre, a worker presses a cylinder seal into a wet clay jar stopper as a reed basket slips against her hip; fresh seal impressions shine, and a porter turns through the lane with a load of barley. Dense settled life fills the frame: reed-bundle carriers, sheep being guided past a mudbrick threshold, women rinsing clay bowls at the channel edge, and overlapping figures moving between active courtyards.
+
+Fresh-plastered mudbrick walls rise in stepped layers toward the Eanna precinct, with cone-mosaic panels catching the first raking light; timber door lintels, reed screens, bitumen-darkened basket seams, clay tablets, and wheelless drag marks make the city’s work visible. Foreground puddles hold broken reflections of ankles and reed bundles; middle distance narrows into smoke lifting from hearths; far distance resolves into temple terraces, palms, canal reeds, and a pale alluvial horizon. Low sun enters from camera right, grazing plaster and wet clay, scattering through suspended dust, and leaving the lane in long cool blue shadow; wide frame, deep layered focus, one unrepeatable morning already in motion.

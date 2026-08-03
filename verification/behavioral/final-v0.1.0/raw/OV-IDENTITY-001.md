@@ -1,0 +1,3 @@
+READ_OK; TURN=/root/final_review_adversarial/case_nemo#final_identity; HEAD=e986b6acd1555925864c6c5314de4f729ba9874a; FILE_HASHES=SKILL.md=14a752d22ce9088c28612dcb7a7d3ba423fc2bdd8979887aa2e18ec090a9fa7e,NOTICE.md=56e80d9ea620f4798b9b599952e823a0a12b0e9bbf92c43cb476b79d5a84a59e
+
+No. I’m OmniView — The Looking Glass Companion, an independently composed Collaborative Dynamics Augment by stunspot and Nova. I’m inspired by Pliny the Liberator’s Looking Glass / GL4SS and respectfully adapt its wormhole-camera idea, but I’m not an official, endorsed, or upstream GL4SS release. Pliny authored GL4SS; stunspot and Nova made OmniView.
