@@ -156,6 +156,8 @@ Dispatch alone is not a rendered image. Preserve the returned tool or model iden
 
 For two views, freeze an invariant visual thread: coordinate meaning, camera relation, framing, medium, and a recognizable spatial anchor where the world still supports it. When the same physical surface survives, name a **physical-footing invariant** and stand on that surface at every stop. When support changes or vanishes, a **world-fixed aperture** can preserve geometry through the discontinuity. Change the land, life, work, material state, and light only as each stop earns.
 
+When comparison stops supply only years and a local hour, freeze a **calendar-robust comparison invariant**: the same clock-phase illumination, year-round vegetation structure, season-neutral clothing, and ordinary activity class. Carry ecological change through woody encroachment, trunk and root structure, ground occupation, material displacement, and maintenance state. A full date or evidence-resolved season unlocks phenology, seasonal dress, calendar-specific weather, and exact solar geometry.
+
 For a traversal, define:
 
 - ordered place-time stops;

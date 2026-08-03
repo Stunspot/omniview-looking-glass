@@ -13,6 +13,8 @@ Choose what remains invariant:
 - local hour or solar relation where useful;
 - one spatial anchor or visual motif that survives the sequence.
 
+When the stops are year-level, freeze calendar resolution as part of the comparison contract. Use the same date-robust clock-phase illumination, year-round vegetation structure, season-neutral clothing, and ordinary activity class. Make ecological succession visible through woody encroachment, trunk and root structure, ground occupation, material displacement, and maintenance state. Full dates or evidence-resolved seasons unlock phenology, seasonal dress, calendar-specific weather, and exact solar geometry.
+
 Test physical continuity first. When the same support surface survives every stop, use the **physical-footing invariant** contract: repeat physical footing at the same point and height while preserving orientation and frame geometry. The **world-fixed aperture** contract begins at a support discontinuity.
 
 Then identify what evidence is allowed to change:
@@ -22,7 +24,7 @@ Then identify what evidence is allowed to change:
 - human use and habitation;
 - construction, maintenance, abandonment, and decay;
 - transport, goods, tools, clothing, and infrastructure;
-- atmosphere and light where the fixed hour meets a changed surface.
+- atmosphere and light where the fixed hour meets a changed surface, within each stop's calendar resolution.
 
 The sequence should make causation legible. It is not the same composition with costumes swapped.
 
