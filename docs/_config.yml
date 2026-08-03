@@ -1,0 +1,12 @@
+title: "OmniView"
+description: "An agent-operated wormhole camera for grounded views through place and time."
+url: "https://stunspot.github.io"
+baseurl: "/omniview-looking-glass"
+theme: jekyll-theme-cayman
+show_downloads: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

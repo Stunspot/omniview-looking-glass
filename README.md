@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./docs/assets/brand/omniview-readme-hero.png" alt="OmniView aperture spanning an ancient river city, open ocean, and an electric twentieth-century street.">
+</p>
 # OmniView — The Looking Glass Companion
 
 > A wormhole camera is not a subject with a year stapled to it. It is a place to stand, a world to read, and a moment made visible.
@@ -40,7 +43,7 @@ The prompts describe the world the model should make. They do not spend their at
 
 ## Start here
 
-- Private handoff orientation: [customer-kit/START-HERE.md](customer-kit/START-HERE.md)
+- Public release orientation: [customer-kit/START-HERE.md](customer-kit/START-HERE.md)
 - Install the companion: [docs/INSTALLATION.md](docs/INSTALLATION.md)
 - Use natural requests: [docs/USING-OMNIVIEW.md](docs/USING-OMNIVIEW.md)
 - Apply the GL4SS patches: [docs/GL4SS-DROPINS.md](docs/GL4SS-DROPINS.md)
