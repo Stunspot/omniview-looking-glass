@@ -2,7 +2,7 @@
 
 Public release v0.1.1 contains the unchanged v0.1.0 portable runtime. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
 
-Artifact paths on this page are relative to the root of the assembled public release. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
+[Download public release v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1). Artifact paths on this page are relative to the root of that assembled public release. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
 
 ## Before you install
 
