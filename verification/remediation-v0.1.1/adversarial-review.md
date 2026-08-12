@@ -18,6 +18,6 @@ Review date: 2026-08-11
 
 ## Result
 
-No release-blocking contradiction remains in the reviewed content. The 58-file release rebuild is byte-stable; archive SHA-256 is `93ce1e52d15a6f21c63805faa5f9c09a58b45871509618129e9ac05308d8450b`. Package validation reports 12 portable files with Codex-Claude parity; corpus validation reports 17 cards; retained behavior custody reports 13 cases; the GL4SS integration verifier passes all controls; candidate build and lint pass with the pre-existing large-chunk warning disclosed.
+No release-blocking contradiction remains in the reviewed content. The 58-file release rebuild is byte-stable; archive SHA-256 is `433fe29430d24dd41413c25ac3522d58a1747b8fca58690737feb164b9d81a59`. Package validation reports 12 portable files with Codex-Claude parity; corpus validation reports 17 cards; retained behavior custody reports 13 cases; the GL4SS integration verifier passes all controls; candidate build and lint pass with the pre-existing large-chunk warning disclosed.
 
 Residuals are explicit: no fresh-host discovery or invocation, successful live image dispatch, returned-image custody, provider compatibility, rendered superiority, repeated stochastic reliability, assistive-technology test, or independent source-card revalidation is claimed.
