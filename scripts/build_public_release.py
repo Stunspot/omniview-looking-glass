@@ -59,7 +59,8 @@ def git_value(*args: str) -> str:
 def release_source_commit() -> str:
     """Return the newest commit that changed source outside derived release artifacts."""
     return git_value(
-        '-C', str(ROOT), 'rev-list', '-1', 'HEAD', '--', '.', ':(exclude)release'
+        '-C', str(ROOT), 'rev-list', '-1', 'HEAD', '--', '.',
+        ':(exclude)release', ':(exclude)verification/remediation-v0.1.1'
     )
 
 def prepare_output() -> None:
