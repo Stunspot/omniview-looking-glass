@@ -26,7 +26,7 @@ The upstream control checkout was observed clean at the frozen commit during ver
 
 The companion runtime, references, assets, evals, and documentation were independently composed by stunspot and Nova. The relationship to GL4SS is inspiration, explicit attribution, and respectful adaptation of the wormhole-camera idea.
 
-Version 0.1.0 is publicly released under the standard Collaborative Dynamics split license: MIT for deterministic software and CC BY-ND 4.0 for original authored Augment material. The separate GL4SS drop-in pack remains AGPL-3.0-or-later.
+Public release v0.1.1 carries the v0.1.0 package with unchanged behavior-bearing instructions under the standard Collaborative Dynamics split license: MIT for deterministic software and CC BY-ND 4.0 for original authored Augment material. The separate GL4SS drop-in pack remains AGPL-3.0-or-later.
 
 ## Canonical custody
 

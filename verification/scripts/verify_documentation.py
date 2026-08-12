@@ -10,7 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DOCUMENTS = (
     'README.md',
+    'CONTRIBUTING.md',
     'NOTICE.md',
+    'SECURITY.md',
+    'SUPPORT.md',
     'TRADEMARKS.md',
     'LICENSES/README.md',
     'customer-kit/HOST-MATRIX.md',
@@ -20,6 +23,7 @@ DOCUMENTS = (
     'docs/ACCESSIBILITY.md',
     'docs/GL4SS-DROPINS.md',
     'docs/INSTALLATION.md',
+    'docs/LIFECYCLE.md',
     'docs/PACKAGE-REFERENCE.md',
     'docs/TROUBLESHOOTING.md',
     'docs/TRUST-PRIVACY-AND-LIMITS.md',

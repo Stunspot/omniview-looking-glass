@@ -1,6 +1,6 @@
 # Installation
 
-Version 0.1.0 is a public release. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
+Public release v0.1.1 contains the unchanged v0.1.0 portable runtime. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
 
 Artifact paths on this page are relative to the root of the assembled public release. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
 
@@ -125,4 +125,4 @@ Before updating, move the existing `omniview-looking-glass` folder or ZIP record
 
 To remove a local installation, move the complete skill folder out of the host's skill directory and start a new session. In Claude's uploaded-skill interface, disable or remove the skill through **Customize > Skills**.
 
-If discovery or behavior is unclear, stop before replacing more files and use [Troubleshooting](TROUBLESHOOTING.md).
+If discovery or behavior is unclear, stop before replacing more files and use [Troubleshooting](TROUBLESHOOTING.md). For complete update, removal, rollback, and data-cleanup boundaries, read [Lifecycle](LIFECYCLE.md).

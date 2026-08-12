@@ -11,7 +11,8 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[2]
 NAME = 'omniview-looking-glass'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
+RUNTIME_VERSION = '0.1.0'
 KIT = ROOT / 'release' / f'{NAME}-{VERSION}'
 ARCHIVE = ROOT / 'release' / f'OmniView-v{VERSION}.zip'
 CANONICAL = ROOT / 'plugins' / NAME / 'skills' / NAME
@@ -48,6 +49,8 @@ def verify_manifest(errors: list[str]) -> None:
     identity = (manifest.get('product'), manifest.get('version'), manifest.get('channel'))
     if identity != (NAME, VERSION, 'public-release'):
         errors.append(f'manifest identity mismatch: {identity}')
+    if manifest.get('runtime_version') != RUNTIME_VERSION:
+        errors.append('manifest runtime version mismatch')
 
     declared = {}
     for entry in manifest.get('payload', []):
@@ -146,10 +149,14 @@ def verify_host_artifacts(errors: list[str]) -> None:
                 errors.append(f'Codex portable byte mismatch: {relative}')
 
     expected_top = {
+        'CONTRIBUTING.md',
         'LICENSE.md',
         'LICENSES',
         'NOTICE.md',
+        'SECURITY.md',
+        'SUPPORT.md',
         'README.md',
+        'RELEASE-NOTES.md',
         'SHA256SUMS.txt',
         'TRADEMARKS.md',
         'claude',

@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 NAME = 'omniview-looking-glass'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 KIT = ROOT / 'release' / f'{NAME}-{VERSION}'
 ARCHIVE = ROOT / 'release' / f'OmniView-v{VERSION}.zip'
 BUILDER = ROOT / 'scripts' / 'build_public_release.py'

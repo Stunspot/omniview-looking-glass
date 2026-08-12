@@ -72,3 +72,5 @@ Include:
 - whether a retry could incur cost or duplicate an external action.
 
 Share secrets, API keys, private coordinates, account identifiers, and unrelated host logs only through a channel you have deliberately chosen for that data.
+
+Use [Support](SUPPORT.md) for the public reporting route, [Security policy](SECURITY.md) for sensitive defects, and [Lifecycle](LIFECYCLE.md) before removing installations or retained data.

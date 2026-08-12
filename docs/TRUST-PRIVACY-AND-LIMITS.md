@@ -53,3 +53,5 @@ Original OmniView deterministic software is available under MIT, authored Augmen
 ## Security posture
 
 Inspect package bytes and `SHA256SUMS.txt` before installation. Preserve any existing skill of the same name. Keep provider credentials in host-approved secret storage, never in the package or a Render Seed. Do not retry a paid or state-changing tool call while its prior commit state is unknown.
+
+For update, removal, rollback, and cleanup of saved prompts, view records, images, host logs, provider history, downloads, and GL4SS candidates, read [Lifecycle](LIFECYCLE.md).

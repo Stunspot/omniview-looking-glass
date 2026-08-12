@@ -1,6 +1,6 @@
 # Verification Summary
 
-Disposition for the assembled public release: **READY_WITH_RESIDUAL_RISK**. Public repository and release publication are owner-authorized; installation, upstream submission, provider rendering, and external messaging remain separate actions.
+Disposition for public release v0.1.1: **READY_WITH_RESIDUAL_RISK**. It packages the v0.1.0 package with unchanged behavior-bearing instructions; retained behavioral evidence remains bound to those instruction bytes. Public repository and release publication are owner-authorized; installation, upstream submission, provider rendering, and external messaging remain separate actions.
 
 This page distinguishes observed local evidence from untested host and provider behavior.
 

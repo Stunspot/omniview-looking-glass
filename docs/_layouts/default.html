@@ -1,35 +1,11 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="OmniView">
-  <meta property="og:title" content="{{ page.title | default: site.title }} | OmniView">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ '/assets/brand/omniview-social-preview.jpg' | absolute_url }}">
-  <meta property="og:image:secure_url" content="{{ '/assets/brand/omniview-social-preview.jpg' | absolute_url }}">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="1280">
-  <meta property="og:image:height" content="640">
-  <meta property="og:image:alt" content="OmniView aperture spanning an ancient river city, open ocean, and an electric twentieth-century street.">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title | default: site.title }} | OmniView">
-  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-  <meta name="twitter:image" content="{{ '/assets/brand/omniview-social-preview.jpg' | absolute_url }}">
-</head>
-<body>
-  <main id="content" class="main-content" role="main">
-    {{ content }}
-    <footer class="site-footer">
-      <span>OmniView is an independent Collaborative Dynamics companion inspired by Pliny the Liberator's GL4SS.</span>
-    </footer>
-  </main>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="theme-color" content="#071018"><link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="OmniView"><meta property="og:title" content="{{ page.title | default: site.title }} | OmniView"><meta property="og:description" content="{{ page.description | default: site.description }}"><meta property="og:url" content="{{ page.url | absolute_url }}"><meta property="og:image" content="{{ '/assets/brand/omniview-social-preview.jpg' | absolute_url }}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="OmniView. Grounded views through place and time. Witness, compose, prompt, and render."><meta name="twitter:card" content="summary_large_image">
+</head><body><a class="skip" href="#content">Skip to content</a>
+<header><nav aria-label="Primary"><a class="brand" href="{{ '/' | relative_url }}"><span class="mark" aria-hidden="true">OV</span>OmniView</a><div class="links"><a href="{{ '/INSTALLATION.html' | relative_url }}">Install</a><a href="{{ '/USING-OMNIVIEW.html' | relative_url }}">Use</a><a href="{{ '/TRUST-PRIVACY-AND-LIMITS.html' | relative_url }}">Trust</a><a href="{{ '/TROUBLESHOOTING.html' | relative_url }}">Recover</a><a href="https://github.com/Stunspot/omniview-looking-glass">GitHub</a></div></nav></header>
+<main id="content">{{ content }}</main>
+<footer><p><strong>OmniView</strong> is an independent Collaborative Dynamics companion inspired by Pliny the Liberator's GL4SS.</p><p><a href="{{ '/ACCESSIBILITY.html' | relative_url }}">Accessibility</a> | <a href="{{ '/SUPPORT.html' | relative_url }}">Support</a> | <a href="https://github.com/Stunspot/omniview-looking-glass/blob/main/LICENSE.md">License</a></p></footer></body></html>

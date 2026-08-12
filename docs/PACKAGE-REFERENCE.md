@@ -1,8 +1,9 @@
 # Package Reference
 
-Version: 0.1.0 public release
+Public release: `v0.1.1`
+Portable runtime: `v0.1.0` (unchanged)
 
-The source repository is canonical. The assembled public release is a derived delivery artifact whose manifest and checksums describe its exact bytes.
+The documentation-and-presentation release advances independently from the unchanged behavior-bearing instructions and their frozen behavioral evidence. The source repository is canonical. The assembled public release is a derived delivery artifact whose manifest and checksums describe its exact bytes.
 
 ## Delivery artifacts
 

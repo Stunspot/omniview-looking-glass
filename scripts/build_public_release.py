@@ -10,7 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = 'omniview-looking-glass'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
+RUNTIME_VERSION = '0.1.0'
 LABEL = f'{NAME}-{VERSION}'
 RELEASE_ROOT = ROOT / 'release'
 OUTPUT = RELEASE_ROOT / LABEL
@@ -97,8 +98,12 @@ def copy_payload(gl4ss_root: Path) -> None:
         raise RuntimeError('GL4SS license bytes do not match the frozen target')
 
     copy_file(ROOT / 'README.md', OUTPUT / 'README.md')
+    copy_file(ROOT / 'RELEASE-NOTES.md', OUTPUT / 'RELEASE-NOTES.md')
+    copy_file(ROOT / 'CONTRIBUTING.md', OUTPUT / 'CONTRIBUTING.md')
     copy_file(ROOT / 'LICENSE.md', OUTPUT / 'LICENSE.md')
     copy_file(ROOT / 'NOTICE.md', OUTPUT / 'NOTICE.md')
+    copy_file(ROOT / 'SECURITY.md', OUTPUT / 'SECURITY.md')
+    copy_file(ROOT / 'SUPPORT.md', OUTPUT / 'SUPPORT.md')
     copy_file(ROOT / 'TRADEMARKS.md', OUTPUT / 'TRADEMARKS.md')
     copy_tree(ROOT / 'customer-kit', OUTPUT / 'customer-kit')
     copy_tree(ROOT / 'docs', OUTPUT / 'docs')
@@ -150,6 +155,7 @@ def write_manifest() -> None:
         'schema_version': '1.0',
         'product': NAME,
         'version': VERSION,
+        'runtime_version': RUNTIME_VERSION,
         'channel': 'public-release',
         'source_commit': git_value('-C', str(ROOT), 'rev-parse', 'HEAD'),
         'runtime_evidence_commit': 'e986b6acd1555925864c6c5314de4f729ba9874a',

@@ -342,7 +342,13 @@ def cmd_verify(args: argparse.Namespace) -> int:
     expect(run.get("adapter", {}).get("attributed") is True, "adapter label must remain attributed")
     expect(run.get("eval", {}).get("suite_sha256") == digest(EVAL_SUITE.read_bytes()), "eval suite hash mismatch")
     expect(run.get("eval", {}).get("manifest_sha256") == digest(EVAL_MANIFEST.read_bytes()), "eval manifest hash mismatch")
-    expect(run.get("canonical_package_files") == package_files(), "canonical package file hashes mismatch")
+    current_package = package_files()
+    behavior_files = sorted({name for case in canonical_cases for name in allowed_runtime(case["id"])})
+    for name in behavior_files:
+        expect(
+            run.get("canonical_package_files", {}).get(name) == current_package.get(name),
+            f"current behavior-bearing package file differs from retained run: {name}",
+        )
     expect(run.get("development_corpus_files") == corpus_files(), "development corpus file hashes mismatch")
     if isinstance(runtime_commit, str) and re.fullmatch(r"[0-9a-f]{40}", runtime_commit):
         for name, record in run.get("canonical_package_files", {}).items():

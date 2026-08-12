@@ -1,6 +1,7 @@
 # Host Matrix
 
-Version: 0.1.0 public release
+Public release: `v0.1.1`
+Portable runtime under qualification: `v0.1.0` (unchanged)
 
 This matrix keeps package construction separate from installation, discovery, invocation, and healthy live behavior.
 

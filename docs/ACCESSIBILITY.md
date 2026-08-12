@@ -4,16 +4,18 @@ OmniView's core handoff is text. A reader can install, invoke, understand, verif
 
 ## Documentation design
 
-The public release uses:
+The public documentation uses:
 
-- plain Markdown with one page title and ordered heading levels;
-- descriptive link text instead of bare destination labels;
+- one page title and ordered heading levels;
+- persistent, descriptive navigation and a skip-to-content link;
+- visible keyboard focus and non-color status words;
 - copyable text for commands, prompts, paths, hashes, and tool states;
-- tables only for compact mappings that are also explained by surrounding headings;
+- tables only for compact mappings that surrounding prose also explains;
+- responsive text, images, grids, code blocks, and tables;
 - no color-only, animation-only, audio-only, or image-only instruction;
-- explicit words for evidence classes and outcomes rather than icon-only status.
+- reduced motion when the reader requests it.
 
-The documentation is usable as unstyled text. Line wrapping, font size, contrast, focus display, and Markdown rendering remain properties of the reader's chosen host.
+All three product images include meaningful alternative text on their intended surfaces. The social card also carries the exact product title and identifying line in visible pixels; its metadata includes an equivalent text alternative.
 
 ## Nonvisual use
 
@@ -33,19 +35,20 @@ Ordinary-language requests are the primary interface. Optional details can arriv
 
 Installation and recovery procedures use short numbered steps, stable file names, exact commands, and explicit stop conditions. No timed interaction or precise pointer gesture is part of the package itself.
 
-## Known gaps
+## Review status and known gaps
 
-This preview has not been tested with:
+The v0.1.1 documentation source received a separate accessibility review covering heading order, link purpose, alternative text, keyboard-visible focus, skip navigation, contrast calculations, responsive overflow, reduced motion, text-first task completion, and error-recovery language.
 
-- screen readers;
-- keyboard-only navigation in a rendered documentation site;
+Not tested:
+
+- screen-reader traversal in a browser;
 - voice control;
-- magnification or high-contrast modes;
-- browser accessibility inspection;
-- users with disabilities completing the install-to-first-value journey.
+- magnification or forced-color modes;
+- browser accessibility-tree inspection;
+- user completion of the install-to-first-value journey with assistive technology.
 
 No WCAG conformance claim is made. Host interfaces, provider dialogs, and generated-image viewers are outside the package and require their own accessibility evaluation.
 
 ## Report an accessibility barrier
 
-Include the document or operation, host and version, assistive technology when relevant, expected route, observed barrier, and a privacy-safe reproduction. State whether you need an alternative format immediately. Use [Troubleshooting](TROUBLESHOOTING.md) for the general defect-report fields.
+Include the document or operation, host and version, assistive technology when relevant, expected route, observed barrier, and a privacy-safe reproduction. State whether you need an alternative format immediately. Use [Support](SUPPORT.html) for the reporting route and [Troubleshooting](TROUBLESHOOTING.html) for the general defect fields.
