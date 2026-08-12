@@ -202,6 +202,10 @@ def verify_text_boundaries(errors: list[str]) -> None:
             except ValueError:
                 errors.append(f'local link escapes kit in {relative}: {raw}')
                 continue
+            if not target.exists() and target.suffix.lower() == '.html':
+                markdown_route = target.with_suffix('.md')
+                if markdown_route.is_file():
+                    target = markdown_route
             if not target.exists():
                 errors.append(f'broken local link in {relative}: {raw}')
 
