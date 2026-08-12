@@ -56,6 +56,12 @@ def git_value(*args: str) -> str:
     return completed.stdout.strip()
 
 
+def release_source_commit() -> str:
+    """Return the newest commit that changed source outside derived release artifacts."""
+    return git_value(
+        '-C', str(ROOT), 'rev-list', '-1', 'HEAD', '--', '.', ':(exclude)release'
+    )
+
 def prepare_output() -> None:
     resolved_release = RELEASE_ROOT.resolve()
     resolved_output = OUTPUT.resolve()
@@ -157,7 +163,7 @@ def write_manifest() -> None:
         'version': VERSION,
         'runtime_version': RUNTIME_VERSION,
         'channel': 'public-release',
-        'source_commit': git_value('-C', str(ROOT), 'rev-parse', 'HEAD'),
+        'source_commit': release_source_commit(),
         'runtime_evidence_commit': 'e986b6acd1555925864c6c5314de4f729ba9874a',
         'behavior_payload_commit': '8a11716736321ea835091828ecd77cbbffb8243c',
         'behavior_custody_commit': '0049fdf21910fff738d32f070adabf7ef1e49df4',
@@ -217,7 +223,7 @@ def main() -> int:
                 'output': OUTPUT.as_posix(),
                 'archive': ARCHIVE.as_posix(),
                 'files': len(files),
-                'source_commit': git_value('-C', str(ROOT), 'rev-parse', 'HEAD'),
+                'source_commit': release_source_commit(),
             },
             indent=2,
         )
