@@ -14,7 +14,8 @@ description: "OmniView grounds a place-time view, composes an image-ready prompt
 OmniView turns an ordinary request into a physically coherent place-time view and a complete image-ready prompt. When the host exposes an authorized renderer, it can dispatch one image and report the observed result. When no renderer is available, the prompt remains the finished product.
 
 <div class="actions">
-<a class="button primary" href="./INSTALLATION.html">Install OmniView</a>
+<a class="button primary" href="https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1">Download v0.1.1</a>
+<a class="button secondary" href="./INSTALLATION.html">Install OmniView</a>
 <a class="button secondary" href="./USING-OMNIVIEW.html">Open a first view</a>
 </div>
 

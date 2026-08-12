@@ -52,8 +52,7 @@ Read [Trust, privacy, and limits](docs/TRUST-PRIVACY-AND-LIMITS.md).
 The release contains:
 
 - Codex folder: codex/omniview-looking-glass/
-- Claude upload: claude/omniview-looking-glass.zip
-- Claude Code source: dist/claude-code/omniview-looking-glass/
+- Claude upload and Claude Code source: claude/omniview-looking-glass.zip
 - GL4SS patches: gl4ss-dropins/
 
 Follow [Installation](docs/INSTALLATION.md) for exact paths, archive checks, and host-specific boundaries. After installation, start a fresh host session and explicitly invoke OmniView.

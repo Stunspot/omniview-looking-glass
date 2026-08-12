@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "runtime_version": "0.1.0",
   "channel": "public-release",
-  "source_commit": "9b765721c7b3fa23341c537345c7d5ced4593032",
+  "source_commit": "fce31742c72ecb822d23300444fe7f4c21fb9a02",
   "runtime_evidence_commit": "e986b6acd1555925864c6c5314de4f729ba9874a",
   "behavior_payload_commit": "8a11716736321ea835091828ecd77cbbffb8243c",
   "behavior_custody_commit": "0049fdf21910fff738d32f070adabf7ef1e49df4",
@@ -118,8 +118,8 @@
     },
     {
       "path": "docs/_layouts/default.html",
-      "bytes": 2194,
-      "sha256": "a2f7a899f00b89f89337f0cc43875e18195ecebdb0d584a6f7b7a3a622163eec"
+      "bytes": 2477,
+      "sha256": "462bdc24348377037d07d6cb3347b92c21585c22843da656cbce8e93bb1105ae"
     },
     {
       "path": "docs/ACCESSIBILITY.md",
@@ -158,13 +158,13 @@
     },
     {
       "path": "docs/index.md",
-      "bytes": 5752,
-      "sha256": "f5032a38478015c7733ab5c8e0af30adcd4f94aa0177057949f46e9e32b2e81f"
+      "bytes": 5878,
+      "sha256": "4f09cf65a8991a5fdafff14d82c02250f6977c21e9bbd0139a67982955df2795"
     },
     {
       "path": "docs/INSTALLATION.md",
-      "bytes": 4881,
-      "sha256": "da533443c7345db4c2573eacfe4565092714bf9452377e5d53bd2d4b8bea06c5"
+      "bytes": 4988,
+      "sha256": "b0c10fe61cfc0264b5817ee78dac06289f4ed13d1616512576e8f1a9fde7d67c"
     },
     {
       "path": "docs/LIFECYCLE.md",
@@ -268,8 +268,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7898,
-      "sha256": "06841a2e15516cfee3a163f33605dd5763aededca497abbbad3b19fb43a188fe"
+      "bytes": 7858,
+      "sha256": "eb65128114f195478f565838c9be3c48fd724f8949fbb32a72eb20f10c7a9604"
     },
     {
       "path": "RELEASE-NOTES.md",
