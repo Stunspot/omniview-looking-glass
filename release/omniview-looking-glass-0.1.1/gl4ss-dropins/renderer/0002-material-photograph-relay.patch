@@ -1,0 +1,222 @@
+diff --git a/src/lib/promptTemplate.ts b/src/lib/promptTemplate.ts
+index e8bcce6..be2f16e 100644
+--- a/src/lib/promptTemplate.ts
++++ b/src/lib/promptTemplate.ts
+@@ -45,10 +45,9 @@
+  *        expecting realism. If {filmLook} is ever dropped, this is untested
+  *        again.
+  *
+- * So the default below is prose, subject-first, positively framed, with the
+- * anachronism guard expressed as a statement about what IS present. That guard
+- * carries real weight: it is the only thing keeping a 500 BC frame free of
+- * imperial marble.
++ * So the default below is prose, positively framed, with the place-time carried
++ * by visible material, habitation, ground and light. The compiler gives each
++ * field a photographic sentence before this template sets their attention order.
+  */
+ 
+ export interface PromptFields {
+@@ -164,13 +163,9 @@ export const PROMPT_PLACEHOLDERS: Array<{ key: keyof PromptFields; blurb: string
+  */
+ export const DEFAULT_IMAGE_TEMPLATE = `{capture}
+ 
+-{subject}, at {location} in {year}.
+-
+-{habitation}
+-
+-{periodMarkers}
++{subject}, at {location} in {year}. {habitation}
+ 
+-{period}
++{periodMarkers} {period}
+ 
+ {biome}
+ 
+@@ -218,6 +213,21 @@ Everything visible belongs to this exact moment: the materials, clothing, tools
+ 
+ {capture}
+ 
++{style}{aspect}`,
++  `{capture}
++
++{subject}, at {location} in {year}.
++
++{habitation}
++
++{periodMarkers}
++
++{period}
++
++{biome}
++
++{light}
++
+ {style}{aspect}`,
+ ];
+ 
+diff --git a/src/lib/promptcraft.ts b/src/lib/promptcraft.ts
+index 4dab7e7..b978e7f 100644
+--- a/src/lib/promptcraft.ts
++++ b/src/lib/promptcraft.ts
+@@ -77,7 +77,7 @@ export interface SceneDirection {
+   habitation?: HabitationLevel;
+   narrative: string;        // 2–3 sentences for the user
+   atmosphere: string;       // palette / weather / time of day / mood
+-  cameraNotes: string;      // lens, angle, lighting direction
++  cameraNotes: string;      // support, height, angle, lighting direction
+   /**
+    * Concrete visual details that DATE the scene to within roughly a lifetime.
+    *
+@@ -396,9 +396,9 @@ function getAnachronismNegatives(year: number): string {
+  */
+ const HABITATION_CLAUSE: Record<HabitationLevel, string> = {
+   uninhabited:
+-    'Wilderness fills the frame. Every surface in view was shaped by weather, water, ice, rock and wild living things alone, and the ground carries only animal tracks and the marks of the wind.',
++    'Wilderness fills the frame. The local ground, water or ice, and weather carry the scene through every depth.',
+   'traces-only':
+-    'The place has the frame to itself, and the few made things standing in it are weathered, drifted over and half reclaimed by whatever grows and blows here.',
++    'The place has the frame to itself. Made things carry the visible history through their materials, weathering, and changing relation to the local ground.',
+   sparse:
+     'A few small figures are scattered far apart across the view, each absorbed in one task, dwarfed by the land, which keeps most of the picture.',
+   settled:
+@@ -595,38 +595,32 @@ function buildPanelPrompt(args: BuildPanelPromptArgs, direction: SceneDirection)
+     ? `A single wide ${args.aspect} ${photographic ? 'photograph' : 'image'}, filling the frame edge to edge.`
+     : '';
+ 
+-  // Placed immediately after the subject. Position matters: FLUX.2's own guide
+-  // says the model weights what comes first, and the datable specifics need to
+-  // outrank the era wash that made every century in a band look the same.
+-  const periodClause = direction.periodMarkers ? `${direction.periodMarkers}.` : '';
++  // Placed in the first evidence block, just after subject and presence.
++  // Position matters: FLUX.2's own guide says the model weights what comes
++  // first, and the datable specifics need to outrank the era wash that made
++  // every century in a band look the same.
++  const periodClause = direction.periodMarkers ? `The date is carried by ${direction.periodMarkers}.` : '';
+ 
+-  // Who is in the frame. Second position, directly behind the subject.
++  // Who is in the frame. Follows the subject directly in the first scene block.
+   const habitationClause = getHabitationClause(direction.habitation, {
+     isPortrait: args.isPortrait,
+   });
+ 
+   /**
+-   * THE ANACHRONISM GUARD, branched on presence rather than asserted everywhere.
++   * THE MATERIAL-TIME CLAIM, branched on presence.
+    *
+-   * The peopled wording is the old sentence VERBATIM — promptTemplate.ts calls it
+-   * "the only thing keeping a 500 BC frame free of imperial marble" and it stays
+-   * exactly as it was where it was right. Its "nothing from a later age" clause is
+-   * a negation, but it contains no summonable noun and the file's own research
+-   * defends it, so it keeps the branch where it earned its place.
+-   *
+-   * What was wrong was firing it EVERYWHERE: on an ice sheet and an open ocean it
+-   * demanded clothing and construction, and it flatly cancelled traces-only by
+-   * telling Pripyat's blocks their construction was that of the Early Digital Age
+-   * with nothing later arrived. Fixing the text stage while leaving this — the
+-   * stronger copy, because it reaches FLUX directly — would have been a half fix.
+-   * The two wild variants name no human noun at all.
++   * Each branch gives the image model a complete positive account of what dates
++   * the frame. Peopled scenes carry time through craft, wear and ordinary use;
++   * traces carry it through construction and accumulated weathering; wild scenes
++   * carry it through the physical site itself. Human material nouns are emitted
++   * only by branches whose chosen habitation state can support them.
+    */
+   const periodSentence =
+     direction.habitation === 'uninhabited'
+-      ? `The ground, the water, the ice, the weather and every living thing in frame are exactly as they were here in ${formattedYear}.`
++      ? `The complete frame belongs to the local ground, water or ice, sky, weather, and season as they were here in ${formattedYear}.`
+       : direction.habitation === 'traces-only'
+         ? `Whatever stands here was built before ${formattedYear} and has been weathering ever since; the ground, the water and the growth around it are as they were here in ${formattedYear}.`
+-        : `Everything visible belongs to this exact moment: the materials, clothing, tools and construction are those of ${era} in ${formattedYear}, and nothing from a later age has arrived yet.`;
++        : `Every visible material, garment, tool and structure carries the craft, wear and ordinary use of ${era} in ${formattedYear}.`;
+ 
+   /**
+    * THE ERA WASH YIELDS ON WILD FRAMES.
+@@ -676,17 +670,17 @@ function buildPanelPrompt(args: BuildPanelPromptArgs, direction: SceneDirection)
+    * concerns in one placeholder is also why the era palette kept getting lost.
+    */
+   const biomeSentence = direction.biome
+-    ? `The ground and everything living on it: ${direction.biome}.`
++    ? `Underfoot and through the distance: ${direction.biome}.`
+     : '';
+ 
+   const lightSentence = [
+     args.phase ? `${capitalise(args.phase)}.` : '',
+     wild || styled
+-      ? `The air is ${direction.atmosphere}.`
++      ? `The air carries ${direction.atmosphere} through the depth of the frame.`
+       : args.phase
+-        ? `The air is ${direction.atmosphere}. Colours run to ${atm.palette}.`
+-        : `The air is ${direction.atmosphere}, lit by ${atm.lighting}. Colours run to ${atm.palette}.`,
+-    wild ? '' : `Surfaces are ${atm.texture}.`,
++        ? `The air carries ${direction.atmosphere} through the depth of the frame. Colours run to ${atm.palette}.`
++        : `The air carries ${direction.atmosphere} under ${atm.lighting}. Colours run to ${atm.palette}.`,
++    wild ? '' : `Across the surfaces: ${atm.texture}.`,
+   ]
+     .filter(Boolean)
+     .join(' ');
+@@ -755,7 +749,7 @@ function buildPanelPrompt(args: BuildPanelPromptArgs, direction: SceneDirection)
+      * parses it as language.
+      */
+     capture: photographic
+-      ? `Shot on ${rig} — ${camera}. It carries the evidence of film: grain sitting in the shadows, the brightest highlights rolling off softly rather than clipping flat, and framing that sits a little loose and slightly off centre, nothing arranged.`
++      ? `Shot on ${rig} — ${camera}. The exposed film leaves fine grain in the shadows, a long luminous shoulder through the brightest highlights, subtle focus falloff through depth, and an unforced composition held a little loose and off centre.`
+       : `Seen from ${camera}.`,
+     /**
+      * The two halves of {capture}, exposed separately.
+@@ -769,7 +763,7 @@ function buildPanelPrompt(args: BuildPanelPromptArgs, direction: SceneDirection)
+      */
+     viewpoint: camera,
+     filmLook: photographic
+-      ? 'It carries the evidence of film: grain sitting in the shadows, the brightest highlights rolling off softly rather than clipping flat, and framing that sits a little loose and slightly off centre, nothing arranged.'
++      ? 'The exposed film leaves fine grain in the shadows, a long luminous shoulder through the brightest highlights, subtle focus falloff through depth, and an unforced composition held a little loose and off centre.'
+       : '',
+     style: styleClause ? `${styleClause}\n\n` : '',
+     aspect: aspectClause,
+@@ -851,27 +845,31 @@ export function buildCinematicPromptFromDirection(
+   // frescoed-plaster Pacific and the clothing-and-construction ice sheet. Same
+   // gate, same sentences, so the still and the clip cannot drift apart.
+   const wild = direction.habitation === 'uninhabited' || direction.habitation === 'traces-only';
++  const lightSentence = [
++    opts.phase ? `${capitalise(opts.phase)}.` : '',
++    wild || styled
++      ? `The air carries ${direction.atmosphere} through the depth of the frame.`
++      : opts.phase
++        ? `The air carries ${direction.atmosphere} through the depth of the frame. Colours run to ${atm.palette}.`
++        : `The air carries ${direction.atmosphere} under ${atm.lighting}. Colours run to ${atm.palette}.`,
++    wild ? '' : `Across the surfaces: ${atm.texture}.`,
++  ]
++    .filter(Boolean)
++    .join(' ');
+ 
+   return [
+     `${subject}, at ${opts.location} in ${formattedYear}.`,
+     getHabitationClause(direction.habitation),
+-    direction.periodMarkers ? `${direction.periodMarkers}.` : '',
++    direction.periodMarkers ? `The date is carried by ${direction.periodMarkers}.` : '',
+     direction.habitation === 'uninhabited'
+-      ? `The ground, the water, the ice, the weather and every living thing in frame are exactly as they were here in ${formattedYear}.`
++      ? `The complete frame belongs to the local ground, water or ice, sky, weather, and season as they were here in ${formattedYear}.`
+       : direction.habitation === 'traces-only'
+-        ? `Whatever stands here was built before ${formattedYear} and has been weathering ever since.`
+-        : `Everything visible belongs to this exact moment: the materials, clothing and construction are those of ${era} in ${formattedYear}.`,
+-    [
+-      direction.biome ? `The ground and everything living on it: ${direction.biome}.` : '',
+-      wild || styled
+-        ? `The air is ${direction.atmosphere}.`
+-        : `The air is ${direction.atmosphere}, lit by ${atm.lighting}. Colours run to ${atm.palette}.`,
+-      wild ? '' : `Surfaces are ${atm.texture}.`,
+-    ]
+-      .filter(Boolean)
+-      .join(' '),
+-    `The camera makes ${move}, and the shot holds steady enough to read.`,
+-    `Sound: ${sound}. No music, no narration — only what is actually there.`,
++        ? `Whatever stands here was built before ${formattedYear} and has been weathering ever since; the ground, the water and the growth around it are as they were here in ${formattedYear}.`
++        : `Every visible material, garment, tool and structure carries the craft, wear and ordinary use of ${era} in ${formattedYear}.`,
++    direction.biome ? `Underfoot and through the distance: ${direction.biome}.` : '',
++    lightSentence,
++    `Viewpoint: ${direction.cameraNotes}. The camera follows ${move}, holding the material action legible through the shot.`,
++    `Diegetic sound from the scene: ${sound}.`,
+     opts.styleSuffix ?? '',
+   ]
+     .filter(Boolean)
