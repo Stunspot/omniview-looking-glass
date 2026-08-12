@@ -52,7 +52,6 @@ Read [Trust, privacy, and limits](docs/TRUST-PRIVACY-AND-LIMITS.md).
 The release contains:
 
 - Codex folder: codex/omniview-looking-glass/
-- Claude upload: claude/omniview-looking-glass.zip
 - Claude upload and Claude Code source: claude/omniview-looking-glass.zip
 - GL4SS patches: gl4ss-dropins/
 
