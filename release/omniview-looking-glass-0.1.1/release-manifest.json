@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "runtime_version": "0.1.0",
   "channel": "public-release",
-  "source_commit": "fce31742c72ecb822d23300444fe7f4c21fb9a02",
+  "source_commit": "9636a746a867bee1e22a6cd0ba2b2c1df451888f",
   "runtime_evidence_commit": "e986b6acd1555925864c6c5314de4f729ba9874a",
   "behavior_payload_commit": "8a11716736321ea835091828ecd77cbbffb8243c",
   "behavior_custody_commit": "0049fdf21910fff738d32f070adabf7ef1e49df4",
