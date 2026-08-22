@@ -53,7 +53,7 @@ def git_value(*args: str) -> str:
         text=True,
         encoding='utf-8',
     )
-    return completed.stdout.strip()
+    return completed.stdout.rstrip()
 
 
 def release_source_commit() -> str:
