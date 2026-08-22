@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "runtime_version": "0.1.0",
   "channel": "public-release",
-  "source_commit": "56cb791108048752c45f1c4516e6e3fe4b268a1d",
+  "source_commit": "e8d13e261cf151e04a19c53f471d3dc0dafe9396",
   "runtime_evidence_commit": "e986b6acd1555925864c6c5314de4f729ba9874a",
   "behavior_payload_commit": "8a11716736321ea835091828ecd77cbbffb8243c",
   "behavior_custody_commit": "0049fdf21910fff738d32f070adabf7ef1e49df4",
@@ -13,13 +13,13 @@
   "payload": [
     {
       "path": "claude/omniview-looking-glass.zip",
-      "bytes": 75890,
-      "sha256": "d05217110880219f87738f514b2bbcb0402779e0e2efb18fec553d40d83a5e85"
+      "bytes": 75779,
+      "sha256": "fb3906ddbff3e7fdf8c427a1178e73fada97df2c6c4245c9844328eaee8325a4"
     },
     {
       "path": "codex/omniview-looking-glass/agents/openai.yaml",
-      "bytes": 278,
-      "sha256": "fc2fce941e0a9db311517e38f2a233a0d1e8b90752178367290dd67536cea72e"
+      "bytes": 286,
+      "sha256": "d13a42b6581260b12bdffbba35b094d6cc73f7b2af48f8ac44e59f83f92a8bc2"
     },
     {
       "path": "codex/omniview-looking-glass/assets/render-seed.template.md",
@@ -78,8 +78,8 @@
     },
     {
       "path": "codex/omniview-looking-glass/SKILL.md",
-      "bytes": 19180,
-      "sha256": "14a752d22ce9088c28612dcb7a7d3ba423fc2bdd8979887aa2e18ec090a9fa7e"
+      "bytes": 19069,
+      "sha256": "3187cce50e2ba740c9e7632e492f11efa4aaf1b78f3228cc150354439993eaac"
     },
     {
       "path": "CONTRIBUTING.md",
