@@ -10,6 +10,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 NAME = "omniview-looking-glass"
+APPROVED_DESCRIPTION = "🌀 Evidence-grounded images across place and time."
 VERSION = "0.1.0"
 PLUGIN = REPO / "plugins" / NAME
 CANONICAL = PLUGIN / "skills" / NAME
@@ -92,9 +93,10 @@ def validate_frontmatter(errors: list[str]) -> None:
     if fields.get("name") != NAME:
         errors.append(f"SKILL.md frontmatter name must be {NAME}")
     description = fields.get("description", "")
-    for concept in ("place-time", "visualization", "image", "comparison"):
-        if concept not in description.lower():
-            errors.append(f"SKILL.md description does not advertise {concept}")
+    if description != APPROVED_DESCRIPTION:
+        errors.append(
+            "SKILL.md description must match the approved injection text exactly"
+        )
 
 
 def validate_runtime_references(errors: list[str]) -> None:

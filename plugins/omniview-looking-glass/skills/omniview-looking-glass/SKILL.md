@@ -1,6 +1,6 @@
 ---
 name: omniview-looking-glass
-description: "Agent-operated wormhole camera for grounded place-time views, historical and deep-time visualization, image prompts, renders, comparisons, and temporal traversals."
+description: "🌀 Evidence-grounded images across place and time."
 ---
 
 # OmniView - The Looking Glass Companion
