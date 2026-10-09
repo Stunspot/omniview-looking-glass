@@ -1,14 +1,14 @@
 # Trust, Privacy, and Limits
 
-OmniView composes a grounded place-time view inside the host that invokes it. The package contains prompts, references, templates, eval cases, notices, and metadata. It does not contain an image model, provider account, hidden network service, telemetry client, or API key.
+OmniView composes a grounded place-time view inside the host that invokes it. The package contains prompts, references, templates, eval cases, notices, and metadata. It does not contain an image model, provider account, telemetry client, or API key. The optional local workspace can call the OpenAI Images API when its host has `OPENAI_API_KEY` and the user presses **Create image**.
 
 ## Data boundaries
 
-The OmniView package itself keeps no API keys, telemetry, location history, or durable user profile.
+The OmniView package itself keeps no API keys, telemetry, location history, or durable user profile. The local workspace reads an API key from the host environment and does not put it in browser code or records.
 
-Your host may still retain task text, tool calls, logs, uploaded files, or generated outputs under its own settings. Research tools may send search terms to their configured services. An authorized image dispatch may send the Render Seed, including its place and time, to the host tool and its provider.
+Your host may still retain task text, tool calls, logs, uploaded files, or generated outputs under its own settings. Research tools may send search terms to their configured services. An authorized host image dispatch may send the Render Seed, including its place and time, to its provider. Pressing **Create image** in the local workspace sends the place, time, optional light and scene, or authored seed to OpenAI and may incur an API charge. Directly generated PNGs are saved in the workspace data folder.
 
-Those host and provider boundaries are outside this package. Review them before supplying private coordinates, unpublished research, personal data, sensitive sites, or confidential scenario assumptions.
+The workspace render boundary uses OpenAI; agent-host rendering has its own provider boundary. Review them before supplying private coordinates, unpublished research, personal data, sensitive sites, or confidential scenario assumptions.
 
 `prompt-only` avoids an OmniView-initiated image dispatch. It is not a claim that the surrounding host keeps no logs or sends no task data elsewhere.
 
@@ -34,7 +34,7 @@ Exact, disputed, unfamiliar, or load-bearing claims should use suitable current 
 
 ## Render limits
 
-The retained evidence contains no live image or video provider call, no returned image custody, and no rendered A/B. It therefore establishes neither provider compatibility nor aesthetic superiority.
+The retained behavioral evidence contains no live image or video provider call and no rendered A/B. The local workspace render path has been exercised with a mock image response, not a paid provider call. It therefore establishes neither provider compatibility nor aesthetic superiority.
 
 One-render requests may use an exposed host image tool when the request authorizes it. Comparisons and traversals remain text-first; OmniView states the intended render count before any multi-render route that could be metered or external.
 

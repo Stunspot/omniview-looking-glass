@@ -13,6 +13,8 @@ OmniView puts a grounded, witnessed view on screen. Ground first, witness second
 
 ## Enter through the requested view
 
+For "open OmniView", "open the aperture console", or "open the looking glass", run `python workspace/host.py` relative to this installed skill. The launcher starts or reconnects this exact local instrument and opens the browser. Read [workspace/README.md](workspace/README.md) for the record/API contract. The console's displayed data folder owns saved view JSON; user and agent work on those same records. Use the revision-aware API for writes and preserve imported fields. Local saved records are explicitly requested by creating, importing or saving in the console. The console prepares prompts and can request one OpenAI image per **Create image** press when a local API key is configured; it has no automatic source-grounding service. Carry the existing grounding and precision judgment into every saved view.
+
 Accept ordinary language. The user can name a place, coordinate, date or period, local hour, visual intention, medium, and operation in any natural order.
 
 Infer the operation from the request:
@@ -138,6 +140,10 @@ Build renderer-facing language from one affirmative image grammar: medium and ca
 Final affirmative-language gate: every clause in the View and Render Seed uses affirmative scene grammar. Convert grammatical negation and comparative rejection into the visible incompatible world, rerun the pixel test, then return. Grounding carries epistemic boundary statements.
 
 Read [render-language.md](references/render-language.md) for photographic, illustrative, cinematic, model-specific, or unusually difficult image prompting. Use [render-seed.template.md](assets/render-seed.template.md) only when a portable prompt artifact improves the handoff.
+
+## Local camera workspace
+
+The optional local workspace has a separate **Create image** action. With `OPENAI_API_KEY` in its host environment, one press sends the current place, time, and optional scene or complete seed to the OpenAI Images API and saves the returned image locally. Treat that quick result as an unresearched visual interpretation until source grounding is supplied. **Plan with my agent instead** frames a draft without provider dispatch. If a user already rendered through the workspace, do not duplicate that image call from the chat host unless they request another image.
 
 ## Render or hand off
 

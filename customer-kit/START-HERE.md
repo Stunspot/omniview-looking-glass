@@ -1,8 +1,14 @@
 # Start Here
 
-This public release gives you two doors. Pick the one matching what you want to change.
+This complete0.3.0 kit includes a local camera, the agent companion and separate GL4SS maintainer patches. Choose the route matching your work.
 
-Paths on this page are relative to the root of the assembled public release.
+Paths on this page are relative to this complete kit. Publicv0.1.1 remains historical and does not contain the current camera.
+
+## Open the camera
+
+Open `../codex/omniview-looking-glass/workspace/Open.cmd` on Windows. On macOS, first make `Open.command` executable and open it; on Linux run `python3 host.py` in that workspace directory. Python3.10 or newer is required. Keep every workspace asset in place.
+
+Enter Place and Time. With `OPENAI_API_KEY` configured in the launching environment, **Create image** sends one request to OpenAI and may incur a charge; this quick path does not research historical sources. **Plan with my agent instead** starts the source-grounded route without provider dispatch. Read [Open workspace](../OPEN-WORKSPACE.md) for configuration, saved moments, recovery and return work.
 
 ## Door one: upgrade GL4SS without changing GL4SS
 

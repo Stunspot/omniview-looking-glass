@@ -1,0 +1,7 @@
+{
+  "name": "omniview-looking-glass",
+  "version": "0.3.0",
+  "entry_points": {
+    "operator": "SKILL.md"
+  }
+}

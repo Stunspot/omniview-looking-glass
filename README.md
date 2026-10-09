@@ -6,9 +6,9 @@
 
 > A wormhole camera is not a subject with a year stapled to it. It is a place to stand, a world to read, and a moment made visible.
 
-OmniView turns natural requests such as "open a view onto Uruk around 3200 BC at first light" into grounded scene interpretations and image-ready prompts. When a host exposes an authorized image tool, OmniView can hand one complete prompt to it. When no image tool is available, the prompt remains the finished product.
+OmniView turns natural requests such as "open a view onto Uruk around 3200 BC at first light" into grounded scene interpretations and image-ready prompts. The optional local camera also offers a direct **Create image** path from Place and Time when `OPENAI_API_KEY` is configured; each press may incur an OpenAI API charge and produces an unresearched visual interpretation. When a host exposes an authorized image tool, OmniView can hand one complete prompt to it. When no image tool is available, the prompt remains the finished product.
 
-**[Explore the product site](https://stunspot.github.io/omniview-looking-glass/)** | **[Download v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1)** | **[Open your first view](docs/USING-OMNIVIEW.md)**
+**[Explore the product site](https://stunspot.github.io/omniview-looking-glass/)** | **[Historical public v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1)** | **[Open your first view](docs/USING-OMNIVIEW.md)**
 
 OmniView is for visual researchers, storytellers, worldbuilders, historians, educators, artists, and curious people who want a place-time image without confusing a vivid reconstruction with documentary surveillance.
 
@@ -48,6 +48,8 @@ Its tool states also remain separate: prompt-only, host-rendered, render-failed,
 Read [Trust, privacy, and limits](docs/TRUST-PRIVACY-AND-LIMITS.md).
 
 ## Install and verify
+
+The current complete camera bundle is **0.3.0**. It includes the local workspace and direct shutter. The public0.1.1 release in the opening download link is historical and does not supply this camera workflow; use a complete0.3.0 bundle supplied through the maintained distribution.
 
 The release contains:
 

@@ -104,3 +104,7 @@ Add any of these phrases when you want more visible evidence work:
 If available sources cannot support the requested specificity, a useful answer narrows the claim, offers a scenario label, or returns `source-unavailable`. It does not fill the gap with false precision.
 
 For failures and recovery steps, read [Troubleshooting](TROUBLESHOOTING.md). For the evidence boundary, read [Trust, privacy, and limits](TRUST-PRIVACY-AND-LIMITS.md).
+
+## Use the local camera
+
+Open the optional local workspace from the packaged `workspace/Open.cmd` or `Open.command`. Configure `OPENAI_API_KEY` in the host environment, restart the workspace, enter Place and Time, and press **Create image**. One OpenAI image request is sent and the returned PNG is saved in the local collection. The action may incur an API charge and the quick image is not source researched. For a grounded composition, use **Plan with my agent instead** or supply an authored render seed in the camera notebook.

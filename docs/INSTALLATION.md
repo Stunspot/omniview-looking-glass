@@ -1,8 +1,14 @@
 # Installation
 
-Public release v0.1.1 contains the unchanged v0.1.0 portable runtime. These instructions describe the intended install paths. This project has not observed a fresh-host installation on Codex or Claude.
+These instructions target the complete **0.3.0** bundle, including the local camera and its direct image workflow. Use the complete supplied kit; its manifest and checksums identify the exact delivery. Artifact paths in this guide are relative to that kit.
 
-[Download public release v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1). Artifact paths on this page are relative to the root of that assembled public release. See [Package reference](PACKAGE-REFERENCE.md) for its exact topology.
+The [public v0.1.1 release](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1) remains a historical portable-skill handoff. It does not include the current camera. Do not mix its files into a0.3.0 installation. See [Package reference](PACKAGE-REFERENCE.md) for the current topology.
+
+## Open the local camera
+
+Keep the complete `codex/omniview-looking-glass/` folder intact. Its `workspace` directory contains `Open.cmd` for Windows, `Open.command` for macOS and `host.py` for Linux. Install Python3.10 or newer; no extra packages are required. Windows users open `Open.cmd`; macOS users first run `chmod +x Open.command` in that directory, then open it; Linux users run `python3 host.py` there. macOS execution has not been observed in this project's evidence.
+
+The launcher opens or reconnects the exact local camera. Start with Place and Time. With `OPENAI_API_KEY` configured in the launching environment, **Create image** requests one OpenAI image and may incur a charge; the quick path does no historical source research. **Plan with my agent instead** needs no provider request. Read the included `OPEN-WORKSPACE.md` or `codex/omniview-looking-glass/workspace/README.md` for configuration, source-grounded handoff and saved work.
 
 ## Before you install
 
@@ -44,6 +50,7 @@ Place the complete `omniview-looking-glass` directory there. The resulting topol
           assets/
           evals/
           references/
+          workspace/
 
 Start a new Codex task. Restart the host if it does not refresh skill discovery automatically.
 

@@ -1,9 +1,8 @@
 # Package Reference
 
-Public release: `v0.1.1`
-Portable runtime: `v0.1.0` (unchanged)
+Current complete bundle: **0.3.0**, including the portable companion, local camera and direct-image workflow.
 
-The documentation-and-presentation release advances independently from the unchanged behavior-bearing instructions and their frozen behavioral evidence. The source repository is canonical. The assembled public release is a derived delivery artifact whose manifest and checksums describe its exact bytes.
+The publicv0.1.1/v0.1.0 releases remain historical. The source repository is canonical; the current supplied complete bundle is the delivery artifact whose manifest and checksums describe its exact bytes. Camera orchestration was tested with a mocked provider; that does not establish a paid live provider result.
 
 ## Delivery artifacts
 
@@ -20,7 +19,7 @@ The documentation-and-presentation release advances independently from the uncha
 
 ## Portable skill topology
 
-The Codex folder and the expanded Claude ZIP share these 12 portable files byte-for-byte:
+The Codex folder and expanded Claude ZIP carry the complete skill, including the following core files and the `workspace/` directory. Compare the current manifest rather than an older twelve-file inventory:
 
     omniview-looking-glass/
       SKILL.md
@@ -33,13 +32,23 @@ The Codex folder and the expanded Claude ZIP share these 12 portable files byte-
       evals/
         eval-manifest.yaml
         omniview-cases.yaml
+      workspace/
+        host.py
+        README.md
+        Open.cmd
+        Open.command
+        domain.json
+        index.html
+        app.js
+        style.css
+        assets/
       references/
         comparison-and-traversal.md
         grounding-and-precision.md
         render-language.md
         wormhole-optics.md
 
-The Codex artifact additionally contains `agents/openai.yaml`. That host metadata is intentionally outside the portable parity set.
+Host metadata such as `agents/openai.yaml` is included as declared by each current artifact. The workspace and all of its web assets must travel together; a SKILL.md-only copy cannot launch the camera.
 
 ## Canonical source paths
 

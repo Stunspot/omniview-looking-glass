@@ -36,6 +36,8 @@ A load-bearing claim could not be resolved responsibly. Choose one recovery:
 
 ## No image appears
 
+In the local camera, check the message beside **Create image**. If it says rendering is not configured, set `OPENAI_API_KEY` in the host environment and restart OmniView. If a request failed, the place and time remain on screen. Check the reported provider error and account state; when a prior request outcome is uncertain, reload the collection before pressing the button again so a completed image is not duplicated. Direct outputs are saved under the collection's `images` folder. The quick render sends place and time to OpenAI and may incur a charge.
+
 Read the reported state:
 
 - `prompt-only` means no dispatch occurred and the complete Render Seed is the handoff;

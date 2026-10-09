@@ -1,3 +1,7 @@
+# OmniView v0.3.0
+
+The local camera now supports the basic path: enter Place and Time, press **Create image**, and see one returned image saved in the collection. A configured `OPENAI_API_KEY` is required and the user's API account may be charged for each press. The quick image is explicitly an unresearched visual interpretation; the agent planning path and full evidence-grounded workflow remain available. The direct render boundary was verified with a mock provider response, not a paid live provider call.
+
 # OmniView v0.1.1
 
 This documentation-and-presentation release gives OmniView a complete public customer journey, a rebuilt GitHub Pages experience, three distinct role-specific visual assets, lifecycle, support, security, and contribution guidance, and evidence-bounded release language.
