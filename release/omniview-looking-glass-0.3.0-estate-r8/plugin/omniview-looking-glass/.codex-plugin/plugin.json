@@ -19,7 +19,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "OmniView - The Looking Glass Companion",
-    "shortDescription": "Agent-operated views through place and time.",
+    "shortDescription": "🌀 Evidence-grounded images across place and time.",
     "longDescription": "Ground a place-time, open a physically coherent viewpoint, compose the material scene, and produce or render a high-density image prompt with honest evidence and tool receipts.",
     "developerName": "Collaborative Dynamics",
     "category": "Productivity",

@@ -348,8 +348,8 @@
     },
     {
       "path": "plugin/omniview-looking-glass/.codex-plugin/plugin.json",
-      "bytes": 1502,
-      "sha256": "cf7e0e34945ad39fa6db979aa2949870e3aa3249d56c20f103ba765950ab09fb"
+      "bytes": 1510,
+      "sha256": "d88df3a270696aacce93bec9efc51419fca3b890e588f56e9d65681412d26dae"
     },
     {
       "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/agents/openai.yaml",
