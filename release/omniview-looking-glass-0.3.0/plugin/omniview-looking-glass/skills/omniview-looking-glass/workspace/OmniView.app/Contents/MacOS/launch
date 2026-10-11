@@ -1,0 +1,15 @@
+#!/bin/sh
+set -eu
+workspace_dir=$(CDPATH= cd -- "$(dirname -- "$0")/../../.." && pwd -P)
+if [ ! -f "$workspace_dir/host.py" ]; then
+  printf '%s\n' 'Keep the complete OmniView workspace together; host.py is missing.' >&2
+  exit 1
+fi
+if ! command -v python3 >/dev/null 2>&1; then
+  if command -v osascript >/dev/null 2>&1; then
+    osascript -e 'display alert "OmniView needs Python 3.10 or newer" message "Install Python, then open OmniView again." as warning'
+  fi
+  printf '%s\n' 'Install Python 3.10 or newer, then open OmniView again.' >&2
+  exit 1
+fi
+exec python3 "$workspace_dir/host.py" "$@"

@@ -4,3 +4,7 @@ node_modules/
 *.log
 verification/generated/
 __pycache__/
+
+# Local Windows launcher bindings are recreated at their actual installation.
+*.lnk
+desktop.ini

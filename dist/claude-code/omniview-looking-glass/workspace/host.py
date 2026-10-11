@@ -240,7 +240,7 @@ def serve(home, port):
                         except (ValueError, OSError):
                             return self.reply(500, {'error': 'Unreadable record: ' + path.name + '. Preserve it and repair the JSON.'})
                     return self.reply(200, {'records': values, 'config': CONFIG, 'data_home': str(home), 'render_ready': bool(os.environ.get('OPENAI_API_KEY')), 'render_model': IMAGE_MODEL})
-            names = {'/':'index.html', '/app.js':'app.js', '/style.css':'style.css', '/assets/chronoscope.png':'assets/chronoscope.png', '/assets/pocket.png':'assets/pocket.png', '/assets/cinema.png':'assets/cinema.png'}
+            names = {'/native/omniview-32.png':'native/omniview-32.png', '/native/omniview-256.png':'native/omniview-256.png', '/':'index.html', '/app.js':'app.js', '/style.css':'style.css', '/assets/chronoscope.png':'assets/chronoscope.png', '/assets/pocket.png':'assets/pocket.png', '/assets/cinema.png':'assets/cinema.png'}
             if self.path not in names:
                 return self.reply(404, {'error':'Not found'})
             path = HERE / names[self.path]

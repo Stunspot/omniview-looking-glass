@@ -1,3 +1,5 @@
+> Historical scoped inspection. Current0.3.0 native/state repairs are described in the current verification summary; these earlier observations retain their original limits.
+
 # OmniView 0.3.0 direct render update
 
 Baseline: the accepted 0.2.0 camera presentation package at `repair-candidates/omniview-looking-glass-0.2.0-20260928T011157Z.zip`, SHA-256 `7fcd88d082ecf86bf4d75e4698791e8412754d3356b999a2503e6f396cd6a935`, bundle fingerprint `sha256:ca05f6319e5783350d5cb4ebc2044c5bcea8dbe543eae28db8d5dfbe84265270`. Its first action framed a draft and copied an aperture brief; the browser did not dispatch an image. The owner reported that the explorer looked good but could not discover how to obtain a picture, and specified the desired loop as entering place and time, pressing a button, and getting the picture.

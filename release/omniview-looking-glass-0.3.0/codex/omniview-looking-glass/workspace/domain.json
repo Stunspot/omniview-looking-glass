@@ -1,0 +1,196 @@
+{
+  "product": "omniview-looking-glass",
+  "version": "0.3.0",
+  "title": "OmniView",
+  "subtitle": "Place and time, held in one optic",
+  "home_env": "OMNIVIEW_HOME",
+  "record_name": "view",
+  "primary": "Open aperture",
+  "skins": [
+    {
+      "id": "chronoscope",
+      "name": "Chronoscope"
+    },
+    {
+      "id": "pocket",
+      "name": "Pocket Universe"
+    },
+    {
+      "id": "cinema",
+      "name": "Midnight Cinema"
+    }
+  ],
+  "groups": [
+    "Aperture",
+    "Witness",
+    "Grounding",
+    "Render handoff"
+  ],
+  "fields": [
+    {
+      "key": "place",
+      "label": "Place / coordinate",
+      "group": "Aperture",
+      "required": true
+    },
+    {
+      "key": "coordinate_meaning",
+      "label": "Coordinate meaning / spatial anchor",
+      "group": "Aperture"
+    },
+    {
+      "key": "time",
+      "label": "Date / period",
+      "group": "Aperture",
+      "required": true
+    },
+    {
+      "key": "precision",
+      "label": "Temporal precision",
+      "group": "Aperture",
+      "options": [
+        "year",
+        "full date",
+        "period",
+        "declared future scenario"
+      ]
+    },
+    {
+      "key": "hour",
+      "label": "Local hour / phase",
+      "group": "Aperture"
+    },
+    {
+      "key": "operation",
+      "label": "Operation",
+      "group": "Aperture",
+      "options": [
+        "prompt",
+        "interpret",
+        "compare",
+        "traverse",
+        "render"
+      ]
+    },
+    {
+      "key": "support",
+      "label": "Viewpoint support",
+      "group": "Witness",
+      "options": [
+        "physical",
+        "afloat",
+        "standoff",
+        "virtual"
+      ]
+    },
+    {
+      "key": "camera",
+      "label": "Camera relation / height / framing",
+      "group": "Witness",
+      "type": "textarea"
+    },
+    {
+      "key": "habitation",
+      "label": "Habitation",
+      "group": "Witness",
+      "options": [
+        "uninhabited",
+        "traces-only",
+        "sparse",
+        "settled",
+        "dense"
+      ]
+    },
+    {
+      "key": "material_change",
+      "label": "Focal material change",
+      "group": "Witness",
+      "type": "textarea"
+    },
+    {
+      "key": "view",
+      "label": "Witnessed view",
+      "group": "Witness",
+      "type": "textarea"
+    },
+    {
+      "key": "evidence",
+      "label": "Source-backed conditions and source references",
+      "group": "Grounding",
+      "type": "textarea"
+    },
+    {
+      "key": "inference",
+      "label": "Bounded visual inference",
+      "group": "Grounding",
+      "type": "textarea"
+    },
+    {
+      "key": "scenario",
+      "label": "Declared scenario / unresolved variables",
+      "group": "Grounding",
+      "type": "textarea"
+    },
+    {
+      "key": "invariant",
+      "label": "Locked comparison invariant",
+      "group": "Grounding",
+      "type": "textarea"
+    },
+    {
+      "key": "traversal",
+      "label": "Ordered traversal stops — one per line",
+      "group": "Grounding",
+      "type": "textarea"
+    },
+    {
+      "key": "render_seed",
+      "label": "Complete render seed",
+      "group": "Render handoff",
+      "type": "textarea"
+    },
+    {
+      "key": "render_state",
+      "label": "Observed render state",
+      "group": "Render handoff",
+      "options": [
+        "prompt-only",
+        "host-rendered",
+        "render-failed",
+        "source-unavailable"
+      ]
+    },
+    {
+      "key": "render_host",
+      "label": "Observed host / model",
+      "group": "Render handoff"
+    },
+    {
+      "key": "output_reference",
+      "label": "Returned image reference (HTTPS URL or local path)",
+      "group": "Render handoff"
+    }
+  ],
+  "example": {
+    "title": "Example • A river aperture",
+    "place": "A river bend — choose a real coordinate before grounding",
+    "time": "1900",
+    "precision": "year",
+    "hour": "midday",
+    "operation": "prompt",
+    "support": "physical",
+    "camera": "Human eye level, 1.65 m, on an evidence-supported bank surface. Hold the bend in frame.",
+    "habitation": "sparse",
+    "material_change": "Water curls around an exposed root.",
+    "view": "Illustrative planning scaffold. The actual historical bank, presence and vegetation await source grounding.",
+    "evidence": "No historical sources attached. This is an explicitly labeled example, not a researched reconstruction.",
+    "inference": "Ordinary river-bank depth is a proposed framing choice.",
+    "scenario": "Season, weather, solar geometry and clothing remain unresolved at year precision.",
+    "invariant": "Physical-footing invariant if the bank survives; otherwise use a world-fixed aperture. Keep height, bearing, framing and broad midday illumination.",
+    "traversal": "1900 — ground first\n2000 — ground independently",
+    "render_seed": "",
+    "render_state": "prompt-only",
+    "render_host": "",
+    "output_reference": ""
+  }
+}

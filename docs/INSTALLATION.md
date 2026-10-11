@@ -6,7 +6,7 @@ The [public v0.1.1 release](https://github.com/Stunspot/omniview-looking-glass/r
 
 ## Open the local camera
 
-Keep the complete `codex/omniview-looking-glass/` folder intact. Its `workspace` directory contains `Open.cmd` for Windows, `Open.command` for macOS and `host.py` for Linux. Install Python3.10 or newer; no extra packages are required. Windows users open `Open.cmd`; macOS users first run `chmod +x Open.command` in that directory, then open it; Linux users run `python3 host.py` there. macOS execution has not been observed in this project's evidence.
+Keep the complete `codex/omniview-looking-glass/` folder intact. In its `workspace/` directory, On Windows, open `Open.cmd` once to create this folder's camera icon and `OmniView.lnk` shortcut; use that shortcut for later launches. After moving the folder, open `Open.cmd` again to refresh its binding. On macOS, open `OmniView.app`; `Open.command` remains a terminal fallback. On Linux, run `python3 host.py`. Install Python3.10 or newer; no extra Python packages are required. Windows native launch and icon binding are exercised. macOS bundle/plist/icon/permissions are checked; macOS device execution remains unobserved.
 
 The launcher opens or reconnects the exact local camera. Start with Place and Time. With `OPENAI_API_KEY` configured in the launching environment, **Create image** requests one OpenAI image and may incur a charge; the quick path does no historical source research. **Plan with my agent instead** needs no provider request. Read the included `OPEN-WORKSPACE.md` or `codex/omniview-looking-glass/workspace/README.md` for configuration, source-grounded handoff and saved work.
 

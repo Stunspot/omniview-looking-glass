@@ -34,7 +34,7 @@ Exact, disputed, unfamiliar, or load-bearing claims should use suitable current 
 
 ## Render limits
 
-The retained behavioral evidence contains no live image or video provider call and no rendered A/B. The local workspace render path has been exercised with a mock image response, not a paid provider call. It therefore establishes neither provider compatibility nor aesthetic superiority.
+The historical13-case prompt suite contains no image or video provider call or rendered A/B. In the current whole-product check, the exposed Codex imagegen tool returned one1536-by-1024 declared-future-scenario painting from an exact saved seed. It was registered through the real camera notebook, served byte-exactly, displayed and reopened at saved revision2. The tool did not expose a model identity, and this single result does not establish general pixel fidelity or aesthetic superiority. The local workspace render path has been exercised with a mock image response, not a paid provider call. It therefore establishes neither provider compatibility nor aesthetic superiority.
 
 One-render requests may use an exposed host image tool when the request authorizes it. Comparisons and traversals remain text-first; OmniView states the intended render count before any multi-render route that could be metered or external.
 

@@ -8,7 +8,7 @@
 
 OmniView turns natural requests such as "open a view onto Uruk around 3200 BC at first light" into grounded scene interpretations and image-ready prompts. The optional local camera also offers a direct **Create image** path from Place and Time when `OPENAI_API_KEY` is configured; each press may incur an OpenAI API charge and produces an unresearched visual interpretation. When a host exposes an authorized image tool, OmniView can hand one complete prompt to it. When no image tool is available, the prompt remains the finished product.
 
-**[Explore the product site](https://stunspot.github.io/omniview-looking-glass/)** | **[Historical public v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1)** | **[Open your first view](docs/USING-OMNIVIEW.md)**
+**[Current complete0.3.0 bundle](https://github.com/Stunspot/omniview-looking-glass/blob/main/release/OmniView-v0.3.0.zip)** | **[Explore the product site](https://stunspot.github.io/omniview-looking-glass/)** | **[Historical public v0.1.1](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1)** | **[Open your first view](docs/USING-OMNIVIEW.md)**
 
 OmniView is for visual researchers, storytellers, worldbuilders, historians, educators, artists, and curious people who want a place-time image without confusing a vivid reconstruction with documentary surveillance.
 

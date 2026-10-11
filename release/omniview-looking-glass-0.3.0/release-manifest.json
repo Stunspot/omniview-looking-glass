@@ -1,0 +1,642 @@
+{
+  "product": "omniview-looking-glass",
+  "version": "0.3.0",
+  "runtime_version": "0.3.0",
+  "channel": "complete-current-kit",
+  "release_treatment": "edit",
+  "baseline": "accepted0.3.0",
+  "baseline_archive_sha256": "e669a17f0bd0ef1465f17f508d66a98c6a2d666ec1dd8aa559abaf4c23f8b14a",
+  "claim_boundary": "Current Windows native/state workflows and mocked direct-provider orchestration; Mac device execution and paid Image API qualification remain unobserved",
+  "payload": [
+    {
+      "path": "claude/omniview-looking-glass.zip",
+      "bytes": 15146033,
+      "sha256": "0c884685fddfc9908f0718fea3ae5f30dd62751d0784b2713ce55eb3fc6af20c"
+    },
+    {
+      "path": "codex/omniview-looking-glass/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "d13a42b6581260b12bdffbba35b094d6cc73f7b2af48f8ac44e59f83f92a8bc2"
+    },
+    {
+      "path": "codex/omniview-looking-glass/assets/render-seed.template.md",
+      "bytes": 744,
+      "sha256": "0347676e3bb37b031ca676c426f1ec2d8cd249212f650986b644fbab4113799f"
+    },
+    {
+      "path": "codex/omniview-looking-glass/assets/view-record.template.md",
+      "bytes": 530,
+      "sha256": "c7dc8945ef09339f8e9060da6743266d2a3663b329bc8591ed4cf8956b7c9c0c"
+    },
+    {
+      "path": "codex/omniview-looking-glass/evals/eval-manifest.yaml",
+      "bytes": 1130,
+      "sha256": "cd8f63b727f5a27e6e4d5a12804d155cf07c4f763d4154ee38648530e8f43f69"
+    },
+    {
+      "path": "codex/omniview-looking-glass/evals/omniview-cases.yaml",
+      "bytes": 17386,
+      "sha256": "b3312f687493b367b328dedbe8472e056bb65ec7b3e16eafc91111e19edfaf44"
+    },
+    {
+      "path": "codex/omniview-looking-glass/LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "codex/omniview-looking-glass/NOTICE.md",
+      "bytes": 760,
+      "sha256": "56e80d9ea620f4798b9b599952e823a0a12b0e9bbf92c43cb476b79d5a84a59e"
+    },
+    {
+      "path": "codex/omniview-looking-glass/package-manifest.yaml",
+      "bytes": 120,
+      "sha256": "ff4ef6f3f8a5b5593c5f24136057243732ebc15abec3967aa0bba2b03d94fdb6"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/comparison-and-traversal.md",
+      "bytes": 6288,
+      "sha256": "a645aee3850551426848c8c0ab59311eeefc94bc898c406de8420bcfffe04cb6"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/grounding-and-precision.md",
+      "bytes": 8900,
+      "sha256": "e4b4cddb7cd50e511f4e9485bddd7c653bab7f8d68c953a92a30a8bd759314b9"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/render-language.md",
+      "bytes": 8376,
+      "sha256": "71c1aa025cdfe95a2a18b9dcbd8bedda6e9adba5be4824201d6b95d2226d0f40"
+    },
+    {
+      "path": "codex/omniview-looking-glass/references/wormhole-optics.md",
+      "bytes": 7121,
+      "sha256": "bad34faa19649d957ebac529c84c492446f253ab3cd1b9137ccba99310a12d2d"
+    },
+    {
+      "path": "codex/omniview-looking-glass/SKILL.md",
+      "bytes": 20679,
+      "sha256": "4ce0b071b54ecc83fb565d36823b40e8c0785d410cd59d7966602818789b1ac3"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/app.js",
+      "bytes": 38180,
+      "sha256": "3231b8cd53cbd3dd4b6cbb15227019dda1c1d0a0f861f317f6a84ede7c50f0b4"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/assets/chronoscope.png",
+      "bytes": 2834246,
+      "sha256": "451bd6ad6f216cdb405fad43f43f27325432ca9f5089d2d68224f9ab64702e0d"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/assets/cinema.png",
+      "bytes": 1596461,
+      "sha256": "5c32f40aea54f22368fe711a32478db52a07f1d897469610e263e82e52ba5ef9"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/assets/pocket.png",
+      "bytes": 1765844,
+      "sha256": "7f8927e0f1f0cab671affaeace26211573b4efd6efb5f65b334be7b0ba4bbbd8"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/domain.json",
+      "bytes": 5061,
+      "sha256": "1eaa5caf24814b4ba301ffe1bd928a2eee591aac801f88621c5c16be783f530b"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/host.py",
+      "bytes": 23832,
+      "sha256": "d366d4e25b859c82b1ff603e91a44765fb0426d7074351481e40fbda6a9413f1"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/index.html",
+      "bytes": 8871,
+      "sha256": "134932282734f873c29d3485910f47ecbe00c0f218c77a1d822f86e9f27e9c61"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/Launch OmniView.ps1",
+      "bytes": 978,
+      "sha256": "f9947eccc857e01da4e06e8db706c135c55ccaed7f6629343b36525e0344cd1a"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview-128.png",
+      "bytes": 35075,
+      "sha256": "3990c0d4b7b9423af8b61dbd98c3bfc849da428fca7cff04777cc7cca1cf4fe8"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview-256.png",
+      "bytes": 126471,
+      "sha256": "896eca04d2ea65e4918cee8e13d013988cd0ae4f02772a3b0321c417fe5fbcda"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview-32.png",
+      "bytes": 2946,
+      "sha256": "d78c41aa9a7fb93f234c9f97ca0d5b927b32ec2e04fe1faea9d3e41da916bfed"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview-512.png",
+      "bytes": 463320,
+      "sha256": "b387ed95228c738952034fce2bfa00f70510fd293c66c59cc5666525b110edab"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview-master.png",
+      "bytes": 2550581,
+      "sha256": "919590abbd97b0b3ace12c76e9cc7adc5dab1f5be2334a81b59805668b50dd64"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview.icns",
+      "bytes": 2877949,
+      "sha256": "4eb09f4e3da21566fb1167ab4d5c584b9b7dfbccb6db122c33b760ecc7c12447"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/omniview.ico",
+      "bytes": 183571,
+      "sha256": "adb5181eeb145873d6d145d04e912d0ea8afd948c8983ce11e0142e075433582"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/README.md",
+      "bytes": 916,
+      "sha256": "e50c0d6213d26b48c5147a4a75a966d511de120462d13412c316f820ed126608"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/native/ShellLink.cs",
+      "bytes": 3224,
+      "sha256": "01b9dd9d4a3d46935f7f28a20fd5a16aaba8dbb0124e2e60e1ea7a6b1f932137"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/OmniView.app/Contents/Info.plist",
+      "bytes": 770,
+      "sha256": "1bf8890ab698672d922bc3606012b5ea8cae6c3fbb0eede72a4e0253f9a3aea5"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/OmniView.app/Contents/MacOS/launch",
+      "bytes": 599,
+      "sha256": "025860e155b1c940989217d321349bb519fc98cda19dbb045c22d894098fee08"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/OmniView.app/Contents/Resources/omniview.icns",
+      "bytes": 2877949,
+      "sha256": "4eb09f4e3da21566fb1167ab4d5c584b9b7dfbccb6db122c33b760ecc7c12447"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/Open.cmd",
+      "bytes": 351,
+      "sha256": "3d3cb417caa55a7261a031c6a9250039ca2801567a5657d69437647780a812e3"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/Open.command",
+      "bytes": 84,
+      "sha256": "62bafcacb20cf64f0eae40542cac509d44d2c02cbafc943b5d60021218d99903"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/README.md",
+      "bytes": 12984,
+      "sha256": "3fbc61b9eba4a23857281302e9c601dfd314fff40e8b0d94b843a5487baede63"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/Setup Windows Launcher.ps1",
+      "bytes": 3074,
+      "sha256": "d7752be3782cbe1b1201576274cd3f49c3aa82fdeb8063f6484cadda4e28ae5c"
+    },
+    {
+      "path": "codex/omniview-looking-glass/workspace/style.css",
+      "bytes": 58378,
+      "sha256": "527cd3d1cdbf329185bbe72b1daf6e7711f4d2d0f31b931c5a8cd8dcce7fa4c1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1325,
+      "sha256": "68b71ea0f31b1c106781bdc543284087e3a33520abfd6bbb7075aac7adcdf327"
+    },
+    {
+      "path": "customer-kit/HOST-MATRIX.md",
+      "bytes": 2752,
+      "sha256": "716bd4c48c360ed2bc16f7ec4a9680fbb7a37be2a68397afa2728dc7a3fe6631"
+    },
+    {
+      "path": "customer-kit/PROVENANCE.md",
+      "bytes": 2347,
+      "sha256": "c1eabe424e65c081fc7554e31c88777a32ac5168aca00087e2a2647fcc854c6e"
+    },
+    {
+      "path": "customer-kit/START-HERE.md",
+      "bytes": 4432,
+      "sha256": "d3e1b100d280f602793a5ce64b49347ff49550cd95fb9125b6e47e1df5b26081"
+    },
+    {
+      "path": "customer-kit/VERIFICATION-SUMMARY.md",
+      "bytes": 8082,
+      "sha256": "5f184373a62e40e1ff5bdfaed9050813c6162f5552489aef6bd380744a35b998"
+    },
+    {
+      "path": "delivery-sidecars/OmniView The Looking Glass Companion T-Free v0.3.0 Extra.md",
+      "bytes": 3215,
+      "sha256": "ed64c535627ee3ef6ad32f57786f3159436968bdae3c8e6722a730c92978870f"
+    },
+    {
+      "path": "delivery-sidecars/OmniView The Looking Glass Companion T-Free v0.3.0.md",
+      "bytes": 3550,
+      "sha256": "45a3282ad0c92df7bfd1a87d15266077eb9f4b6a3465a834c9ba5e5ccd515246"
+    },
+    {
+      "path": "delivery-sidecars/OmniView The Looking Glass Companion.jpg",
+      "bytes": 106504,
+      "sha256": "c90595bba7feeae069fcfc3a49decbda754b55d2861355a855ec77dab01e9891"
+    },
+    {
+      "path": "DIRECT-RENDER-INSPECTION.md",
+      "bytes": 2382,
+      "sha256": "d71f72a52a383c234f64d8ebbd1f70c6dce723caa8efc3be2db355497bdfc33e"
+    },
+    {
+      "path": "docs/404.html",
+      "bytes": 1294,
+      "sha256": "c37cdfe4ca6414cb01204dcdafbd8dd9c4233309962858d46237a2cb980240c1"
+    },
+    {
+      "path": "docs/_config.yml",
+      "bytes": 299,
+      "sha256": "eb0c65922d68e8d3a5a80da22a471ef78cdc7806cab4f9be414092623dd664b2"
+    },
+    {
+      "path": "docs/_layouts/default.html",
+      "bytes": 2477,
+      "sha256": "462bdc24348377037d07d6cb3347b92c21585c22843da656cbce8e93bb1105ae"
+    },
+    {
+      "path": "docs/ACCESSIBILITY.md",
+      "bytes": 3099,
+      "sha256": "7486464256d23b997f76f66c98048b150b5a7abf52f8db1a635a7fbf206143aa"
+    },
+    {
+      "path": "docs/assets/brand/omniview-pages-hero.png",
+      "bytes": 1667436,
+      "sha256": "aeeca02d82cef12cbc1a667a271295113d8711bc8848cc4fe3520311f17f959e"
+    },
+    {
+      "path": "docs/assets/brand/omniview-readme-hero.png",
+      "bytes": 1541283,
+      "sha256": "a3f698434a3b94669d8ceac58d6f2b57c223607d3faf30810908c614a6c444f8"
+    },
+    {
+      "path": "docs/assets/brand/omniview-social-preview.jpg",
+      "bytes": 168897,
+      "sha256": "a01c7b39cf76f7a1d2bb7a663a303518c4e9ab39a9501f44cd625cfb74f0f7f0"
+    },
+    {
+      "path": "docs/assets/css/style.css",
+      "bytes": 3849,
+      "sha256": "2c10efe14b5edf9d981cf6614cf3005575ed8d5e146039bb75bc0840e8afd944"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "bytes": 1541,
+      "sha256": "b812c0d9f63ab016ae58f2a7fde92ae7f2c91d683c224e030a16f9a8958ee09f"
+    },
+    {
+      "path": "docs/GL4SS-DROPINS.md",
+      "bytes": 4621,
+      "sha256": "ce3c6c62a3d9408cf219bc7504220af98b09782cd28519f41cfb875e986ad1b0"
+    },
+    {
+      "path": "docs/index.md",
+      "bytes": 5878,
+      "sha256": "4f09cf65a8991a5fdafff14d82c02250f6977c21e9bbd0139a67982955df2795"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "bytes": 6232,
+      "sha256": "217bf51eec0dab39a4d1f25a67a8dcffb0dd45b4de4fb5c31ada8201b0e6f250"
+    },
+    {
+      "path": "docs/LIFECYCLE.md",
+      "bytes": 5538,
+      "sha256": "7603e384616d8f2f0c8515a15b65e7752c82227ac6129555d6cf4e0f7adde3cd"
+    },
+    {
+      "path": "docs/PACKAGE-REFERENCE.md",
+      "bytes": 4619,
+      "sha256": "1ed76baef74784cdad009b809638ef947c1921b24f40141c8de37bc90788e7af"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 1496,
+      "sha256": "f0b9e99c3de6d2b1bc06c4e3ae6ab8db9312ee798a93bb3daad4d5b367d21539"
+    },
+    {
+      "path": "docs/SUPPORT.md",
+      "bytes": 1468,
+      "sha256": "5a5050aff689654695ecbbce982a7df1c7e97c311253ac9f1f5aef38be16fd32"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 4715,
+      "sha256": "d2d74b7b72e89c8e626218587d694f4a8e53a7f55f3f061ce9fb1389ecb0075c"
+    },
+    {
+      "path": "docs/TRUST-PRIVACY-AND-LIMITS.md",
+      "bytes": 5286,
+      "sha256": "33af49f7a60f7d184be710488b1c8aa58a734c338da89e1c3fd36c48d90186ea"
+    },
+    {
+      "path": "docs/USING-OMNIVIEW.md",
+      "bytes": 5956,
+      "sha256": "f7a981d2c484f86c6c20d8969f44fe6fa1b453affa2ead52e49af4e9de8ad067"
+    },
+    {
+      "path": "gl4ss-dropins/integration/dropin-manifest.json",
+      "bytes": 1392,
+      "sha256": "a419611f03aec3661bcdf945fdcfb963c1c50c6263e33fa791fe29f63f2813bc"
+    },
+    {
+      "path": "gl4ss-dropins/integration/gl4ss-baseline.json",
+      "bytes": 1967,
+      "sha256": "c3b51af4b2b622b2826799b8b5276db332568303ff4499b34d656ba8495b78bf"
+    },
+    {
+      "path": "gl4ss-dropins/planner/0001-witness-shot-relay.patch",
+      "bytes": 27429,
+      "sha256": "7b6d98fe6755e77e0db6c731d1845236dc6eb6770aac90f90790bf016b51ff7f"
+    },
+    {
+      "path": "gl4ss-dropins/planner/README.md",
+      "bytes": 1821,
+      "sha256": "083c77d03bb550d757114414ee42c6f0250fd007b527bf6ffdc60b934bbe2f76"
+    },
+    {
+      "path": "gl4ss-dropins/README.md",
+      "bytes": 2410,
+      "sha256": "c709eed08ba1011961dfe498bb5cabdfdec5b2a6cc27cb3b9dbc16b9cb2e832f"
+    },
+    {
+      "path": "gl4ss-dropins/renderer/0002-material-photograph-relay.patch",
+      "bytes": 12260,
+      "sha256": "42936c0e11cbbe628a82525021dda3d5963d6987ac449daf813053f1d28565b1"
+    },
+    {
+      "path": "gl4ss-dropins/renderer/README.md",
+      "bytes": 1842,
+      "sha256": "0732ebeec0e28c299703886a3eb59a260125eb4bf37da0968cb913d3074a5dcf"
+    },
+    {
+      "path": "gl4ss-dropins/tests/verify-candidate.mjs",
+      "bytes": 16311,
+      "sha256": "8697902bac8e970a5e917ca02adab7b5f4ee2ee883f8135b16463c4036a7c4c5"
+    },
+    {
+      "path": "INTERFACE-INSPECTION.md",
+      "bytes": 4034,
+      "sha256": "4012a7a94dba86ca4fffcdb7fe424afcd6c24f146918d55a2b4b5c24d8f42c52"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "LICENSES/README.md",
+      "bytes": 769,
+      "sha256": "f7556d87836d61bd7ef769a11675df147d8cc6a3e4113594843914fc3e0d0622"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 771,
+      "sha256": "ce76f15cd6fe917734de0d89e9c995d0e38234e7984f1701e0a051e6c461393c"
+    },
+    {
+      "path": "OPEN-WORKSPACE.md",
+      "bytes": 12984,
+      "sha256": "3fbc61b9eba4a23857281302e9c601dfd314fff40e8b0d94b843a5487baede63"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/.codex-plugin/plugin.json",
+      "bytes": 1510,
+      "sha256": "d88df3a270696aacce93bec9efc51419fca3b890e588f56e9d65681412d26dae"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "d13a42b6581260b12bdffbba35b094d6cc73f7b2af48f8ac44e59f83f92a8bc2"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/assets/render-seed.template.md",
+      "bytes": 744,
+      "sha256": "0347676e3bb37b031ca676c426f1ec2d8cd249212f650986b644fbab4113799f"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/assets/view-record.template.md",
+      "bytes": 530,
+      "sha256": "c7dc8945ef09339f8e9060da6743266d2a3663b329bc8591ed4cf8956b7c9c0c"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/evals/eval-manifest.yaml",
+      "bytes": 1130,
+      "sha256": "cd8f63b727f5a27e6e4d5a12804d155cf07c4f763d4154ee38648530e8f43f69"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/evals/omniview-cases.yaml",
+      "bytes": 17386,
+      "sha256": "b3312f687493b367b328dedbe8472e056bb65ec7b3e16eafc91111e19edfaf44"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/LICENSE.md",
+      "bytes": 3295,
+      "sha256": "d6aa38a9222d2af1f4d83a3a02b0911ea106caae48db628192e0df7ab86c3ed5"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/NOTICE.md",
+      "bytes": 760,
+      "sha256": "56e80d9ea620f4798b9b599952e823a0a12b0e9bbf92c43cb476b79d5a84a59e"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/package-manifest.yaml",
+      "bytes": 120,
+      "sha256": "ff4ef6f3f8a5b5593c5f24136057243732ebc15abec3967aa0bba2b03d94fdb6"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/references/comparison-and-traversal.md",
+      "bytes": 6288,
+      "sha256": "a645aee3850551426848c8c0ab59311eeefc94bc898c406de8420bcfffe04cb6"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/references/grounding-and-precision.md",
+      "bytes": 8900,
+      "sha256": "e4b4cddb7cd50e511f4e9485bddd7c653bab7f8d68c953a92a30a8bd759314b9"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/references/render-language.md",
+      "bytes": 8376,
+      "sha256": "71c1aa025cdfe95a2a18b9dcbd8bedda6e9adba5be4824201d6b95d2226d0f40"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/references/wormhole-optics.md",
+      "bytes": 7121,
+      "sha256": "bad34faa19649d957ebac529c84c492446f253ab3cd1b9137ccba99310a12d2d"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/SKILL.md",
+      "bytes": 20679,
+      "sha256": "4ce0b071b54ecc83fb565d36823b40e8c0785d410cd59d7966602818789b1ac3"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/app.js",
+      "bytes": 38180,
+      "sha256": "3231b8cd53cbd3dd4b6cbb15227019dda1c1d0a0f861f317f6a84ede7c50f0b4"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/assets/chronoscope.png",
+      "bytes": 2834246,
+      "sha256": "451bd6ad6f216cdb405fad43f43f27325432ca9f5089d2d68224f9ab64702e0d"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/assets/cinema.png",
+      "bytes": 1596461,
+      "sha256": "5c32f40aea54f22368fe711a32478db52a07f1d897469610e263e82e52ba5ef9"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/assets/pocket.png",
+      "bytes": 1765844,
+      "sha256": "7f8927e0f1f0cab671affaeace26211573b4efd6efb5f65b334be7b0ba4bbbd8"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/domain.json",
+      "bytes": 5061,
+      "sha256": "1eaa5caf24814b4ba301ffe1bd928a2eee591aac801f88621c5c16be783f530b"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/host.py",
+      "bytes": 23832,
+      "sha256": "d366d4e25b859c82b1ff603e91a44765fb0426d7074351481e40fbda6a9413f1"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/index.html",
+      "bytes": 8871,
+      "sha256": "134932282734f873c29d3485910f47ecbe00c0f218c77a1d822f86e9f27e9c61"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/Launch OmniView.ps1",
+      "bytes": 978,
+      "sha256": "f9947eccc857e01da4e06e8db706c135c55ccaed7f6629343b36525e0344cd1a"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview-128.png",
+      "bytes": 35075,
+      "sha256": "3990c0d4b7b9423af8b61dbd98c3bfc849da428fca7cff04777cc7cca1cf4fe8"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview-256.png",
+      "bytes": 126471,
+      "sha256": "896eca04d2ea65e4918cee8e13d013988cd0ae4f02772a3b0321c417fe5fbcda"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview-32.png",
+      "bytes": 2946,
+      "sha256": "d78c41aa9a7fb93f234c9f97ca0d5b927b32ec2e04fe1faea9d3e41da916bfed"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview-512.png",
+      "bytes": 463320,
+      "sha256": "b387ed95228c738952034fce2bfa00f70510fd293c66c59cc5666525b110edab"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview-master.png",
+      "bytes": 2550581,
+      "sha256": "919590abbd97b0b3ace12c76e9cc7adc5dab1f5be2334a81b59805668b50dd64"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview.icns",
+      "bytes": 2877949,
+      "sha256": "4eb09f4e3da21566fb1167ab4d5c584b9b7dfbccb6db122c33b760ecc7c12447"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/omniview.ico",
+      "bytes": 183571,
+      "sha256": "adb5181eeb145873d6d145d04e912d0ea8afd948c8983ce11e0142e075433582"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/README.md",
+      "bytes": 916,
+      "sha256": "e50c0d6213d26b48c5147a4a75a966d511de120462d13412c316f820ed126608"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/native/ShellLink.cs",
+      "bytes": 3224,
+      "sha256": "01b9dd9d4a3d46935f7f28a20fd5a16aaba8dbb0124e2e60e1ea7a6b1f932137"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/OmniView.app/Contents/Info.plist",
+      "bytes": 770,
+      "sha256": "1bf8890ab698672d922bc3606012b5ea8cae6c3fbb0eede72a4e0253f9a3aea5"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/OmniView.app/Contents/MacOS/launch",
+      "bytes": 599,
+      "sha256": "025860e155b1c940989217d321349bb519fc98cda19dbb045c22d894098fee08"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/OmniView.app/Contents/Resources/omniview.icns",
+      "bytes": 2877949,
+      "sha256": "4eb09f4e3da21566fb1167ab4d5c584b9b7dfbccb6db122c33b760ecc7c12447"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/Open.cmd",
+      "bytes": 351,
+      "sha256": "3d3cb417caa55a7261a031c6a9250039ca2801567a5657d69437647780a812e3"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/Open.command",
+      "bytes": 84,
+      "sha256": "62bafcacb20cf64f0eae40542cac509d44d2c02cbafc943b5d60021218d99903"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/README.md",
+      "bytes": 12984,
+      "sha256": "3fbc61b9eba4a23857281302e9c601dfd314fff40e8b0d94b843a5487baede63"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/Setup Windows Launcher.ps1",
+      "bytes": 3074,
+      "sha256": "d7752be3782cbe1b1201576274cd3f49c3aa82fdeb8063f6484cadda4e28ae5c"
+    },
+    {
+      "path": "plugin/omniview-looking-glass/skills/omniview-looking-glass/workspace/style.css",
+      "bytes": 58378,
+      "sha256": "527cd3d1cdbf329185bbe72b1daf6e7711f4d2d0f31b931c5a8cd8dcce7fa4c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8498,
+      "sha256": "0e5b796dc5502d25093eefffe168768d2a54e6aa5f73544ff84a9f9c8674576f"
+    },
+    {
+      "path": "RELEASE-DECISION.md",
+      "bytes": 1316,
+      "sha256": "02e56b3cf9ad42452cb825c9abc6b76689ee68a9c3b47a9bfdfe2630933ae085"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "bytes": 3310,
+      "sha256": "e2238323cf39c049ea241b8ecb76d09f1d1a2b6c35723cc006b0086ac39b1f40"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1321,
+      "sha256": "7a807f1134cccb18b242e47002f0333b86106cc41dff35abe19c4002a3a175fe"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1169,
+      "sha256": "345c35a3b469956b20729c6d4741e19b1cf8c27df26c805804d4735db7f915a0"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "bytes": 757,
+      "sha256": "97a4914669c3b93384ef7de358775e7bec9091b1794d589f6166141f1dcd4f6a"
+    },
+    {
+      "path": "VERIFY.py",
+      "bytes": 4434,
+      "sha256": "bce0a0df8fb2ba1e56b665a8459f74b4dd0a90fe475ff8078de1a1a9eeab62a5"
+    }
+  ]
+}

@@ -145,6 +145,11 @@ function renderScene() {
   $('#lock').textContent=locked && sameIdentity(locked,current)?'Update pinned reference':'Pin as reference';
   $('#optic').innerHTML=[['THE OPTIC',current.camera||'Choose the camera relation, height, and framing.'],['SPATIAL ANCHOR',current.coordinate_meaning||'Describe the physical place that persists across views.'],['WHAT STAYS FIXED',current.invariant||'Pin a view and name the geometry to hold through time.']].map(([label,value])=>`<div class="optic-cell"><p class="eyebrow">${label}</p><p>${esc(value)}</p></div>`).join('');
 }
+function isSavedSnapshot(record) {
+  const saved=records.find(r=>r._id && r._id===record._id);
+  const ordered=value=>JSON.stringify(value,(_key,item)=>item && typeof item==='object' && !Array.isArray(item)?Object.fromEntries(Object.entries(item).sort(([a],[b])=>a<b?-1:a>b?1:0)):item);
+  return !!saved && ordered(saved)===ordered(record);
+}
 function sameIdentity(a,b) { return a._id && a._id===b._id || !a._id && !b._id && a.title===b.title && a.time===b.time; }
 function sourceMarkup(value) {
   return String(value || '').split(/(https?:\/\/[^\s<>"']+)/g).map(part=>/^https?:\/\//.test(part)?`<a href="${esc(part)}" target="_blank" rel="noopener noreferrer">${esc(part)}</a>`:esc(part)).join('');
@@ -157,7 +162,7 @@ function renderGrounding() {
   if(locked) {
     $('#reference-pin').innerHTML=`<p class="eyebrow">PINNED REFERENCE</p><strong>${esc(locked.time || 'Time unresolved')}</strong><p>${esc(locked.title || locked.place)}</p><button id="open-compare" class="text-button">Compare with this moment ↗</button><button id="unpin" class="text-button">Unpin</button>`;
     $('#open-compare').onclick=()=>{if(!meaningful(current))return status('Open a moment to compare with the reference.',true);setMode('compare');};
-    $('#unpin').onclick=()=>{locked=null;sessionStorage.removeItem(config.product+'-reference');render();status('Reference unpinned.');};
+    $('#unpin').onclick=()=>{locked=null;sessionStorage.removeItem(config.product+'-reference');render();$('#grounding > summary').focus();status('Reference unpinned.');};
   }
 }
 function renderRibbon() {
@@ -181,7 +186,7 @@ function renderComparison() {
   const audit=keys.map(([key,label])=>{const a=locked[key],b=current[key];const state=!a||!b?'missing':a===b?'same':'different';return `<div class="audit-row"><div class="audit-key"><strong>${label}</strong><span class="audit-state" data-state="${state}">${state==='same'?'Same recorded value':state==='different'?'Changed · review':'Unresolved'}</span></div><div class="audit-values"><p>${esc(a||'Not specified')}</p><p>${esc(b||'Not specified')}</p></div></div>`;}).join('');
   $('#comparison').innerHTML=`<div class="comparison-toolbar"><div><p class="eyebrow">TWO WINDOWS THROUGH TIME</p><p>${sameIdentity(locked,current)?'Reference pinned. Choose another saved moment to reveal the change.':'Read the change. Check the continuity.'}</p></div><label class="comparison-target">Compare to<select id="compare-target"><option value="">Choose a saved moment…</option>${orderedRecords().map(r=>`<option value="${esc(r._id)}" ${r._id===current._id?'selected':''}>${esc(r.time)} · ${esc(r.title)}</option>`).join('')}</select></label><button id="swap-comparison">Swap reference & current</button></div><div class="compare-grid">${comparePane(locked,'PINNED REFERENCE')}${comparePane(current,'CURRENT MOMENT')}</div><details class="invariant-audit"><summary>What holds between these views?</summary><p class="micro">Matching text records an intended invariant; it does not prove pixel alignment or source validity.</p>${audit}</details>`;
   $('#compare-target').onchange=e=>{const target=records.find(r=>r._id===e.target.value);if(target){if(!choose(target))renderComparison();$('#compare-target').focus();}};
-  $('#swap-comparison').onclick=()=>{if(!canLeave())return;const old=structuredClone(current);const next=structuredClone(locked);locked=old;sessionStorage.setItem(config.product+'-reference',JSON.stringify(locked));choose(next,{force:true});status('Reference and current moment exchanged.');};
+  $('#swap-comparison').onclick=()=>{if(!canLeave())return;const old=structuredClone(current);const next=structuredClone(locked);locked=old;sessionStorage.setItem(config.product+'-reference',JSON.stringify(locked));choose(next,{force:true,draft:!isSavedSnapshot(next)});$('#swap-comparison').focus();status('Reference and current moment exchanged.'+(dirty?' This restored view has unsaved changes.':''));};
 }
 function renderJourney() {
   const stops=String(current.traversal||'').split('\n').map(s=>s.trim()).filter(Boolean);
@@ -192,6 +197,7 @@ function renderJourney() {
 }
 function pin() {
   locked=structuredClone(current); sessionStorage.setItem(config.product+'-reference',JSON.stringify(locked));render();
+  if(mode==='compare')$('#compare-target').focus();
   status('Reference pinned. Open another saved moment to compare; your draft remains unchanged.');
 }
 function continueView(stop='') {

@@ -1,5 +1,18 @@
 # Verification Summary
 
+## Current0.3.0 whole-product maintenance
+
+Current repairs restore draft/reference truth and keyboard focus, and bind one recognizable camera icon to Windows shortcut/folder setup, the macOS application bundle and the browser tab. The original scene, optic, grounding, render-language and traversal instructions remain unchanged.
+
+The current software check runs13 applicable engineering checks, including the real host's launch/reuse/restart/history/conflicts, six returned-image access/custody groups, nine client-logic groups, all17source-card schemas, and actual orchestration functions for late renders, storage failure, import, save and reload interleavings. Provider responses in those orchestration tests are mocked; no paid Image API dispatch is inferred.
+
+A real system-Chrome run over a Windows-shortcut-launched isolated store passed13 named workflow checks: a complete declared-future-scenario view and seed, native imported-image display, original/unknown Unicode data, dirty versus clean reference restoration, cancelled discard, stale-save refusal, partial-import count, time/route clearing, era controls, actual seed download and saved return. It also checked allthree camera themes at narrow width and reported zero page errors and unexpected HTTP errors. The missing-key browser check was not applicable because that host had a key configured; the separate mocked-provider host test verified missing-key rejection. The Windows extraction path included spaces, a Latin accent and Han characters. The native shortcut and folder icon were read back.
+
+One actual Codex imagegen tool return from the saved declared-Seine-scenario tempera seed was registered through the notebook, served as the exact returned1536-by-1024 PNG, displayed, saved at revision2 and reopened with its exact seed and reference. Model identity was not exposed. The image carries the intended dockhand/line, ferry transfer, repaired stone, reed steps, arcaded distance and visible solar/charging energy; it also contains renderer-added readable signs. No exact-pixel-fidelity or general aesthetic claim follows from this one result.
+
+The macOS app's declared icon, raster encoding and executable archive mode are checked in the current complete kit. macOS device execution, assistive-technology conformance, general source truth, general model reliability and direct paid-provider qualification remain unobserved. Current candidate tests and independent review govern delivery; the historical receipt sections retain their dated scope.
+
+
 Disposition for public release v0.1.1: **READY_WITH_RESIDUAL_RISK**. It packages the v0.1.0 package with unchanged behavior-bearing instructions; retained behavioral evidence remains bound to those instruction bytes. Public repository and release publication are owner-authorized; installation, upstream submission, provider rendering, and external messaging remain separate actions.
 
 This page distinguishes observed local evidence from untested host and provider behavior.

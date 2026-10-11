@@ -1,0 +1,54 @@
+{
+  "format": "omniview-gl4ss-dropins/v1",
+  "name": "GL4SS Witness-to-Shot Upgrade Pack",
+  "source": {
+    "repository": "https://github.com/elder-plinius/GL4SS",
+    "commit": "ab4984597ecf3afbd8ea66309be5ed68ce429146",
+    "license": "AGPL-3.0-or-later"
+  },
+  "applyOrder": [
+    "planner",
+    "renderer"
+  ],
+  "patches": [
+    {
+      "id": "planner",
+      "path": "../planner/0001-witness-shot-relay.patch",
+      "bytes": 27429,
+      "sha256": "7b6d98fe6755e77e0db6c731d1845236dc6eb6770aac90f90790bf016b51ff7f",
+      "targets": [
+        "src/lib/openrouter.ts"
+      ]
+    },
+    {
+      "id": "renderer",
+      "path": "../renderer/0002-material-photograph-relay.patch",
+      "bytes": 12260,
+      "sha256": "42936c0e11cbbe628a82525021dda3d5963d6987ac449daf813053f1d28565b1",
+      "targets": [
+        "src/lib/promptcraft.ts",
+        "src/lib/promptTemplate.ts"
+      ]
+    }
+  ],
+  "contract": {
+    "plannerCalls": 1,
+    "sceneDirectionSchemaChange": false,
+    "providerChange": false,
+    "engineChange": false,
+    "storageChange": false,
+    "uiChange": false,
+    "priorDefaultAppendedVerbatim": true
+  },
+  "observedVerification": {
+    "date": "2026-08-02",
+    "patchesMatchCandidateBytes": true,
+    "combinedGitApplyCheck": "passed",
+    "npmCi": "passed",
+    "npmBuild": "passed",
+    "npmLint": "passed",
+    "providerCalls": 0,
+    "renderCalls": 0
+  }
+}
+

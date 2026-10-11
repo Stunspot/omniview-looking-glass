@@ -37,6 +37,10 @@ The Codex folder and expanded Claude ZIP carry the complete skill, including the
         README.md
         Open.cmd
         Open.command
+        OmniView.app/
+        Setup Windows Launcher.ps1
+        Launch OmniView.ps1
+        native/
         domain.json
         index.html
         app.js
@@ -64,6 +68,8 @@ Host metadata such as `agents/openai.yaml` is included as declared by each curre
 Development corpus, raw trial material, ignored candidate checkouts, and private harness paths are not customer runtime dependencies and are not included in the delivery kit.
 
 ## Verify a release
+
+Run `python VERIFY.py` from the complete kit before opening it. The checker verifies closure, bytes, portable parity and static native bindings. To check the outer ZIP and executable modes too, pass `--archive path/to/the-complete.zip`.
 
 Read `release-manifest.json` for version, topology, source custody, and included paths. Recompute SHA-256 digests and compare them with `SHA256SUMS.txt`.
 

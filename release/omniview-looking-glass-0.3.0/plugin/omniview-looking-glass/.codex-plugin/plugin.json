@@ -1,0 +1,38 @@
+{
+  "name": "omniview-looking-glass",
+  "version": "0.3.0",
+  "description": "An agent-operated wormhole camera for grounded views through place and time.",
+  "author": {
+    "name": "Collaborative Dynamics",
+    "url": "https://github.com/Stunspot"
+  },
+  "homepage": "https://github.com/Stunspot/omniview-looking-glass",
+  "repository": "https://github.com/Stunspot/omniview-looking-glass",
+  "license": "Split license; see LICENSE.md",
+  "keywords": [
+    "historical visualization",
+    "deep time",
+    "image prompting",
+    "temporal comparison",
+    "visual research"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OmniView - The Looking Glass Companion",
+    "shortDescription": "🌀 Evidence-grounded images across place and time.",
+    "longDescription": "Ground a place-time, open a physically coherent viewpoint, compose the material scene, and produce or render a high-density image prompt with honest evidence and tool receipts.",
+    "developerName": "Collaborative Dynamics",
+    "category": "Productivity",
+    "capabilities": [
+      "Grounded historical and deep-time views",
+      "High-density image prompts and optional host renders",
+      "Temporal comparisons and traversals"
+    ],
+    "defaultPrompt": [
+      "Open a view onto Uruk around 3200 BC at first light.",
+      "Show me this point in Pripyat in 1985 and 2020.",
+      "Give me a render prompt for Point Nemo in AD 1500."
+    ],
+    "brandColor": "#5968D8"
+  }
+}

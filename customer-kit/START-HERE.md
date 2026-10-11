@@ -6,7 +6,7 @@ Paths on this page are relative to this complete kit. Publicv0.1.1 remains histo
 
 ## Open the camera
 
-Open `../codex/omniview-looking-glass/workspace/Open.cmd` on Windows. On macOS, first make `Open.command` executable and open it; on Linux run `python3 host.py` in that workspace directory. Python3.10 or newer is required. Keep every workspace asset in place.
+Keep `../codex/omniview-looking-glass/workspace/` intact. On Windows, open `Open.cmd` once to create this folder's camera icon and `OmniView.lnk` shortcut; use that shortcut for later launches. After moving the folder, open `Open.cmd` again to refresh its binding. On macOS, open `OmniView.app`; `Open.command` remains a terminal fallback. On Linux, run `python3 host.py`. Python3.10 or newer is required. Native macOS execution remains unobserved; the delivered launcher is executable and its icon/bundle binding is checked.
 
 Enter Place and Time. With `OPENAI_API_KEY` configured in the launching environment, **Create image** sends one request to OpenAI and may incur a charge; this quick path does not research historical sources. **Plan with my agent instead** starts the source-grounded route without provider dispatch. Read [Open workspace](../OPEN-WORKSPACE.md) for configuration, saved moments, recovery and return work.
 

@@ -4,9 +4,9 @@ Take an impossible camera somewhere in place and time. OmniView gives curiosity 
 
 ## Start the workspace
 
-Install Python 3.10 or newer from python.org. No extra packages are required. Keep the workspace folder intact. On Windows, open `Open.cmd`. On macOS, run `chmod +x Open.command` once in Terminal, then open `Open.command`. On Linux, run `python3 host.py`.
+Install Python 3.10 or newer from python.org. No extra packages are required. Keep the workspace folder intact. On Windows, open `Open.cmd` once to create this folder's camera icon and `OmniView.lnk` shortcut; use that shortcut for later launches. After moving the folder, open `Open.cmd` again to refresh its binding. On macOS, open `OmniView.app`; `Open.command` remains a terminal fallback. On Linux, run `python3 host.py`.
 
-Open starts this product or reconnects its exact existing instance, confirms its identity, and opens your browser. It uses an available loopback port. Use the same launcher after a reboot. No desktop shortcut is installed; you may create one pointing to the launcher.
+Open starts this product or reconnects its exact existing instance, confirms its identity, and opens your browser. It uses an available loopback port. Use the same launcher after a reboot. The Windows shortcut stays beside the camera; no desktop location is modified. The macOS bundle and browser tab use the same camera icon.
 
 ## Frame your first moment
 
@@ -34,7 +34,7 @@ A missing or unsuitable image shows an unavailable message and retains the refer
 
 ## Compare two moments
 
-Open a view and select **Pin as reference**, then open another saved moment and select **Compare**. Within Compare, use **Compare to** to select another saved moment without leaving the comparison. The reference is a snapshot held for this browser-tab session. You can update it, unpin it, or **Swap reference & current**; changing the working view does not rewrite the pinned snapshot.
+Open a view and select **Pin as reference**, then open another saved moment and select **Compare**. Within Compare, use **Compare to** to select another saved moment without leaving the comparison. The reference is a snapshot held for this browser-tab session. You can update it, unpin it, or **Swap reference & current**; changing the working view does not rewrite the pinned snapshot. Swapping back to a snapshot that differs from its saved record restores it as an unsaved draft; save or export it before leaving.
 
 Compare shows actual returned images when available, with scene text otherwise. **What holds between these views?** checks recorded spatial anchor, camera, support, light, and invariant values, identifying changes and missing information. Matching text records an intended invariant; it does not prove pixel alignment or source validity.
 
@@ -52,7 +52,7 @@ The new view carries the place, spatial anchor, local light, viewpoint support, 
 
 **Export / handoff → Export view JSON** preserves the current view, including unsaved changes and unknown fields. Under **Collection tools**, **Export collection** includes saved records only. **Import JSON** accepts a record or a `records` bundle, up to 500 records and a 2 MB file. Imported records receive new identities and retain their original JSON.
 
-Saving uses atomic replacement and revisions. If another editor or agent changed a record, your stale save is rejected and your draft remains available. Export that draft, then use **Archive & exchange → Reload saved views**, inspect the newer record, and reapply the intended changes. Earlier revisions live in `history` beside the records.
+Saving uses atomic replacement and revisions. If another editor or agent changed a record, your stale save is rejected and your draft remains available. Export that draft, then use **Collection tools → Reload saved views**, inspect the newer record, and reapply the intended changes. Earlier revisions live in `history` beside the records.
 
 If a saved view changes or is removed while an image request is in progress, the completed image is retained as a separate **(recovered image)** moment. Its record identifies the source view and submitted revision. The newer view remains untouched; a removed source stays removed. Open the recovered moment to keep, compare or export that result. This recovery makes no second provider request.
 

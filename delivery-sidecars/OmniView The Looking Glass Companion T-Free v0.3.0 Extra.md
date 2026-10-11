@@ -7,11 +7,13 @@ Take an impossible camera somewhere in place and time. OmniView brings the retur
 Copy the .zip from "Additional Files" to your Codex, Claude Code, or other harness, or add the .zip to a project knowledge base in Chat. Attach or reference the .zip in chat and say, "Install this Augment." The prompt in this post is optional.
 
 - Enter a place and time, then select **Create image** for one direct OpenAI render (API charges may apply). Set `OPENAI_API_KEY` in the local host environment first. For researched scenes, select **Plan with my agent instead** and use Camera notebook.
-- Open `codex/omniview-looking-glass/workspace/Open.cmd` on Windows or `Open.command` on macOS with Python 3.10+. Records stay outside the installation. Desktop shortcuts are optional.
+- Open `codex/omniview-looking-glass/workspace/Open.cmd` once on Windows, then use the camera-icon `OmniView.lnk` beside it. On macOS open `OmniView.app`. Python3.10+ is required; records stay outside the installation.
 - Direct images are saved automatically in the local collection. Agent-returned HTTPS images or existing absolute local PNG, JPEG, GIF, or WebP paths can still be registered manually (up to 30 MiB). Back up generated images with the collection and keep manually referenced files with your project materials.
 - Pin as reference and open another saved moment to compare. Matching recorded framing is not proof of pixel alignment. Journey shows planned stops; Turn the reel shows saved moments with ordinal spacing.
 
 # Changelog
+
+v0.3.0 maintenance - Restores unsaved pinned views truthfully after swapping, preserves keyboard focus, and binds recognizable camera icons to native launchers and the browser. The complete builder now assembles from maintained source and keeps the macOS launcher executable.
 
 v0.3.0 - Adds a direct **Create image** action from place and time through a configured OpenAI API account, with one request per press, local image custody, visible cost/source limits, and a clear agent-planning alternative.
 

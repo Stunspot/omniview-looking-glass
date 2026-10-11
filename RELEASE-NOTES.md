@@ -33,3 +33,7 @@ This release includes:
 The software and machine-readable schemas are MIT-licensed, original authored OmniView materials are CC BY-ND 4.0, and the GL4SS-derived drop-ins remain AGPL-3.0-or-later. See LICENSE.md and NOTICE.md for the exact boundaries.
 
 Verification covers package structure, Codex/Claude parity, deterministic assembly, archive safety, checksums, privacy markers, local links, and the retained behavioral evidence. It does not claim a live installation on every host or provider-generated image quality.
+
+## 0.3.0 whole-product maintenance
+
+Restores unsaved reference snapshots and focus, adds native camera icon bindings, preserves macOS executable delivery, and makes the current complete builder self-contained. The current verification summary describes exercised state and rendering boundaries.
