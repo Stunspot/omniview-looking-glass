@@ -1,4 +1,4 @@
-> Historical scoped inspection. Current0.3.0 native/state repairs are described in the current verification summary; these earlier observations retain their original limits.
+> Historical scoped inspection. Current0.3.1 native/state repairs are described in the current verification summary; these earlier observations retain their original limits.
 
 # OmniView 0.3.0 direct render update
 

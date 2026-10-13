@@ -1,9 +1,9 @@
-"""Reproducibly assemble the current complete OmniView0.3.0 kit from maintained source."""
+"""Reproducibly assemble the current complete OmniView0.3.1 kit from maintained source."""
 import argparse,hashlib,json,shutil,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 NAME='omniview-looking-glass'
-BASELINE_SHA='e669a17f0bd0ef1465f17f508d66a98c6a2d666ec1dd8aa559abaf4c23f8b14a'
+BASELINE_SHA='7aadcfb346feff9e21cb41d2720e782e429a2aeced04f430ca410c75b012eed0'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def files(root):return sorted(p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix not in ('.pyc','.lnk') and p.name!='desktop.ini')
 def archive(root,dest):
@@ -18,8 +18,10 @@ def main():
  parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,required=True);args=parser.parse_args();out=args.output.resolve()
  if out==ROOT or ROOT in out.parents or out.exists() or out.with_suffix('.zip').exists():raise ValueError('Choose a fresh output outside the maintained source.')
  out.mkdir(parents=True)
- for name in ['docs','customer-kit','delivery-sidecars','LICENSES']:
+ for name in ['docs','customer-kit','LICENSES']:
   shutil.copytree(ROOT/name,out/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc','*.lnk','desktop.ini'))
+ (out/'delivery-sidecars').mkdir()
+ for name in ['OmniView The Looking Glass Companion.jpg','OmniView The Looking Glass Companion T-Free v0.3.1.md','OmniView The Looking Glass Companion T-Free v0.3.1 Extra.md']:shutil.copyfile(ROOT/'delivery-sidecars'/name,out/'delivery-sidecars'/name)
  shutil.copytree(ROOT/'dropins',out/'gl4ss-dropins')
  for name in ['README.md','OPEN-WORKSPACE.md','RELEASE-NOTES.md','RELEASE-DECISION.md','DIRECT-RENDER-INSPECTION.md','INTERFACE-INSPECTION.md','CONTRIBUTING.md','LICENSE.md','NOTICE.md','SECURITY.md','SUPPORT.md','TRADEMARKS.md']:shutil.copyfile(ROOT/name,out/name)
  source=ROOT/'plugins'/NAME/'skills'/NAME
@@ -28,7 +30,7 @@ def main():
  (out/'claude').mkdir();archive(source,out/'claude'/(NAME+'.zip'))
  shutil.copyfile(ROOT/'scripts/verify_customer_kit.py',out/'VERIFY.py')
  payload=[{'path':p.relative_to(out).as_posix(),'bytes':p.stat().st_size,'sha256':sha(p)} for p in files(out)]
- manifest={'product':NAME,'version':'0.3.0','runtime_version':'0.3.0','channel':'complete-current-kit','release_treatment':'edit','baseline':'accepted0.3.0','baseline_archive_sha256':BASELINE_SHA,'claim_boundary':'Current Windows native/state workflows and mocked direct-provider orchestration; Mac device execution and paid Image API qualification remain unobserved','payload':payload}
+ manifest={'product':NAME,'version':'0.3.1','runtime_version':'0.3.1','channel':'complete-current-kit','release_treatment':'update','baseline':'accepted0.3.0','baseline_archive_sha256':BASELINE_SHA,'claim_boundary':'Inherited accepted Windows native/state workflows and mocked provider orchestration, unchanged operative code; current identity/package custody only; Mac device execution and paid Image API qualification remain unobserved','payload':payload}
  (out/'release-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf8',newline='\n')
  (out/'SHA256SUMS.txt').write_text('\n'.join(sha(p)+'  '+p.relative_to(out).as_posix() for p in files(out))+'\n',encoding='utf8',newline='\n')
  archive(out,out.with_suffix('.zip'));print(json.dumps({'output':str(out),'archive':str(out.with_suffix('.zip')),'members':len(files(out)),'sha256':sha(out.with_suffix('.zip'))}))

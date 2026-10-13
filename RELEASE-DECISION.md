@@ -1,3 +1,11 @@
+# OmniView 0.3.1 release decision
+
+Baseline: last accepted whole 0.3.0 kit, SHA256 7aadcfb346feff9e21cb41d2720e782e429a2aeced04f430ca410c75b012eed0, 49,034,791 bytes and 128 members.
+
+Decision: owner-directed update / authorized_reissue to distinct 0.3.1. It carries the accepted draft/reference, focus, native presentation and discovery repairs and reconciles current identity/download guidance; no new provider or scene workflow is introduced. All operative code and native artwork remain exact. Earlier authoring, behavioral, renderer and native observations retain their original scope. Original whole clock existed no later than 2026-10-09T22:16:26.361621Z; exact earlier start unknown, never reset.
+
+## Historical 0.3.0 decision retained verbatim
+
 # OmniView0.3.0 maintenance release decision
 
 Accepted baseline: complete0.3.0 customer archive, SHA256 e669a17f0bd0ef1465f17f508d66a98c6a2d666ec1dd8aa559abaf4c23f8b14a.

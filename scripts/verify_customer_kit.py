@@ -7,7 +7,7 @@ def members(root):
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parent);parser.add_argument('--archive',type=Path);args=parser.parse_args();root=args.root.resolve()
  manifest=json.loads((root/'release-manifest.json').read_text(encoding='utf8'))
- assert (manifest['product'],manifest['version'],manifest['runtime_version'],manifest['release_treatment'])==('omniview-looking-glass','0.3.0','0.3.0','edit')
+ assert (manifest['product'],manifest['version'],manifest['runtime_version'],manifest['release_treatment'])==('omniview-looking-glass','0.3.1','0.3.1','update')
  actual=members(root);payload={x['path']:x for x in manifest['payload']}
  assert set(actual)-{'release-manifest.json','SHA256SUMS.txt'}==set(payload),'Manifest payload is not closed'
  for name,entry in payload.items():
@@ -30,7 +30,7 @@ def main():
  for key in ('codex/omniview-looking-glass','plugin/omniview-looking-glass/skills/omniview-looking-glass'):
   workspace=root/key/'workspace';info=plistlib.loads((workspace/'OmniView.app/Contents/Info.plist').read_bytes())
   assert info['CFBundleExecutable']=='launch' and info['CFBundleIconFile']=='omniview.icns'
-  assert info['CFBundleShortVersionString']=='0.3.0'
+  assert info['CFBundleShortVersionString']=='0.3.1'
   assert (workspace/'OmniView.app/Contents/MacOS/launch').read_bytes().startswith(b'#!/bin/sh\n')
   assert (workspace/'OmniView.app/Contents/Resources/omniview.icns').read_bytes()==(workspace/'native/omniview.icns').read_bytes()
   assert (workspace/'native/omniview.icns').read_bytes().startswith(b'icns')
@@ -46,7 +46,7 @@ def main():
    for name in names:
     if name.endswith('/OmniView.app/Contents/MacOS/launch') or name.endswith('/Open.command'):
      assert z.getinfo(name).create_system==3 and ((z.getinfo(name).external_attr>>16)&0o777)==0o755,'Outer native launcher is not executable'
- print(json.dumps({'status':'PASS','product':'omniview-looking-glass','version':'0.3.0','payload_files':len(payload),'portable_files':len(expected),'native_bindings':'Windows shortcut source, macOS plist/icon/launcher and executable archive mode','claim_boundary':'Exact package structure/bytes/static bindings; this check does not execute the Mac app or qualify paid providers'}))
+ print(json.dumps({'status':'PASS','product':'omniview-looking-glass','version':'0.3.1','payload_files':len(payload),'portable_files':len(expected),'native_bindings':'Windows shortcut source, macOS plist/icon/launcher and executable archive mode','claim_boundary':'Exact package structure/bytes/static bindings; this check does not execute the Mac app or qualify paid providers'}))
 if __name__=='__main__':
  try:main()
  except Exception as error:print('VERIFY FAIL: '+str(error),file=sys.stderr);raise SystemExit(1)

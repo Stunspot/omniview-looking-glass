@@ -1,3 +1,9 @@
+# Current complete 0.3.1 host boundary
+
+The current kit retains the accepted 0.3.0 camera and native launch mechanics with updated package/bundle metadata. Original Windows operation and static Mac icon/launcher evidence remain at their recorded scope; no fresh host/provider activation or Mac device result is claimed.
+
+## Historical public portable-skill qualification
+
 # Host Matrix
 
 Public release: `v0.1.1`

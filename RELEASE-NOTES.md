@@ -1,3 +1,9 @@
+# OmniView v0.3.1
+
+Gives the accepted draft/reference, keyboard-focus, native presentation and discovery repairs a distinct current identity. Current download and installation routes select this complete kit. Operative code, scene craft, provider/record contract and approved artwork remain unchanged; historical qualifications are reused at their original scope.
+
+## Historical release notes retained
+
 # OmniView v0.3.0
 
 The local camera now supports the basic path: enter Place and Time, press **Create image**, and see one returned image saved in the collection. A configured `OPENAI_API_KEY` is required and the user's API account may be charged for each press. The quick image is explicitly an unresearched visual interpretation; the agent planning path and full evidence-grounded workflow remain available. The direct render boundary was verified with a mock provider response, not a paid live provider call.

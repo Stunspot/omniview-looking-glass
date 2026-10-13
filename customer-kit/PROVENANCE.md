@@ -1,3 +1,7 @@
+# Current complete 0.3.1 custody
+
+The current archive and its release manifest/checksums bind the complete camera, unchanged authored craft and native artwork, current metadata and customer guides. Prior public releases and the qualification described below retain their original identities and evidence scope. The split license and GL4SS relationship remain unchanged.
+
 # Provenance
 
 ## Relationship

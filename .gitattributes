@@ -129,3 +129,9 @@ customer-kit/** -text
 "SECURITY.md" -text
 "SUPPORT.md" -text
 "TRADEMARKS.md" -text
+
+# Preserve exact current artifact and maintained verifier bytes.
+/release-assets/v0.3.1/** -text
+/delivery-v0.3.1/** -text
+/scripts/build_current_maintenance.py -text
+/scripts/verify_customer_kit.py -text

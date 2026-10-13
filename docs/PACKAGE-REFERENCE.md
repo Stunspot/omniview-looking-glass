@@ -1,6 +1,6 @@
 # Package Reference
 
-Current complete bundle: **0.3.0**, including the portable companion, local camera and direct-image workflow.
+Current complete bundle: **0.3.1**, including the portable companion, local camera and direct-image workflow.
 
 The publicv0.1.1/v0.1.0 releases remain historical. The source repository is canonical; the current supplied complete bundle is the delivery artifact whose manifest and checksums describe its exact bytes. Camera orchestration was tested with a mocked provider; that does not establish a paid live provider result.
 

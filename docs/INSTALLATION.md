@@ -1,8 +1,8 @@
 # Installation
 
-These instructions target the complete **0.3.0** bundle, including the local camera and its direct image workflow. Use the complete supplied kit; its manifest and checksums identify the exact delivery. Artifact paths in this guide are relative to that kit.
+These instructions target the complete **0.3.1** bundle, including the local camera and its direct image workflow. Use the complete supplied kit; its manifest and checksums identify the exact delivery. Artifact paths in this guide are relative to that kit.
 
-The [public v0.1.1 release](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1) remains a historical portable-skill handoff. It does not include the current camera. Do not mix its files into a0.3.0 installation. See [Package reference](PACKAGE-REFERENCE.md) for the current topology.
+The [public v0.1.1 release](https://github.com/Stunspot/omniview-looking-glass/releases/tag/v0.1.1) remains a historical portable-skill handoff. It does not include the current camera. Do not mix its files into a0.3.1 installation. See [Package reference](PACKAGE-REFERENCE.md) for the current topology.
 
 ## Open the local camera
 

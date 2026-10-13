@@ -1,6 +1,6 @@
 # Start Here
 
-This complete0.3.0 kit includes a local camera, the agent companion and separate GL4SS maintainer patches. Choose the route matching your work.
+This complete0.3.1 kit includes a local camera, the agent companion and separate GL4SS maintainer patches. Choose the route matching your work.
 
 Paths on this page are relative to this complete kit. Publicv0.1.1 remains historical and does not contain the current camera.
 

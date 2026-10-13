@@ -1,6 +1,10 @@
+# Current 0.3.1 verification scope
+
+This distinct repair release retains the accepted camera, scene/grounding craft, native launch/icon bindings and saved-state behavior. Only package/evaluation/domain/bundle identities and current delivery text change. Original behavior, rendering and native observations below remain historical evidence; the current portable verifier binds the changed package bytes. No model, rendering, service, native or paid-provider campaign is repeated or newly claimed.
+
 # Verification Summary
 
-## Current0.3.0 whole-product maintenance
+## Historical accepted 0.3.0 whole-product maintenance
 
 Current repairs restore draft/reference truth and keyboard focus, and bind one recognizable camera icon to Windows shortcut/folder setup, the macOS application bundle and the browser tab. The original scene, optic, grounding, render-language and traversal instructions remain unchanged.
 

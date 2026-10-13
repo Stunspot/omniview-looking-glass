@@ -1,6 +1,6 @@
 {
   "name": "omniview-looking-glass",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An agent-operated wormhole camera for grounded views through place and time.",
   "author": {
     "name": "Collaborative Dynamics",
